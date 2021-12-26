@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ab53350d62ce4a19809383058503389b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ab53350d62ce4a19809383058503389b" ></div>
+        
+</body>
+<script>    
+    
+            var map_ab53350d62ce4a19809383058503389b = L.map(
+                "map_ab53350d62ce4a19809383058503389b",
+                {
+                    center: [35.95, 128.25],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fb5c46c23bd84223bd14e1cc5f1297ee = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+            var circle_marker_3a455c6a0c034b83b3c0c560642f3266 = L.circleMarker(
+                [36.5132137, 127.2582378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_c9319186621940569001badbd9f1bfb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aea9869c11e4b7aa16be33febec2286 = $(`<div id="html_0aea9869c11e4b7aa16be33febec2286" style="width: 100.0%; height: 100.0%;">세종원펀치복싱클럽</div>`)[0];
+            popup_c9319186621940569001badbd9f1bfb4.setContent(html_0aea9869c11e4b7aa16be33febec2286);
+        
+
+        circle_marker_3a455c6a0c034b83b3c0c560642f3266.bindPopup(popup_c9319186621940569001badbd9f1bfb4)
+        ;
+
+        
+    
+    
+            var circle_marker_2284460d950449e9b6fa66cba5c67a3a = L.circleMarker(
+                [36.5043615, 127.2432048],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_60f13f57a25c4e34bf86a7ab6ec526af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0646b520f2e5420e8925df423981242e = $(`<div id="html_0646b520f2e5420e8925df423981242e" style="width: 100.0%; height: 100.0%;">세종국가대표태권도</div>`)[0];
+            popup_60f13f57a25c4e34bf86a7ab6ec526af.setContent(html_0646b520f2e5420e8925df423981242e);
+        
+
+        circle_marker_2284460d950449e9b6fa66cba5c67a3a.bindPopup(popup_60f13f57a25c4e34bf86a7ab6ec526af)
+        ;
+
+        
+    
+    
+            var circle_marker_a93e638c60d448a897a94fa13bb0e70b = L.circleMarker(
+                [36.4869591, 127.251171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_5545281747cf457e9171103dc40d263a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a262f12a90ea46a78490754569ff1c8c = $(`<div id="html_a262f12a90ea46a78490754569ff1c8c" style="width: 100.0%; height: 100.0%;">미요가필라테스</div>`)[0];
+            popup_5545281747cf457e9171103dc40d263a.setContent(html_a262f12a90ea46a78490754569ff1c8c);
+        
+
+        circle_marker_a93e638c60d448a897a94fa13bb0e70b.bindPopup(popup_5545281747cf457e9171103dc40d263a)
+        ;
+
+        
+    
+    
+            var circle_marker_262b66824b514506b9415309d6c8d630 = L.circleMarker(
+                [36.5120004, 127.2486048],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_3200000741654853b4fde517bfffe2bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16acd5b13bea4a2b908847d96608fca6 = $(`<div id="html_16acd5b13bea4a2b908847d96608fca6" style="width: 100.0%; height: 100.0%;">dreamofjudo 세종유도관</div>`)[0];
+            popup_3200000741654853b4fde517bfffe2bf.setContent(html_16acd5b13bea4a2b908847d96608fca6);
+        
+
+        circle_marker_262b66824b514506b9415309d6c8d630.bindPopup(popup_3200000741654853b4fde517bfffe2bf)
+        ;
+
+        
+    
+    
+            var circle_marker_349e7fb66614405088bc9465c0956d8f = L.circleMarker(
+                [36.495415, 127.2572294],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_410797738ef247f0803611b9231a278a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaa4146a546a46e19c81544eeb0db8b5 = $(`<div id="html_aaa4146a546a46e19c81544eeb0db8b5" style="width: 100.0%; height: 100.0%;">나사볼링센터 본점</div>`)[0];
+            popup_410797738ef247f0803611b9231a278a.setContent(html_aaa4146a546a46e19c81544eeb0db8b5);
+        
+
+        circle_marker_349e7fb66614405088bc9465c0956d8f.bindPopup(popup_410797738ef247f0803611b9231a278a)
+        ;
+
+        
+    
+    
+            var circle_marker_1775de69a93a403f9ced892d7f988bd9 = L.circleMarker(
+                [36.5361876, 127.2337173],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_813b8c7e61e94659a5d505631dc8de0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cc921962d914f9ca955a0612edb3169 = $(`<div id="html_1cc921962d914f9ca955a0612edb3169" style="width: 100.0%; height: 100.0%;">골든샤크플레잉센터</div>`)[0];
+            popup_813b8c7e61e94659a5d505631dc8de0a.setContent(html_1cc921962d914f9ca955a0612edb3169);
+        
+
+        circle_marker_1775de69a93a403f9ced892d7f988bd9.bindPopup(popup_813b8c7e61e94659a5d505631dc8de0a)
+        ;
+
+        
+    
+    
+            var circle_marker_ab64cc70877b46f5859ea97c029788f9 = L.circleMarker(
+                [36.7233681, 127.18618229999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_7b86533223ea4c13a442bb516380939c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0f602649e444952915a72b27c6d1390 = $(`<div id="html_b0f602649e444952915a72b27c6d1390" style="width: 100.0%; height: 100.0%;">원승마클럽</div>`)[0];
+            popup_7b86533223ea4c13a442bb516380939c.setContent(html_b0f602649e444952915a72b27c6d1390);
+        
+
+        circle_marker_ab64cc70877b46f5859ea97c029788f9.bindPopup(popup_7b86533223ea4c13a442bb516380939c)
+        ;
+
+        
+    
+    
+            var circle_marker_d6e48b3e6eeb42ee834ded9beb1be90c = L.circleMarker(
+                [36.5628143, 127.28264250000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_e252c52bf48d4b56a1c63a2534b04cc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90e1d40f0f2d42d8b6ae9325d5080d15 = $(`<div id="html_90e1d40f0f2d42d8b6ae9325d5080d15" style="width: 100.0%; height: 100.0%;">엘리트태권도</div>`)[0];
+            popup_e252c52bf48d4b56a1c63a2534b04cc8.setContent(html_90e1d40f0f2d42d8b6ae9325d5080d15);
+        
+
+        circle_marker_d6e48b3e6eeb42ee834ded9beb1be90c.bindPopup(popup_e252c52bf48d4b56a1c63a2534b04cc8)
+        ;
+
+        
+    
+    
+            var circle_marker_d97c3edc9f3940c18752dbb9c217feea = L.circleMarker(
+                [36.502815999999996, 127.24812379999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_a9d32ab6f98c4913ac5db564c3bc5003 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff988ff1e2d046eb895112f669128446 = $(`<div id="html_ff988ff1e2d046eb895112f669128446" style="width: 100.0%; height: 100.0%;">커브스종촌클럽</div>`)[0];
+            popup_a9d32ab6f98c4913ac5db564c3bc5003.setContent(html_ff988ff1e2d046eb895112f669128446);
+        
+
+        circle_marker_d97c3edc9f3940c18752dbb9c217feea.bindPopup(popup_a9d32ab6f98c4913ac5db564c3bc5003)
+        ;
+
+        
+    
+    
+            var circle_marker_6751c42cdd3648dc8fb3f9032a329785 = L.circleMarker(
+                [36.5027646, 127.24650120000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_ffef5099f44645b98eaee50b2ea791d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09aa83213c7a437dae75b8d590eea2d6 = $(`<div id="html_09aa83213c7a437dae75b8d590eea2d6" style="width: 100.0%; height: 100.0%;">종촌종합복지센터 종합사회복지관</div>`)[0];
+            popup_ffef5099f44645b98eaee50b2ea791d8.setContent(html_09aa83213c7a437dae75b8d590eea2d6);
+        
+
+        circle_marker_6751c42cdd3648dc8fb3f9032a329785.bindPopup(popup_ffef5099f44645b98eaee50b2ea791d8)
+        ;
+
+        
+    
+    
+            var circle_marker_b1f843ddb85d4dd48f803489862a4e23 = L.circleMarker(
+                [36.60094470000001, 127.3029562],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ab53350d62ce4a19809383058503389b);
+        
+    
+        var popup_35154e27db64443983057e55bbad9b90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d9ae42e653642b4b11c002db0942840 = $(`<div id="html_7d9ae42e653642b4b11c002db0942840" style="width: 100.0%; height: 100.0%;">세종승리태권도장</div>`)[0];
+            popup_35154e27db64443983057e55bbad9b90.setContent(html_7d9ae42e653642b4b11c002db0942840);
+        
+
+        circle_marker_b1f843ddb85d4dd48f803489862a4e23.bindPopup(popup_35154e27db64443983057e55bbad9b90)
+        ;
+
+        
+    
+</script>

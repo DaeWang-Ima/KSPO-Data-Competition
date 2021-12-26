@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a8ca6adc9ca4dfd80145d7033bd12bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4a8ca6adc9ca4dfd80145d7033bd12bf" ></div>
+        
+</body>
+<script>    
+    
+            var map_4a8ca6adc9ca4dfd80145d7033bd12bf = L.map(
+                "map_4a8ca6adc9ca4dfd80145d7033bd12bf",
+                {
+                    center: [35.95, 128.25],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ede7b4e16e8642de95b45d37b68a65e4 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+            var circle_marker_31832dcb626348db87b2a22eab6d52c1 = L.circleMarker(
+                [37.8801702, 127.74670309999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_03fef70334d44699a1abef99585f5d33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_582da4b40a284907aac091cd58f0e43e = $(`<div id="html_582da4b40a284907aac091cd58f0e43e" style="width: 100.0%; height: 100.0%;">제일체육관</div>`)[0];
+            popup_03fef70334d44699a1abef99585f5d33.setContent(html_582da4b40a284907aac091cd58f0e43e);
+        
+
+        circle_marker_31832dcb626348db87b2a22eab6d52c1.bindPopup(popup_03fef70334d44699a1abef99585f5d33)
+        ;
+
+        
+    
+    
+            var circle_marker_8471bd82494645d3834ce70f8704e280 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_c9c5524502a7410fb9fe4e25786a233d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3f2a5164bc643839fc36a9aedc5a853 = $(`<div id="html_b3f2a5164bc643839fc36a9aedc5a853" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_c9c5524502a7410fb9fe4e25786a233d.setContent(html_b3f2a5164bc643839fc36a9aedc5a853);
+        
+
+        circle_marker_8471bd82494645d3834ce70f8704e280.bindPopup(popup_c9c5524502a7410fb9fe4e25786a233d)
+        ;
+
+        
+    
+    
+            var circle_marker_375367e5574f44ceae610a5967bfb2c3 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_35896e3d96954dc89d0b82be5d0e6350 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3c88ec2d1a647fba62b497fdbb4e7ce = $(`<div id="html_c3c88ec2d1a647fba62b497fdbb4e7ce" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_35896e3d96954dc89d0b82be5d0e6350.setContent(html_c3c88ec2d1a647fba62b497fdbb4e7ce);
+        
+
+        circle_marker_375367e5574f44ceae610a5967bfb2c3.bindPopup(popup_35896e3d96954dc89d0b82be5d0e6350)
+        ;
+
+        
+    
+    
+            var circle_marker_21f738a00d554a4ca1410f6a8a915422 = L.circleMarker(
+                [37.380318200000005, 127.95039320000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_38de0f7213a143ff9fe6fa711440ca64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc720bbc75dd4ded9955186177cf7032 = $(`<div id="html_fc720bbc75dd4ded9955186177cf7032" style="width: 100.0%; height: 100.0%;">태권도현대체육관</div>`)[0];
+            popup_38de0f7213a143ff9fe6fa711440ca64.setContent(html_fc720bbc75dd4ded9955186177cf7032);
+        
+
+        circle_marker_21f738a00d554a4ca1410f6a8a915422.bindPopup(popup_38de0f7213a143ff9fe6fa711440ca64)
+        ;
+
+        
+    
+    
+            var circle_marker_543f9b1678364438ad7317567d3c99e9 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_305e753371714fc9a4434313c6f10267 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_009f5342afdf493c8351bdc4b464b4cc = $(`<div id="html_009f5342afdf493c8351bdc4b464b4cc" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_305e753371714fc9a4434313c6f10267.setContent(html_009f5342afdf493c8351bdc4b464b4cc);
+        
+
+        circle_marker_543f9b1678364438ad7317567d3c99e9.bindPopup(popup_305e753371714fc9a4434313c6f10267)
+        ;
+
+        
+    
+    
+            var circle_marker_727fd928264a4ddb83715bc8234f13c0 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_8b0d28e9b5db437bbaa0d340ba51b648 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a89ff02892f14959b9cfae1576177b3d = $(`<div id="html_a89ff02892f14959b9cfae1576177b3d" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_8b0d28e9b5db437bbaa0d340ba51b648.setContent(html_a89ff02892f14959b9cfae1576177b3d);
+        
+
+        circle_marker_727fd928264a4ddb83715bc8234f13c0.bindPopup(popup_8b0d28e9b5db437bbaa0d340ba51b648)
+        ;
+
+        
+    
+    
+            var circle_marker_d3ccbc282f734857989f6673fb34437f = L.circleMarker(
+                [37.1757536, 128.46183259999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_fd9de82ed37b41acb4960c4dc6d0e446 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69acb962e789439981c1cf6bb6c1e709 = $(`<div id="html_69acb962e789439981c1cf6bb6c1e709" style="width: 100.0%; height: 100.0%;">사단법인 영월군스포츠클럽</div>`)[0];
+            popup_fd9de82ed37b41acb4960c4dc6d0e446.setContent(html_69acb962e789439981c1cf6bb6c1e709);
+        
+
+        circle_marker_d3ccbc282f734857989f6673fb34437f.bindPopup(popup_fd9de82ed37b41acb4960c4dc6d0e446)
+        ;
+
+        
+    
+    
+            var circle_marker_58dd888d266c4b569c49cb4db8619b04 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_ea77579cfa1142ae895b8f53d825e054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13f1af40cda9457581ab8b8b0b7f2a5f = $(`<div id="html_13f1af40cda9457581ab8b8b0b7f2a5f" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_ea77579cfa1142ae895b8f53d825e054.setContent(html_13f1af40cda9457581ab8b8b0b7f2a5f);
+        
+
+        circle_marker_58dd888d266c4b569c49cb4db8619b04.bindPopup(popup_ea77579cfa1142ae895b8f53d825e054)
+        ;
+
+        
+    
+    
+            var circle_marker_2ac396f1e0864c33b197ee9f04b7a53d = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_a6d355dc394b4edeb19ab34f2cd807b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_385ceb8a314947c6bb435aa61d192e1f = $(`<div id="html_385ceb8a314947c6bb435aa61d192e1f" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_a6d355dc394b4edeb19ab34f2cd807b3.setContent(html_385ceb8a314947c6bb435aa61d192e1f);
+        
+
+        circle_marker_2ac396f1e0864c33b197ee9f04b7a53d.bindPopup(popup_a6d355dc394b4edeb19ab34f2cd807b3)
+        ;
+
+        
+    
+    
+            var circle_marker_b2b1771b12ce40d1979606ea9c543356 = L.circleMarker(
+                [37.8566282, 127.7423196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_4a1a9ac2a53e427f91a9e5fce71a9b58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_956ded4a4e3f4627a8c5b8ba49258027 = $(`<div id="html_956ded4a4e3f4627a8c5b8ba49258027" style="width: 100.0%; height: 100.0%;">주재현휘트니스 </div>`)[0];
+            popup_4a1a9ac2a53e427f91a9e5fce71a9b58.setContent(html_956ded4a4e3f4627a8c5b8ba49258027);
+        
+
+        circle_marker_b2b1771b12ce40d1979606ea9c543356.bindPopup(popup_4a1a9ac2a53e427f91a9e5fce71a9b58)
+        ;
+
+        
+    
+    
+            var circle_marker_20f1dfc4568d47a8bfdbf2e73e58b331 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_2bd098dc7f2c4d7faa60f9e89d956744 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d8199430ea744a8a0307263aad4a8d3 = $(`<div id="html_8d8199430ea744a8a0307263aad4a8d3" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_2bd098dc7f2c4d7faa60f9e89d956744.setContent(html_8d8199430ea744a8a0307263aad4a8d3);
+        
+
+        circle_marker_20f1dfc4568d47a8bfdbf2e73e58b331.bindPopup(popup_2bd098dc7f2c4d7faa60f9e89d956744)
+        ;
+
+        
+    
+    
+            var circle_marker_5cbc7ee4115f4fd99f6a9d047efe426e = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_821ccac1566545dcb876bb4bbbddb772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3de0fa9567a4bad8086e7abdd5d60ed = $(`<div id="html_f3de0fa9567a4bad8086e7abdd5d60ed" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_821ccac1566545dcb876bb4bbbddb772.setContent(html_f3de0fa9567a4bad8086e7abdd5d60ed);
+        
+
+        circle_marker_5cbc7ee4115f4fd99f6a9d047efe426e.bindPopup(popup_821ccac1566545dcb876bb4bbbddb772)
+        ;
+
+        
+    
+    
+            var circle_marker_fcc842e44f804ea9bee43a996e973baa = L.circleMarker(
+                [37.8553685, 127.7516558],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_e8eb8ebb19e2418ab3762d68e5a604aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d268b70be5ad4b6594a7f2ba52682d76 = $(`<div id="html_d268b70be5ad4b6594a7f2ba52682d76" style="width: 100.0%; height: 100.0%;">호반태권마스타 석사체육관</div>`)[0];
+            popup_e8eb8ebb19e2418ab3762d68e5a604aa.setContent(html_d268b70be5ad4b6594a7f2ba52682d76);
+        
+
+        circle_marker_fcc842e44f804ea9bee43a996e973baa.bindPopup(popup_e8eb8ebb19e2418ab3762d68e5a604aa)
+        ;
+
+        
+    
+    
+            var circle_marker_f561af8ece194bbb877349d2f74687a5 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_e1b12645665745128cece639642976f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c43523ad1fe442528eeebd03faa60256 = $(`<div id="html_c43523ad1fe442528eeebd03faa60256" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_e1b12645665745128cece639642976f2.setContent(html_c43523ad1fe442528eeebd03faa60256);
+        
+
+        circle_marker_f561af8ece194bbb877349d2f74687a5.bindPopup(popup_e1b12645665745128cece639642976f2)
+        ;
+
+        
+    
+    
+            var circle_marker_97cf9300efda4b489df0a3383d21ff6a = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_4947b3c5e0914f9cab4ebc2da8c3dc0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b61db6909134e0198c1ccec2aba4292 = $(`<div id="html_4b61db6909134e0198c1ccec2aba4292" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_4947b3c5e0914f9cab4ebc2da8c3dc0a.setContent(html_4b61db6909134e0198c1ccec2aba4292);
+        
+
+        circle_marker_97cf9300efda4b489df0a3383d21ff6a.bindPopup(popup_4947b3c5e0914f9cab4ebc2da8c3dc0a)
+        ;
+
+        
+    
+    
+            var circle_marker_3124144d07c244b99adb7f7e2f300352 = L.circleMarker(
+                [37.186019200000004, 128.4681885],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_4067e4fbcb6e4455b9f64b2e46bc8c7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f8fbd4168f4414d904676b8065372e9 = $(`<div id="html_6f8fbd4168f4414d904676b8065372e9" style="width: 100.0%; height: 100.0%;">영월군장애인체육협의회</div>`)[0];
+            popup_4067e4fbcb6e4455b9f64b2e46bc8c7f.setContent(html_6f8fbd4168f4414d904676b8065372e9);
+        
+
+        circle_marker_3124144d07c244b99adb7f7e2f300352.bindPopup(popup_4067e4fbcb6e4455b9f64b2e46bc8c7f)
+        ;
+
+        
+    
+    
+            var circle_marker_c6844c7919d94f6d8314db4dc55ed786 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_570ac6c71be140df94c73dd8583c3a41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c291b12d36e84d319a061cf7c68c58e4 = $(`<div id="html_c291b12d36e84d319a061cf7c68c58e4" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_570ac6c71be140df94c73dd8583c3a41.setContent(html_c291b12d36e84d319a061cf7c68c58e4);
+        
+
+        circle_marker_c6844c7919d94f6d8314db4dc55ed786.bindPopup(popup_570ac6c71be140df94c73dd8583c3a41)
+        ;
+
+        
+    
+    
+            var circle_marker_5d29b3e5b8f44fb59d90c5bb3f3a73d8 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_166b6aca7b6b433fa285655369bafb82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a1b4f5d249a4024a9a4d509403b926d = $(`<div id="html_5a1b4f5d249a4024a9a4d509403b926d" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_166b6aca7b6b433fa285655369bafb82.setContent(html_5a1b4f5d249a4024a9a4d509403b926d);
+        
+
+        circle_marker_5d29b3e5b8f44fb59d90c5bb3f3a73d8.bindPopup(popup_166b6aca7b6b433fa285655369bafb82)
+        ;
+
+        
+    
+    
+            var circle_marker_a5b0a57cbac448a5978c2dc91dda6deb = L.circleMarker(
+                [37.8928364, 127.75530959999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_8de22db2e4484ca79830a9b150c722e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d671b57abffc45938afdf48775968295 = $(`<div id="html_d671b57abffc45938afdf48775968295" style="width: 100.0%; height: 100.0%;">GX짱가휘트니스 </div>`)[0];
+            popup_8de22db2e4484ca79830a9b150c722e3.setContent(html_d671b57abffc45938afdf48775968295);
+        
+
+        circle_marker_a5b0a57cbac448a5978c2dc91dda6deb.bindPopup(popup_8de22db2e4484ca79830a9b150c722e3)
+        ;
+
+        
+    
+    
+            var circle_marker_9595738b98654caf93faae2ddcf81d02 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_752bdd91c92b4fb186222942227db88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884ce8dd636242ac9f6fc39311f46236 = $(`<div id="html_884ce8dd636242ac9f6fc39311f46236" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_752bdd91c92b4fb186222942227db88e.setContent(html_884ce8dd636242ac9f6fc39311f46236);
+        
+
+        circle_marker_9595738b98654caf93faae2ddcf81d02.bindPopup(popup_752bdd91c92b4fb186222942227db88e)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1829b05ad0484c89475949c91444d1 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_3c37f3c4450e454bb73934834347c215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b15b57e49d9643b995be89db9a4accaf = $(`<div id="html_b15b57e49d9643b995be89db9a4accaf" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_3c37f3c4450e454bb73934834347c215.setContent(html_b15b57e49d9643b995be89db9a4accaf);
+        
+
+        circle_marker_7b1829b05ad0484c89475949c91444d1.bindPopup(popup_3c37f3c4450e454bb73934834347c215)
+        ;
+
+        
+    
+    
+            var circle_marker_347192d519d54e04bd24c32d5d0c8bae = L.circleMarker(
+                [37.8626403, 127.75666470000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_717da2d4f8204c4593a7fb102a5efb84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52de4db7f66a404d814a2da14cc537c2 = $(`<div id="html_52de4db7f66a404d814a2da14cc537c2" style="width: 100.0%; height: 100.0%;">국민체육센터</div>`)[0];
+            popup_717da2d4f8204c4593a7fb102a5efb84.setContent(html_52de4db7f66a404d814a2da14cc537c2);
+        
+
+        circle_marker_347192d519d54e04bd24c32d5d0c8bae.bindPopup(popup_717da2d4f8204c4593a7fb102a5efb84)
+        ;
+
+        
+    
+    
+            var circle_marker_b74fa9ff6b154e7dbefeed33fc08277c = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_3bef59c23749436d95d42af9f3d018ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23bc6bc841bf4eb1bc2fb66aaf38044f = $(`<div id="html_23bc6bc841bf4eb1bc2fb66aaf38044f" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_3bef59c23749436d95d42af9f3d018ae.setContent(html_23bc6bc841bf4eb1bc2fb66aaf38044f);
+        
+
+        circle_marker_b74fa9ff6b154e7dbefeed33fc08277c.bindPopup(popup_3bef59c23749436d95d42af9f3d018ae)
+        ;
+
+        
+    
+    
+            var circle_marker_dd4cb6e6984e4ddea1f196f36c31e410 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_afaec0ee6fa14f07a300983c5e9a29c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8a7c00d5b9d472e8b537aefabfa2728 = $(`<div id="html_b8a7c00d5b9d472e8b537aefabfa2728" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_afaec0ee6fa14f07a300983c5e9a29c8.setContent(html_b8a7c00d5b9d472e8b537aefabfa2728);
+        
+
+        circle_marker_dd4cb6e6984e4ddea1f196f36c31e410.bindPopup(popup_afaec0ee6fa14f07a300983c5e9a29c8)
+        ;
+
+        
+    
+    
+            var circle_marker_4612777221c3412b91da6e1de699d82c = L.circleMarker(
+                [37.344035, 128.00077620000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_51f0255dacb34ee386046d2bdcd7a2b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00824fb2eb224fd482062d11f819d4a7 = $(`<div id="html_00824fb2eb224fd482062d11f819d4a7" style="width: 100.0%; height: 100.0%;">리틀자이언트</div>`)[0];
+            popup_51f0255dacb34ee386046d2bdcd7a2b5.setContent(html_00824fb2eb224fd482062d11f819d4a7);
+        
+
+        circle_marker_4612777221c3412b91da6e1de699d82c.bindPopup(popup_51f0255dacb34ee386046d2bdcd7a2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_f1be37b650d449d59049efa7388cd26d = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_3aa797f78d0c4a0699743fedd776a8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acd13627c1b44e6385509e185e039ff4 = $(`<div id="html_acd13627c1b44e6385509e185e039ff4" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_3aa797f78d0c4a0699743fedd776a8b9.setContent(html_acd13627c1b44e6385509e185e039ff4);
+        
+
+        circle_marker_f1be37b650d449d59049efa7388cd26d.bindPopup(popup_3aa797f78d0c4a0699743fedd776a8b9)
+        ;
+
+        
+    
+    
+            var circle_marker_76ea2cb853cd48d986ac504841de7d76 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_858827cfdaae41f99de9b0eaac376f3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f8082c30f64c09bc39d0d55df4a65b = $(`<div id="html_77f8082c30f64c09bc39d0d55df4a65b" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_858827cfdaae41f99de9b0eaac376f3a.setContent(html_77f8082c30f64c09bc39d0d55df4a65b);
+        
+
+        circle_marker_76ea2cb853cd48d986ac504841de7d76.bindPopup(popup_858827cfdaae41f99de9b0eaac376f3a)
+        ;
+
+        
+    
+    
+            var circle_marker_fbcc13fd636d4a06b1adbf647f6a280f = L.circleMarker(
+                [37.857091600000004, 127.74074089999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_44d5334d75514d32b33fc1552ea80549 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54817edac0a8482a8e1f80c49f6bc20e = $(`<div id="html_54817edac0a8482a8e1f80c49f6bc20e" style="width: 100.0%; height: 100.0%;">더행복한잇층가필라테스</div>`)[0];
+            popup_44d5334d75514d32b33fc1552ea80549.setContent(html_54817edac0a8482a8e1f80c49f6bc20e);
+        
+
+        circle_marker_fbcc13fd636d4a06b1adbf647f6a280f.bindPopup(popup_44d5334d75514d32b33fc1552ea80549)
+        ;
+
+        
+    
+    
+            var circle_marker_f3c0ae2930344c6d9f7f9ec493f3b936 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_d9cb101c54564fcc83dcbbe959442ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab7bbf7704b94f889b99170ce6a5996c = $(`<div id="html_ab7bbf7704b94f889b99170ce6a5996c" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_d9cb101c54564fcc83dcbbe959442ce7.setContent(html_ab7bbf7704b94f889b99170ce6a5996c);
+        
+
+        circle_marker_f3c0ae2930344c6d9f7f9ec493f3b936.bindPopup(popup_d9cb101c54564fcc83dcbbe959442ce7)
+        ;
+
+        
+    
+    
+            var circle_marker_06c13f96d1b64048abf31af4da544196 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_1aabcb7d5d8a4c1f9f263fe59df364d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a4c25d16a9482d84292362a5faa16c = $(`<div id="html_e2a4c25d16a9482d84292362a5faa16c" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_1aabcb7d5d8a4c1f9f263fe59df364d8.setContent(html_e2a4c25d16a9482d84292362a5faa16c);
+        
+
+        circle_marker_06c13f96d1b64048abf31af4da544196.bindPopup(popup_1aabcb7d5d8a4c1f9f263fe59df364d8)
+        ;
+
+        
+    
+    
+            var circle_marker_1b16347537cf412fa4f5bc99aac759cf = L.circleMarker(
+                [37.8853328, 127.74638329999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_6fa8248dd7da4352b1c56e4cec31bf1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82a12b43c39c4523a7c0d37acf167bb7 = $(`<div id="html_82a12b43c39c4523a7c0d37acf167bb7" style="width: 100.0%; height: 100.0%;">특공무술 국제연맹 체육관</div>`)[0];
+            popup_6fa8248dd7da4352b1c56e4cec31bf1c.setContent(html_82a12b43c39c4523a7c0d37acf167bb7);
+        
+
+        circle_marker_1b16347537cf412fa4f5bc99aac759cf.bindPopup(popup_6fa8248dd7da4352b1c56e4cec31bf1c)
+        ;
+
+        
+    
+    
+            var circle_marker_7ac0cdf44b2349cba2b3aea88d4071fc = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_bffa6e65d42d42c782c2cd28454edab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8d8d34af8494688810aebcc02aa4b2e = $(`<div id="html_c8d8d34af8494688810aebcc02aa4b2e" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_bffa6e65d42d42c782c2cd28454edab7.setContent(html_c8d8d34af8494688810aebcc02aa4b2e);
+        
+
+        circle_marker_7ac0cdf44b2349cba2b3aea88d4071fc.bindPopup(popup_bffa6e65d42d42c782c2cd28454edab7)
+        ;
+
+        
+    
+    
+            var circle_marker_04ed7ca9d9f74d8d9f7fb21dd93231f2 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_81a3cdecc58547519276872d13c841d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47850069286b4cf7b02f4ea1e1b5a7b5 = $(`<div id="html_47850069286b4cf7b02f4ea1e1b5a7b5" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_81a3cdecc58547519276872d13c841d7.setContent(html_47850069286b4cf7b02f4ea1e1b5a7b5);
+        
+
+        circle_marker_04ed7ca9d9f74d8d9f7fb21dd93231f2.bindPopup(popup_81a3cdecc58547519276872d13c841d7)
+        ;
+
+        
+    
+    
+            var circle_marker_4acc6c91e6a646bf86775791a5e96204 = L.circleMarker(
+                [37.3991328, 127.95290759999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_c6d8c54b529d41b9ba549899991a35a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef1a75e8a3e345d78a8420038dc4b25b = $(`<div id="html_ef1a75e8a3e345d78a8420038dc4b25b" style="width: 100.0%; height: 100.0%;">한빛체육관</div>`)[0];
+            popup_c6d8c54b529d41b9ba549899991a35a1.setContent(html_ef1a75e8a3e345d78a8420038dc4b25b);
+        
+
+        circle_marker_4acc6c91e6a646bf86775791a5e96204.bindPopup(popup_c6d8c54b529d41b9ba549899991a35a1)
+        ;
+
+        
+    
+    
+            var circle_marker_07348e687e3a458bbec4304f4a3ea57b = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_8ece40e06cdf4ffdbecb1b379d35ca0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28d6d231356848bb8528a0488fcbd4bc = $(`<div id="html_28d6d231356848bb8528a0488fcbd4bc" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_8ece40e06cdf4ffdbecb1b379d35ca0d.setContent(html_28d6d231356848bb8528a0488fcbd4bc);
+        
+
+        circle_marker_07348e687e3a458bbec4304f4a3ea57b.bindPopup(popup_8ece40e06cdf4ffdbecb1b379d35ca0d)
+        ;
+
+        
+    
+    
+            var circle_marker_27a2f7c2953b4a5da66527f29530790e = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_7a223103794a4a9990790f18370d8598 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5486b897780146fa8135b4a76de476aa = $(`<div id="html_5486b897780146fa8135b4a76de476aa" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_7a223103794a4a9990790f18370d8598.setContent(html_5486b897780146fa8135b4a76de476aa);
+        
+
+        circle_marker_27a2f7c2953b4a5da66527f29530790e.bindPopup(popup_7a223103794a4a9990790f18370d8598)
+        ;
+
+        
+    
+    
+            var circle_marker_b97b90572ee24f69a7aa9124c193f8da = L.circleMarker(
+                [37.8990986, 127.72918359999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_fb8a91a0f94944329dcc839f6efd3c1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e26258e2f1904bcea807956753d43a40 = $(`<div id="html_e26258e2f1904bcea807956753d43a40" style="width: 100.0%; height: 100.0%;">두미르태권도장</div>`)[0];
+            popup_fb8a91a0f94944329dcc839f6efd3c1c.setContent(html_e26258e2f1904bcea807956753d43a40);
+        
+
+        circle_marker_b97b90572ee24f69a7aa9124c193f8da.bindPopup(popup_fb8a91a0f94944329dcc839f6efd3c1c)
+        ;
+
+        
+    
+    
+            var circle_marker_4c2e18ca5fc9426389cfcc782938723b = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_173da61fd15b49d695f0b1bb5c21f75a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eda7c585cc894064bc230a06ccae35e1 = $(`<div id="html_eda7c585cc894064bc230a06ccae35e1" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_173da61fd15b49d695f0b1bb5c21f75a.setContent(html_eda7c585cc894064bc230a06ccae35e1);
+        
+
+        circle_marker_4c2e18ca5fc9426389cfcc782938723b.bindPopup(popup_173da61fd15b49d695f0b1bb5c21f75a)
+        ;
+
+        
+    
+    
+            var circle_marker_8596704b29c749018eb50491443f655a = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_b5a3ad15a5d842ce8ad5f1432037cb4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0faa818c397417f96e3425c37aefc7f = $(`<div id="html_c0faa818c397417f96e3425c37aefc7f" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_b5a3ad15a5d842ce8ad5f1432037cb4e.setContent(html_c0faa818c397417f96e3425c37aefc7f);
+        
+
+        circle_marker_8596704b29c749018eb50491443f655a.bindPopup(popup_b5a3ad15a5d842ce8ad5f1432037cb4e)
+        ;
+
+        
+    
+    
+            var circle_marker_9f2696a7b8ac4d97ab6ee565dbff7586 = L.circleMarker(
+                [37.8652157, 127.73199740000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_38638cc729f44a83876ba9833fc13c43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d8daaf06c8343d2b4932040ff3fbb57 = $(`<div id="html_8d8daaf06c8343d2b4932040ff3fbb57" style="width: 100.0%; height: 100.0%;">효검관</div>`)[0];
+            popup_38638cc729f44a83876ba9833fc13c43.setContent(html_8d8daaf06c8343d2b4932040ff3fbb57);
+        
+
+        circle_marker_9f2696a7b8ac4d97ab6ee565dbff7586.bindPopup(popup_38638cc729f44a83876ba9833fc13c43)
+        ;
+
+        
+    
+    
+            var circle_marker_d55d8b4ab1df4f8c80de78aa9f8e046c = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_3c42baf5bae5428691a80dafcfa7d24f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07691a9694de4c7f9c82b2d0db288685 = $(`<div id="html_07691a9694de4c7f9c82b2d0db288685" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_3c42baf5bae5428691a80dafcfa7d24f.setContent(html_07691a9694de4c7f9c82b2d0db288685);
+        
+
+        circle_marker_d55d8b4ab1df4f8c80de78aa9f8e046c.bindPopup(popup_3c42baf5bae5428691a80dafcfa7d24f)
+        ;
+
+        
+    
+    
+            var circle_marker_2c9c32b65f964ca8aee50bc24da621a2 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_d9173da99fc4435ea4049eb8a518e63a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6fa144bf34341e9ae414cfb43e86073 = $(`<div id="html_c6fa144bf34341e9ae414cfb43e86073" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_d9173da99fc4435ea4049eb8a518e63a.setContent(html_c6fa144bf34341e9ae414cfb43e86073);
+        
+
+        circle_marker_2c9c32b65f964ca8aee50bc24da621a2.bindPopup(popup_d9173da99fc4435ea4049eb8a518e63a)
+        ;
+
+        
+    
+    
+            var circle_marker_8ee0d21cd6334e5ca7b98d1eaabdf131 = L.circleMarker(
+                [37.1757536, 128.46183259999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_3cbc6adb447940b39ad50b2f7d27a9d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_056e07b2e1394315abb0f8196620c6cc = $(`<div id="html_056e07b2e1394315abb0f8196620c6cc" style="width: 100.0%; height: 100.0%;">영월군장애인체육협의회</div>`)[0];
+            popup_3cbc6adb447940b39ad50b2f7d27a9d1.setContent(html_056e07b2e1394315abb0f8196620c6cc);
+        
+
+        circle_marker_8ee0d21cd6334e5ca7b98d1eaabdf131.bindPopup(popup_3cbc6adb447940b39ad50b2f7d27a9d1)
+        ;
+
+        
+    
+    
+            var circle_marker_2dbffd21593d4c46988db191e9fb88e7 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_4c5c1355a470491b85ff2d237c2a57ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e664c26201d4afaab714e722f36952f = $(`<div id="html_3e664c26201d4afaab714e722f36952f" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_4c5c1355a470491b85ff2d237c2a57ae.setContent(html_3e664c26201d4afaab714e722f36952f);
+        
+
+        circle_marker_2dbffd21593d4c46988db191e9fb88e7.bindPopup(popup_4c5c1355a470491b85ff2d237c2a57ae)
+        ;
+
+        
+    
+    
+            var circle_marker_43d6d518c67c45d8988356025ec6a104 = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_a40ccc2c97964ca39707a02d4692e3be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6659d8d9837441d38a11540643c871f8 = $(`<div id="html_6659d8d9837441d38a11540643c871f8" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_a40ccc2c97964ca39707a02d4692e3be.setContent(html_6659d8d9837441d38a11540643c871f8);
+        
+
+        circle_marker_43d6d518c67c45d8988356025ec6a104.bindPopup(popup_a40ccc2c97964ca39707a02d4692e3be)
+        ;
+
+        
+    
+    
+            var circle_marker_0e45896f384c4b1b8dbe9022ec8af317 = L.circleMarker(
+                [37.8492274, 127.7383804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_238aaaf2e7f14ca3acc62aeaaa44adad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_905f9ff09d71461095c531db48c781c4 = $(`<div id="html_905f9ff09d71461095c531db48c781c4" style="width: 100.0%; height: 100.0%;">춘천유도관</div>`)[0];
+            popup_238aaaf2e7f14ca3acc62aeaaa44adad.setContent(html_905f9ff09d71461095c531db48c781c4);
+        
+
+        circle_marker_0e45896f384c4b1b8dbe9022ec8af317.bindPopup(popup_238aaaf2e7f14ca3acc62aeaaa44adad)
+        ;
+
+        
+    
+    
+            var circle_marker_a6a45ea0e93643259fdf0a3ac15d1a74 = L.circleMarker(
+                [37.3605853, 127.95375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_4167deaffd3b488098ad20e9c5c6f170 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06ba8fd091704cd6b6ca83028b60433e = $(`<div id="html_06ba8fd091704cd6b6ca83028b60433e" style="width: 100.0%; height: 100.0%;">원주드림체육관</div>`)[0];
+            popup_4167deaffd3b488098ad20e9c5c6f170.setContent(html_06ba8fd091704cd6b6ca83028b60433e);
+        
+
+        circle_marker_a6a45ea0e93643259fdf0a3ac15d1a74.bindPopup(popup_4167deaffd3b488098ad20e9c5c6f170)
+        ;
+
+        
+    
+    
+            var circle_marker_df223f45ab2f41b68497b45357abee1b = L.circleMarker(
+                [37.88454, 127.71583000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4a8ca6adc9ca4dfd80145d7033bd12bf);
+        
+    
+        var popup_e2a8a02117b44bf18b5a689304b4b4b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee8f208b222847268e646ddb6c369be2 = $(`<div id="html_ee8f208b222847268e646ddb6c369be2" style="width: 100.0%; height: 100.0%;">춘천장애인스포츠센터</div>`)[0];
+            popup_e2a8a02117b44bf18b5a689304b4b4b0.setContent(html_ee8f208b222847268e646ddb6c369be2);
+        
+
+        circle_marker_df223f45ab2f41b68497b45357abee1b.bindPopup(popup_e2a8a02117b44bf18b5a689304b4b4b0)
+        ;
+
+        
+    
+</script>

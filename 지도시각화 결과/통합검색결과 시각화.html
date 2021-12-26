@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_822a2f67c539429b86ee7c40c0ec3a45 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_822a2f67c539429b86ee7c40c0ec3a45" ></div>
+        
+</body>
+<script>    
+    
+            var map_822a2f67c539429b86ee7c40c0ec3a45 = L.map(
+                "map_822a2f67c539429b86ee7c40c0ec3a45",
+                {
+                    center: [36.40886055894505, 127.63462243700751],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eb1f545eccb14976a87517e4f359ef7e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+            var circle_marker_e525cc9baee54397b605f51699f2b0ca = L.circleMarker(
+                [37.72850069, 127.0460614],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_2aefec067df54442aacb18c085622c91 = L.popup({"maxWidth": 150});
+
+        
+            var html_bb447f4c8c574ed78f8d4d5326be84f6 = $(`<div id="html_bb447f4c8c574ed78f8d4d5326be84f6" style="width: 100.0%; height: 100.0%;">장애인전용 주차구역</div>`)[0];
+            popup_2aefec067df54442aacb18c085622c91.setContent(html_bb447f4c8c574ed78f8d4d5326be84f6);
+        
+
+        circle_marker_e525cc9baee54397b605f51699f2b0ca.bindPopup(popup_2aefec067df54442aacb18c085622c91)
+        ;
+
+        
+    
+    
+            circle_marker_e525cc9baee54397b605f51699f2b0ca.bindTooltip(
+                `<div>
+                     시설명 : 경희대대한민국태권도 수강료 : 130000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ed3f2cc3744c43899f120bc360e7998d = L.circleMarker(
+                [37.74478029, 127.0616797],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_072943c1e9c84c8c836c36037553ec9a = L.popup({"maxWidth": 150});
+
+        
+            var html_3d3e8b612d3d478daabf2482f75d1515 = $(`<div id="html_3d3e8b612d3d478daabf2482f75d1515" style="width: 100.0%; height: 100.0%;">장애인 화장실, 장애인용 엘리베이터, 장애인전용 주차구역, 시각장애인 편의서비스, 청각장애인 편의서비스</div>`)[0];
+            popup_072943c1e9c84c8c836c36037553ec9a.setContent(html_3d3e8b612d3d478daabf2482f75d1515);
+        
+
+        circle_marker_ed3f2cc3744c43899f120bc360e7998d.bindPopup(popup_072943c1e9c84c8c836c36037553ec9a)
+        ;
+
+        
+    
+    
+            circle_marker_ed3f2cc3744c43899f120bc360e7998d.bindTooltip(
+                `<div>
+                     시설명 : 장애인스포츠과학연구소 수강료 : 160000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_adcf77c3caee4cb896f72497a349f983 = L.circleMarker(
+                [37.74478029, 127.0616797],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_b1a99efa8964485484f344171cff3686 = L.popup({"maxWidth": 150});
+
+        
+            var html_70fbc739d4dd4ec798346476cb5f7cb7 = $(`<div id="html_70fbc739d4dd4ec798346476cb5f7cb7" style="width: 100.0%; height: 100.0%;">장애인 화장실, 장애인용 엘리베이터, 장애인전용 주차구역, 시각장애인 편의서비스, 청각장애인 편의서비스</div>`)[0];
+            popup_b1a99efa8964485484f344171cff3686.setContent(html_70fbc739d4dd4ec798346476cb5f7cb7);
+        
+
+        circle_marker_adcf77c3caee4cb896f72497a349f983.bindPopup(popup_b1a99efa8964485484f344171cff3686)
+        ;
+
+        
+    
+    
+            circle_marker_adcf77c3caee4cb896f72497a349f983.bindTooltip(
+                `<div>
+                     시설명 : 장애인스포츠과학연구소 수강료 : 160000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b2a97376d69b4085b8a5595ac911b9c6 = L.circleMarker(
+                [37.7453886, 127.0482419],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_96e2635a1fbd4b4a974cf3fd188789e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd2ce3704fba41a3830285cfe4e30a6d = $(`<div id="html_bd2ce3704fba41a3830285cfe4e30a6d" style="width: 100.0%; height: 100.0%;">지원시설 없습니다.</div>`)[0];
+            popup_96e2635a1fbd4b4a974cf3fd188789e9.setContent(html_bd2ce3704fba41a3830285cfe4e30a6d);
+        
+
+        circle_marker_b2a97376d69b4085b8a5595ac911b9c6.bindPopup(popup_96e2635a1fbd4b4a974cf3fd188789e9)
+        ;
+
+        
+    
+    
+            circle_marker_b2a97376d69b4085b8a5595ac911b9c6.bindTooltip(
+                `<div>
+                     시설명 : 경원태권도장 수강료 : 80000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a225b0c1cc714ad5bd85ba2a6268ea25 = L.circleMarker(
+                [37.73505805, 127.0907537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_23300006a6cd4be69b8cf64f59c6804e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6dc436c63749aaadd48e090658eab7 = $(`<div id="html_cc6dc436c63749aaadd48e090658eab7" style="width: 100.0%; height: 100.0%;">지원시설 없습니다.</div>`)[0];
+            popup_23300006a6cd4be69b8cf64f59c6804e.setContent(html_cc6dc436c63749aaadd48e090658eab7);
+        
+
+        circle_marker_a225b0c1cc714ad5bd85ba2a6268ea25.bindPopup(popup_23300006a6cd4be69b8cf64f59c6804e)
+        ;
+
+        
+    
+    
+            circle_marker_a225b0c1cc714ad5bd85ba2a6268ea25.bindTooltip(
+                `<div>
+                     시설명 : 민락경기태권도장 수강료 : 130000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0b5e13e52a734791a413a20c223ec9c9 = L.circleMarker(
+                [37.74332947, 127.061762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_08203306520640a58a2e5a8407b45bde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d111edddb97043a3a52ee157bf0d5bf4 = $(`<div id="html_d111edddb97043a3a52ee157bf0d5bf4" style="width: 100.0%; height: 100.0%;">지원시설 없습니다.</div>`)[0];
+            popup_08203306520640a58a2e5a8407b45bde.setContent(html_d111edddb97043a3a52ee157bf0d5bf4);
+        
+
+        circle_marker_0b5e13e52a734791a413a20c223ec9c9.bindPopup(popup_08203306520640a58a2e5a8407b45bde)
+        ;
+
+        
+    
+    
+            circle_marker_0b5e13e52a734791a413a20c223ec9c9.bindTooltip(
+                `<div>
+                     시설명 : 신곡최강태권도 수강료 : 130000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19e58351e38e4d87954af53a30054780 = L.circleMarker(
+                [37.75857112, 127.0328165],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_822a2f67c539429b86ee7c40c0ec3a45);
+        
+    
+        var popup_ed87cdbfd34c4d43b48d08ebd9394de0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_990c1f9f06884f35a37f095a00a29259 = $(`<div id="html_990c1f9f06884f35a37f095a00a29259" style="width: 100.0%; height: 100.0%;">지원시설 없습니다.</div>`)[0];
+            popup_ed87cdbfd34c4d43b48d08ebd9394de0.setContent(html_990c1f9f06884f35a37f095a00a29259);
+        
+
+        circle_marker_19e58351e38e4d87954af53a30054780.bindPopup(popup_ed87cdbfd34c4d43b48d08ebd9394de0)
+        ;
+
+        
+    
+    
+            circle_marker_19e58351e38e4d87954af53a30054780.bindTooltip(
+                `<div>
+                     시설명 : 용인대인성태권도 수강료 : 80000 원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

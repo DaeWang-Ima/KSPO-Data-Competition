@@ -1,0 +1,2913 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8470bb5e10c4d80a50ae00028cafa87 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f8470bb5e10c4d80a50ae00028cafa87" ></div>
+        
+</body>
+<script>    
+    
+            var map_f8470bb5e10c4d80a50ae00028cafa87 = L.map(
+                "map_f8470bb5e10c4d80a50ae00028cafa87",
+                {
+                    center: [35.95, 128.25],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d7e05e7d161426b91de29ed44fb12ed = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+            var circle_marker_e6e56fcee00d4c9ea70bc68b7e4a5241 = L.circleMarker(
+                [35.5819417, 126.8575564],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_56c5b0ccc0d740148720168d917c6379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1e2f06fc8a942a89e7c6fef036998ff = $(`<div id="html_c1e2f06fc8a942a89e7c6fef036998ff" style="width: 100.0%; height: 100.0%;">김소희댄스아카데미</div>`)[0];
+            popup_56c5b0ccc0d740148720168d917c6379.setContent(html_c1e2f06fc8a942a89e7c6fef036998ff);
+        
+
+        circle_marker_e6e56fcee00d4c9ea70bc68b7e4a5241.bindPopup(popup_56c5b0ccc0d740148720168d917c6379)
+        ;
+
+        
+    
+    
+            var circle_marker_e9d8b3793daf4842b373551cbfd9b0df = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_cad2d81d29ae415989a85eefb0b5674d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29c24a1d59504021afca3232bf9c2f7f = $(`<div id="html_29c24a1d59504021afca3232bf9c2f7f" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_cad2d81d29ae415989a85eefb0b5674d.setContent(html_29c24a1d59504021afca3232bf9c2f7f);
+        
+
+        circle_marker_e9d8b3793daf4842b373551cbfd9b0df.bindPopup(popup_cad2d81d29ae415989a85eefb0b5674d)
+        ;
+
+        
+    
+    
+            var circle_marker_f74642041f3d42d98adc78b16ad6e088 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_ccd755e04861406d9b59a5513bc47df5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b47f7f67ad4426f9eac03fd268e74ab = $(`<div id="html_8b47f7f67ad4426f9eac03fd268e74ab" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_ccd755e04861406d9b59a5513bc47df5.setContent(html_8b47f7f67ad4426f9eac03fd268e74ab);
+        
+
+        circle_marker_f74642041f3d42d98adc78b16ad6e088.bindPopup(popup_ccd755e04861406d9b59a5513bc47df5)
+        ;
+
+        
+    
+    
+            var circle_marker_ab3f6f8682cc4587a5fb20d60d5b7cc9 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_b2469cb6687c43da8f214fe346c9bae5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c54a16f8bd8f488399b0640897697a0d = $(`<div id="html_c54a16f8bd8f488399b0640897697a0d" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_b2469cb6687c43da8f214fe346c9bae5.setContent(html_c54a16f8bd8f488399b0640897697a0d);
+        
+
+        circle_marker_ab3f6f8682cc4587a5fb20d60d5b7cc9.bindPopup(popup_b2469cb6687c43da8f214fe346c9bae5)
+        ;
+
+        
+    
+    
+            var circle_marker_88984aac59ea469a95edb1bc1ade8e12 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d155b8b2cc904e67bf141a25ed84969a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13db54716abe4388afa2fee008f0fa78 = $(`<div id="html_13db54716abe4388afa2fee008f0fa78" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_d155b8b2cc904e67bf141a25ed84969a.setContent(html_13db54716abe4388afa2fee008f0fa78);
+        
+
+        circle_marker_88984aac59ea469a95edb1bc1ade8e12.bindPopup(popup_d155b8b2cc904e67bf141a25ed84969a)
+        ;
+
+        
+    
+    
+            var circle_marker_6df3e55c94ce48e98d71198723e1b43d = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_fd930679da314cb8ad40b34b75885b3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d0c1b6f91764fa1b5716167242bf3c9 = $(`<div id="html_8d0c1b6f91764fa1b5716167242bf3c9" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_fd930679da314cb8ad40b34b75885b3f.setContent(html_8d0c1b6f91764fa1b5716167242bf3c9);
+        
+
+        circle_marker_6df3e55c94ce48e98d71198723e1b43d.bindPopup(popup_fd930679da314cb8ad40b34b75885b3f)
+        ;
+
+        
+    
+    
+            var circle_marker_d2a58b1ea12c475cb0ebad9b4e83fbe1 = L.circleMarker(
+                [35.9739213, 127.212708],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_04505a6755de4355b7ccd4ee10be0e69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f45230cc04ad4f128cefff0f52cfd816 = $(`<div id="html_f45230cc04ad4f128cefff0f52cfd816" style="width: 100.0%; height: 100.0%;">완주체육관</div>`)[0];
+            popup_04505a6755de4355b7ccd4ee10be0e69.setContent(html_f45230cc04ad4f128cefff0f52cfd816);
+        
+
+        circle_marker_d2a58b1ea12c475cb0ebad9b4e83fbe1.bindPopup(popup_04505a6755de4355b7ccd4ee10be0e69)
+        ;
+
+        
+    
+    
+            var circle_marker_5aaa1ffe619b4bbf9668539c54773f3d = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_eab27f2f11fb4ceba563da3ceb142b1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d0f4e1634164385b7ca3efe57984844 = $(`<div id="html_8d0f4e1634164385b7ca3efe57984844" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_eab27f2f11fb4ceba563da3ceb142b1c.setContent(html_8d0f4e1634164385b7ca3efe57984844);
+        
+
+        circle_marker_5aaa1ffe619b4bbf9668539c54773f3d.bindPopup(popup_eab27f2f11fb4ceba563da3ceb142b1c)
+        ;
+
+        
+    
+    
+            var circle_marker_bc77b5568ce64734982199b6866b54d3 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_41b0f1d18f424451bf8d0f1e9db33887 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caf3affb35d846dca22160f4c05119f9 = $(`<div id="html_caf3affb35d846dca22160f4c05119f9" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_41b0f1d18f424451bf8d0f1e9db33887.setContent(html_caf3affb35d846dca22160f4c05119f9);
+        
+
+        circle_marker_bc77b5568ce64734982199b6866b54d3.bindPopup(popup_41b0f1d18f424451bf8d0f1e9db33887)
+        ;
+
+        
+    
+    
+            var circle_marker_9970c47eb9884f3caa28c76ad366d92c = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a52fe5e3a2b24a45aa982448d8b44c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a6b3025fa07439ba15431f41ab071e5 = $(`<div id="html_7a6b3025fa07439ba15431f41ab071e5" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_a52fe5e3a2b24a45aa982448d8b44c58.setContent(html_7a6b3025fa07439ba15431f41ab071e5);
+        
+
+        circle_marker_9970c47eb9884f3caa28c76ad366d92c.bindPopup(popup_a52fe5e3a2b24a45aa982448d8b44c58)
+        ;
+
+        
+    
+    
+            var circle_marker_7a3430909bac4b0a9289fd48a318391b = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_9349cb84ae524c9b86601bdeee8317ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a98bdce613b42a0ba56378fe8ce4c58 = $(`<div id="html_2a98bdce613b42a0ba56378fe8ce4c58" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_9349cb84ae524c9b86601bdeee8317ae.setContent(html_2a98bdce613b42a0ba56378fe8ce4c58);
+        
+
+        circle_marker_7a3430909bac4b0a9289fd48a318391b.bindPopup(popup_9349cb84ae524c9b86601bdeee8317ae)
+        ;
+
+        
+    
+    
+            var circle_marker_bb9493c11f614db689238ca81cbb76a3 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4c1c03d14b834856951eac998951a2bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd2d990f3b674e0c8705c2b449479546 = $(`<div id="html_cd2d990f3b674e0c8705c2b449479546" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_4c1c03d14b834856951eac998951a2bd.setContent(html_cd2d990f3b674e0c8705c2b449479546);
+        
+
+        circle_marker_bb9493c11f614db689238ca81cbb76a3.bindPopup(popup_4c1c03d14b834856951eac998951a2bd)
+        ;
+
+        
+    
+    
+            var circle_marker_3ca54fe829ce4ce9907faac61f8d53d9 = L.circleMarker(
+                [35.8324126, 127.1328472],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_2f1b0e172a1347b8bc8cc06fd539091c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_026c4ec9c3e34315af6f69d7fba572f3 = $(`<div id="html_026c4ec9c3e34315af6f69d7fba572f3" style="width: 100.0%; height: 100.0%;">한국체대박사태권도</div>`)[0];
+            popup_2f1b0e172a1347b8bc8cc06fd539091c.setContent(html_026c4ec9c3e34315af6f69d7fba572f3);
+        
+
+        circle_marker_3ca54fe829ce4ce9907faac61f8d53d9.bindPopup(popup_2f1b0e172a1347b8bc8cc06fd539091c)
+        ;
+
+        
+    
+    
+            var circle_marker_a13b869ec4774ecda408efaa61c1bb6d = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_b721d214fcad4d62a19caf46fb72d823 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2e38dd3b20846e6a4cf333990e704d8 = $(`<div id="html_f2e38dd3b20846e6a4cf333990e704d8" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_b721d214fcad4d62a19caf46fb72d823.setContent(html_f2e38dd3b20846e6a4cf333990e704d8);
+        
+
+        circle_marker_a13b869ec4774ecda408efaa61c1bb6d.bindPopup(popup_b721d214fcad4d62a19caf46fb72d823)
+        ;
+
+        
+    
+    
+            var circle_marker_a6bf0f79b25a4a55a8c6450410158529 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_fad4374784124f24b6885fc18bb2a197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92a83fa164b649b2a92010438885f0d3 = $(`<div id="html_92a83fa164b649b2a92010438885f0d3" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_fad4374784124f24b6885fc18bb2a197.setContent(html_92a83fa164b649b2a92010438885f0d3);
+        
+
+        circle_marker_a6bf0f79b25a4a55a8c6450410158529.bindPopup(popup_fad4374784124f24b6885fc18bb2a197)
+        ;
+
+        
+    
+    
+            var circle_marker_351f13338e744a9ca1d975978319dc23 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_aec5a67b4699498c932a56c163ce09c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8200243ae2b40ffaf3efbbb5cf6d3a3 = $(`<div id="html_e8200243ae2b40ffaf3efbbb5cf6d3a3" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_aec5a67b4699498c932a56c163ce09c5.setContent(html_e8200243ae2b40ffaf3efbbb5cf6d3a3);
+        
+
+        circle_marker_351f13338e744a9ca1d975978319dc23.bindPopup(popup_aec5a67b4699498c932a56c163ce09c5)
+        ;
+
+        
+    
+    
+            var circle_marker_bfe0dbdb1e9548c29e3bcdf7aa39e441 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0b7277bcfc394f8d94b203cc74b59abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac0ccbbca26c4fdba57ce7756cdecd55 = $(`<div id="html_ac0ccbbca26c4fdba57ce7756cdecd55" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_0b7277bcfc394f8d94b203cc74b59abf.setContent(html_ac0ccbbca26c4fdba57ce7756cdecd55);
+        
+
+        circle_marker_bfe0dbdb1e9548c29e3bcdf7aa39e441.bindPopup(popup_0b7277bcfc394f8d94b203cc74b59abf)
+        ;
+
+        
+    
+    
+            var circle_marker_278d06c2f5704e2a804e0f9a4d836df5 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d36a56a054e642879d551f7696971990 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1912e90b6638429681d377c97fb0a8fc = $(`<div id="html_1912e90b6638429681d377c97fb0a8fc" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_d36a56a054e642879d551f7696971990.setContent(html_1912e90b6638429681d377c97fb0a8fc);
+        
+
+        circle_marker_278d06c2f5704e2a804e0f9a4d836df5.bindPopup(popup_d36a56a054e642879d551f7696971990)
+        ;
+
+        
+    
+    
+            var circle_marker_94082fc6a1054d6d800832c88ff901bd = L.circleMarker(
+                [35.7977304, 127.09088510000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_8a4e0a9558ab45a09efb7d26e7bcd485 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d6f15f2ff314a04a376527525e30f73 = $(`<div id="html_3d6f15f2ff314a04a376527525e30f73" style="width: 100.0%; height: 100.0%;">웰니스업</div>`)[0];
+            popup_8a4e0a9558ab45a09efb7d26e7bcd485.setContent(html_3d6f15f2ff314a04a376527525e30f73);
+        
+
+        circle_marker_94082fc6a1054d6d800832c88ff901bd.bindPopup(popup_8a4e0a9558ab45a09efb7d26e7bcd485)
+        ;
+
+        
+    
+    
+            var circle_marker_aabfb9af29e040a592425b3f6bcbb4e9 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_fe3f4d4cb2d64f9ea79cae3d9b6fb45e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64122ec0040c4b7583165042a676eacc = $(`<div id="html_64122ec0040c4b7583165042a676eacc" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_fe3f4d4cb2d64f9ea79cae3d9b6fb45e.setContent(html_64122ec0040c4b7583165042a676eacc);
+        
+
+        circle_marker_aabfb9af29e040a592425b3f6bcbb4e9.bindPopup(popup_fe3f4d4cb2d64f9ea79cae3d9b6fb45e)
+        ;
+
+        
+    
+    
+            var circle_marker_ef4eb0a4b59a4f2580f692af97487791 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_ecca4886b8db46e8858a5bb0695c7b10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3dac6b9f46b43fcbe736340b37db9a6 = $(`<div id="html_d3dac6b9f46b43fcbe736340b37db9a6" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_ecca4886b8db46e8858a5bb0695c7b10.setContent(html_d3dac6b9f46b43fcbe736340b37db9a6);
+        
+
+        circle_marker_ef4eb0a4b59a4f2580f692af97487791.bindPopup(popup_ecca4886b8db46e8858a5bb0695c7b10)
+        ;
+
+        
+    
+    
+            var circle_marker_6771024ee7d64408b7556c92cdf677fd = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_ed43d5b553dc46d6bb354b29fafe0785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0fc6b788c7a420baeddac7843100859 = $(`<div id="html_a0fc6b788c7a420baeddac7843100859" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_ed43d5b553dc46d6bb354b29fafe0785.setContent(html_a0fc6b788c7a420baeddac7843100859);
+        
+
+        circle_marker_6771024ee7d64408b7556c92cdf677fd.bindPopup(popup_ed43d5b553dc46d6bb354b29fafe0785)
+        ;
+
+        
+    
+    
+            var circle_marker_0b9c4b1e81554d63a482afeeb8a6552c = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_88ba7f64ff534844bf5cba8ee4209d7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b883fa0ed912457eb5e4d5287c4c506f = $(`<div id="html_b883fa0ed912457eb5e4d5287c4c506f" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_88ba7f64ff534844bf5cba8ee4209d7c.setContent(html_b883fa0ed912457eb5e4d5287c4c506f);
+        
+
+        circle_marker_0b9c4b1e81554d63a482afeeb8a6552c.bindPopup(popup_88ba7f64ff534844bf5cba8ee4209d7c)
+        ;
+
+        
+    
+    
+            var circle_marker_e54237438f2f4690a59bd06ecc457a64 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_eb656d47835f4b5da7ea190b2afb2f6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8987e52ab7cf48008f22af6615665710 = $(`<div id="html_8987e52ab7cf48008f22af6615665710" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_eb656d47835f4b5da7ea190b2afb2f6b.setContent(html_8987e52ab7cf48008f22af6615665710);
+        
+
+        circle_marker_e54237438f2f4690a59bd06ecc457a64.bindPopup(popup_eb656d47835f4b5da7ea190b2afb2f6b)
+        ;
+
+        
+    
+    
+            var circle_marker_79ce0d762ab440168c43cb394f98932c = L.circleMarker(
+                [35.9581917, 126.9744398],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_9f56daa8976e4eff988ae2e7e0e46e24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_898dfb5c2d9246d6a5f3a4635cb5d685 = $(`<div id="html_898dfb5c2d9246d6a5f3a4635cb5d685" style="width: 100.0%; height: 100.0%;">초아무용학원</div>`)[0];
+            popup_9f56daa8976e4eff988ae2e7e0e46e24.setContent(html_898dfb5c2d9246d6a5f3a4635cb5d685);
+        
+
+        circle_marker_79ce0d762ab440168c43cb394f98932c.bindPopup(popup_9f56daa8976e4eff988ae2e7e0e46e24)
+        ;
+
+        
+    
+    
+            var circle_marker_fb022d2e31804d70a29ab00996e4e0cb = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a7ad7bb3b7544e40b0336d0b0a3397ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ee6e4fe5da24a099ee043e3d2020060 = $(`<div id="html_7ee6e4fe5da24a099ee043e3d2020060" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_a7ad7bb3b7544e40b0336d0b0a3397ef.setContent(html_7ee6e4fe5da24a099ee043e3d2020060);
+        
+
+        circle_marker_fb022d2e31804d70a29ab00996e4e0cb.bindPopup(popup_a7ad7bb3b7544e40b0336d0b0a3397ef)
+        ;
+
+        
+    
+    
+            var circle_marker_3f365054e3384057b77a6bcc13f51ce0 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_db1b92300c8c469f8afef49a89e4e658 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88d0ec35986f48cabd522709687f99ac = $(`<div id="html_88d0ec35986f48cabd522709687f99ac" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_db1b92300c8c469f8afef49a89e4e658.setContent(html_88d0ec35986f48cabd522709687f99ac);
+        
+
+        circle_marker_3f365054e3384057b77a6bcc13f51ce0.bindPopup(popup_db1b92300c8c469f8afef49a89e4e658)
+        ;
+
+        
+    
+    
+            var circle_marker_48b55b5f217b4463b9e52e70b702a910 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_674f514c465349a8a9a08ee1fe47649a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22cdec769ca54ebe9a09d950b9eb7c1e = $(`<div id="html_22cdec769ca54ebe9a09d950b9eb7c1e" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_674f514c465349a8a9a08ee1fe47649a.setContent(html_22cdec769ca54ebe9a09d950b9eb7c1e);
+        
+
+        circle_marker_48b55b5f217b4463b9e52e70b702a910.bindPopup(popup_674f514c465349a8a9a08ee1fe47649a)
+        ;
+
+        
+    
+    
+            var circle_marker_a56e84d460e94fc381e21c4b9ee38afd = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_3e469381c13e42d29a78f2aeadfe9afa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_207c054659da4f78a2228e7386b02f3e = $(`<div id="html_207c054659da4f78a2228e7386b02f3e" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_3e469381c13e42d29a78f2aeadfe9afa.setContent(html_207c054659da4f78a2228e7386b02f3e);
+        
+
+        circle_marker_a56e84d460e94fc381e21c4b9ee38afd.bindPopup(popup_3e469381c13e42d29a78f2aeadfe9afa)
+        ;
+
+        
+    
+    
+            var circle_marker_7fcbf0acd8c049e99de608833b312d2a = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_41f17fa9b0624289935255521c625288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f34f95d6e8ed47faa4ab5a45f446f435 = $(`<div id="html_f34f95d6e8ed47faa4ab5a45f446f435" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_41f17fa9b0624289935255521c625288.setContent(html_f34f95d6e8ed47faa4ab5a45f446f435);
+        
+
+        circle_marker_7fcbf0acd8c049e99de608833b312d2a.bindPopup(popup_41f17fa9b0624289935255521c625288)
+        ;
+
+        
+    
+    
+            var circle_marker_6b240d41a8f8496fa62726a05f378c6a = L.circleMarker(
+                [35.9450764, 126.94285239999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a5b6caee423e4b6a998c82491f81ce7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1777cd553f2a45bea3b05bbe74ccec82 = $(`<div id="html_1777cd553f2a45bea3b05bbe74ccec82" style="width: 100.0%; height: 100.0%;">합기도하늘체육관</div>`)[0];
+            popup_a5b6caee423e4b6a998c82491f81ce7a.setContent(html_1777cd553f2a45bea3b05bbe74ccec82);
+        
+
+        circle_marker_6b240d41a8f8496fa62726a05f378c6a.bindPopup(popup_a5b6caee423e4b6a998c82491f81ce7a)
+        ;
+
+        
+    
+    
+            var circle_marker_d125ad42748e4de9949096407f6b420e = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_cd93af350725493a83ddafb75e40c23f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a1e61900cef4de19dd5e2025382c3c6 = $(`<div id="html_3a1e61900cef4de19dd5e2025382c3c6" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_cd93af350725493a83ddafb75e40c23f.setContent(html_3a1e61900cef4de19dd5e2025382c3c6);
+        
+
+        circle_marker_d125ad42748e4de9949096407f6b420e.bindPopup(popup_cd93af350725493a83ddafb75e40c23f)
+        ;
+
+        
+    
+    
+            var circle_marker_6a10cadd8a784164abba8d57a258fc66 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_c4ebee24a24c4e83aad6a0a7ab134b9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6ae6234537a43968d57a1e3e7536c22 = $(`<div id="html_b6ae6234537a43968d57a1e3e7536c22" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_c4ebee24a24c4e83aad6a0a7ab134b9e.setContent(html_b6ae6234537a43968d57a1e3e7536c22);
+        
+
+        circle_marker_6a10cadd8a784164abba8d57a258fc66.bindPopup(popup_c4ebee24a24c4e83aad6a0a7ab134b9e)
+        ;
+
+        
+    
+    
+            var circle_marker_fc2e2ef0c4664bd892be7d5b3c81c390 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0be07812155c413fa4b9ca8161114564 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e17601b983f4acb8ce24174ee611a87 = $(`<div id="html_0e17601b983f4acb8ce24174ee611a87" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_0be07812155c413fa4b9ca8161114564.setContent(html_0e17601b983f4acb8ce24174ee611a87);
+        
+
+        circle_marker_fc2e2ef0c4664bd892be7d5b3c81c390.bindPopup(popup_0be07812155c413fa4b9ca8161114564)
+        ;
+
+        
+    
+    
+            var circle_marker_378352964fef4a7bba5580ce3ce15d2c = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_626fefa1db4f4f6597a8e30e7fd88b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a41f3315f4e649ef9d5998834d5f91ba = $(`<div id="html_a41f3315f4e649ef9d5998834d5f91ba" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_626fefa1db4f4f6597a8e30e7fd88b35.setContent(html_a41f3315f4e649ef9d5998834d5f91ba);
+        
+
+        circle_marker_378352964fef4a7bba5580ce3ce15d2c.bindPopup(popup_626fefa1db4f4f6597a8e30e7fd88b35)
+        ;
+
+        
+    
+    
+            var circle_marker_9eccc5e8b5584ce09549ec49f31bdb45 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0eab26c64450409f88a2eb078d70981f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ceaa9cbac0b4bcdaf9dbcba67f92703 = $(`<div id="html_0ceaa9cbac0b4bcdaf9dbcba67f92703" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_0eab26c64450409f88a2eb078d70981f.setContent(html_0ceaa9cbac0b4bcdaf9dbcba67f92703);
+        
+
+        circle_marker_9eccc5e8b5584ce09549ec49f31bdb45.bindPopup(popup_0eab26c64450409f88a2eb078d70981f)
+        ;
+
+        
+    
+    
+            var circle_marker_3964066ef19649b1ac556e2b9b6dde67 = L.circleMarker(
+                [35.81056829999999, 127.12842659999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_f31f82cda66848f28abcbbd683683ef2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f0bebf4118d4e5dafed4de622b92419 = $(`<div id="html_1f0bebf4118d4e5dafed4de622b92419" style="width: 100.0%; height: 100.0%;">석사백제태권도</div>`)[0];
+            popup_f31f82cda66848f28abcbbd683683ef2.setContent(html_1f0bebf4118d4e5dafed4de622b92419);
+        
+
+        circle_marker_3964066ef19649b1ac556e2b9b6dde67.bindPopup(popup_f31f82cda66848f28abcbbd683683ef2)
+        ;
+
+        
+    
+    
+            var circle_marker_3468747b53744ec886fe6bcafcb17a0b = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4c758872a346437b8c113ed3a0f8c61b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47e575acd6994ff5b9f02034c6f8c0d2 = $(`<div id="html_47e575acd6994ff5b9f02034c6f8c0d2" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_4c758872a346437b8c113ed3a0f8c61b.setContent(html_47e575acd6994ff5b9f02034c6f8c0d2);
+        
+
+        circle_marker_3468747b53744ec886fe6bcafcb17a0b.bindPopup(popup_4c758872a346437b8c113ed3a0f8c61b)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba5cea2180d44bc9524401ea3d4e684 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_7c584bde820b412b85e66890d96d9d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5781744cadd49ed8b3dfde8c1306b4b = $(`<div id="html_c5781744cadd49ed8b3dfde8c1306b4b" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_7c584bde820b412b85e66890d96d9d6f.setContent(html_c5781744cadd49ed8b3dfde8c1306b4b);
+        
+
+        circle_marker_3ba5cea2180d44bc9524401ea3d4e684.bindPopup(popup_7c584bde820b412b85e66890d96d9d6f)
+        ;
+
+        
+    
+    
+            var circle_marker_3dffac75445046438037860098c55179 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_da0f58f719864f98b455c1966974deec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b708e177c6c4ecc864d1f2d60fea557 = $(`<div id="html_4b708e177c6c4ecc864d1f2d60fea557" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_da0f58f719864f98b455c1966974deec.setContent(html_4b708e177c6c4ecc864d1f2d60fea557);
+        
+
+        circle_marker_3dffac75445046438037860098c55179.bindPopup(popup_da0f58f719864f98b455c1966974deec)
+        ;
+
+        
+    
+    
+            var circle_marker_bacbe5353003469cb6e52a42bc1eaba3 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_f98a205f6c184cf4993126397db2d947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82e32029e085452ab9f9ca6fccbf82db = $(`<div id="html_82e32029e085452ab9f9ca6fccbf82db" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_f98a205f6c184cf4993126397db2d947.setContent(html_82e32029e085452ab9f9ca6fccbf82db);
+        
+
+        circle_marker_bacbe5353003469cb6e52a42bc1eaba3.bindPopup(popup_f98a205f6c184cf4993126397db2d947)
+        ;
+
+        
+    
+    
+            var circle_marker_164f121e2d2645bc99f01722e0611e59 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_fa887d8902614d64a6302b8943370da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1baea943b67e43778825835c2e90e69b = $(`<div id="html_1baea943b67e43778825835c2e90e69b" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_fa887d8902614d64a6302b8943370da0.setContent(html_1baea943b67e43778825835c2e90e69b);
+        
+
+        circle_marker_164f121e2d2645bc99f01722e0611e59.bindPopup(popup_fa887d8902614d64a6302b8943370da0)
+        ;
+
+        
+    
+    
+            var circle_marker_f2782dad07474e38b9d4cc0991028586 = L.circleMarker(
+                [35.9600815, 126.97577659999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_5843173cbc124d3b92fee484cae8b9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3792977078a544d0bc303d506eeb5c3f = $(`<div id="html_3792977078a544d0bc303d506eeb5c3f" style="width: 100.0%; height: 100.0%;">선무도장(특공무술,해동검도)</div>`)[0];
+            popup_5843173cbc124d3b92fee484cae8b9f8.setContent(html_3792977078a544d0bc303d506eeb5c3f);
+        
+
+        circle_marker_f2782dad07474e38b9d4cc0991028586.bindPopup(popup_5843173cbc124d3b92fee484cae8b9f8)
+        ;
+
+        
+    
+    
+            var circle_marker_e04185b7145c4b1885a5205cd7727df7 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_3d77401adc01427b9768b6fce5f99bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49caae287d8340098230cdaa248af7ac = $(`<div id="html_49caae287d8340098230cdaa248af7ac" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_3d77401adc01427b9768b6fce5f99bf2.setContent(html_49caae287d8340098230cdaa248af7ac);
+        
+
+        circle_marker_e04185b7145c4b1885a5205cd7727df7.bindPopup(popup_3d77401adc01427b9768b6fce5f99bf2)
+        ;
+
+        
+    
+    
+            var circle_marker_2898dd5fc69c4df79b2fe6cd7c35db58 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_6354cf4b6fa54f5aa21c1d5a1f0f041a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcff250464724fe98165ba486d2e64d6 = $(`<div id="html_dcff250464724fe98165ba486d2e64d6" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_6354cf4b6fa54f5aa21c1d5a1f0f041a.setContent(html_dcff250464724fe98165ba486d2e64d6);
+        
+
+        circle_marker_2898dd5fc69c4df79b2fe6cd7c35db58.bindPopup(popup_6354cf4b6fa54f5aa21c1d5a1f0f041a)
+        ;
+
+        
+    
+    
+            var circle_marker_2b27bdc008054ec1b91b9d6972dcc535 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_23e0788de1db45d7981370a14f1cacf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47127a454cf14164992184161daf857f = $(`<div id="html_47127a454cf14164992184161daf857f" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_23e0788de1db45d7981370a14f1cacf8.setContent(html_47127a454cf14164992184161daf857f);
+        
+
+        circle_marker_2b27bdc008054ec1b91b9d6972dcc535.bindPopup(popup_23e0788de1db45d7981370a14f1cacf8)
+        ;
+
+        
+    
+    
+            var circle_marker_254c87da891349418cd378a6e0e8998a = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_6ce109f54e8b4fe59b0ea2a900ea78fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f4d853119f2413c8c64671f70a38949 = $(`<div id="html_2f4d853119f2413c8c64671f70a38949" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_6ce109f54e8b4fe59b0ea2a900ea78fb.setContent(html_2f4d853119f2413c8c64671f70a38949);
+        
+
+        circle_marker_254c87da891349418cd378a6e0e8998a.bindPopup(popup_6ce109f54e8b4fe59b0ea2a900ea78fb)
+        ;
+
+        
+    
+    
+            var circle_marker_b1242481b5114eb48ff69cc1a915d3d6 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a4d73582b88c4058ae5de0f12fc4388b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3fbd4db6524473784c6fe723fe252a8 = $(`<div id="html_d3fbd4db6524473784c6fe723fe252a8" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_a4d73582b88c4058ae5de0f12fc4388b.setContent(html_d3fbd4db6524473784c6fe723fe252a8);
+        
+
+        circle_marker_b1242481b5114eb48ff69cc1a915d3d6.bindPopup(popup_a4d73582b88c4058ae5de0f12fc4388b)
+        ;
+
+        
+    
+    
+            var circle_marker_98cdea6fc2e645ed902cc18f4cc62663 = L.circleMarker(
+                [35.9576035, 126.9920956],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_b32d254713f94469ade4f7c9bd1eb5d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e339f9abd9204e44a74e5a855f4f153e = $(`<div id="html_e339f9abd9204e44a74e5a855f4f153e" style="width: 100.0%; height: 100.0%;">하나태권도장</div>`)[0];
+            popup_b32d254713f94469ade4f7c9bd1eb5d9.setContent(html_e339f9abd9204e44a74e5a855f4f153e);
+        
+
+        circle_marker_98cdea6fc2e645ed902cc18f4cc62663.bindPopup(popup_b32d254713f94469ade4f7c9bd1eb5d9)
+        ;
+
+        
+    
+    
+            var circle_marker_3b14f294f5364420bc1c7f53d8532448 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4729558ffe004b0bbf4c28cbc298623c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8eed90026974876b978f7f7f5231b97 = $(`<div id="html_c8eed90026974876b978f7f7f5231b97" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_4729558ffe004b0bbf4c28cbc298623c.setContent(html_c8eed90026974876b978f7f7f5231b97);
+        
+
+        circle_marker_3b14f294f5364420bc1c7f53d8532448.bindPopup(popup_4729558ffe004b0bbf4c28cbc298623c)
+        ;
+
+        
+    
+    
+            var circle_marker_052d0a571c2944658d2c6eb289f883e4 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_cc0aab8c09c64fa386e8e58b3d98ff50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_132935de14d544cf87ee1c0916945eea = $(`<div id="html_132935de14d544cf87ee1c0916945eea" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_cc0aab8c09c64fa386e8e58b3d98ff50.setContent(html_132935de14d544cf87ee1c0916945eea);
+        
+
+        circle_marker_052d0a571c2944658d2c6eb289f883e4.bindPopup(popup_cc0aab8c09c64fa386e8e58b3d98ff50)
+        ;
+
+        
+    
+    
+            var circle_marker_30642448aefc4904baa34c6389276b8c = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_8abb4d9e74f742e18b8639bef0d55344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32bb7d4b56b74ba085b940f4d334e0f4 = $(`<div id="html_32bb7d4b56b74ba085b940f4d334e0f4" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_8abb4d9e74f742e18b8639bef0d55344.setContent(html_32bb7d4b56b74ba085b940f4d334e0f4);
+        
+
+        circle_marker_30642448aefc4904baa34c6389276b8c.bindPopup(popup_8abb4d9e74f742e18b8639bef0d55344)
+        ;
+
+        
+    
+    
+            var circle_marker_ffd17b3112cf411da47f961b27f0ede8 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_850d914e34d041758b3b49ff98466f0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e23b3a4b8580485fb66dfad02fc070bb = $(`<div id="html_e23b3a4b8580485fb66dfad02fc070bb" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_850d914e34d041758b3b49ff98466f0e.setContent(html_e23b3a4b8580485fb66dfad02fc070bb);
+        
+
+        circle_marker_ffd17b3112cf411da47f961b27f0ede8.bindPopup(popup_850d914e34d041758b3b49ff98466f0e)
+        ;
+
+        
+    
+    
+            var circle_marker_4448688f19d949c6ba9c9a6a566b7c7f = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_5343867f930343ccb5624e3a8083ad06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65fddfe8215e4dd8af4f45103cdcba46 = $(`<div id="html_65fddfe8215e4dd8af4f45103cdcba46" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_5343867f930343ccb5624e3a8083ad06.setContent(html_65fddfe8215e4dd8af4f45103cdcba46);
+        
+
+        circle_marker_4448688f19d949c6ba9c9a6a566b7c7f.bindPopup(popup_5343867f930343ccb5624e3a8083ad06)
+        ;
+
+        
+    
+    
+            var circle_marker_ac1e11c8ee2549f2a8e404afc54a5ad5 = L.circleMarker(
+                [35.5826583, 126.85533670000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_7cfa2ca9ebcf4fc3ac65655724dbbac2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31dc11a7225b4c10bd381fd2f4133e7c = $(`<div id="html_31dc11a7225b4c10bd381fd2f4133e7c" style="width: 100.0%; height: 100.0%;">호림태권도장(정읍)</div>`)[0];
+            popup_7cfa2ca9ebcf4fc3ac65655724dbbac2.setContent(html_31dc11a7225b4c10bd381fd2f4133e7c);
+        
+
+        circle_marker_ac1e11c8ee2549f2a8e404afc54a5ad5.bindPopup(popup_7cfa2ca9ebcf4fc3ac65655724dbbac2)
+        ;
+
+        
+    
+    
+            var circle_marker_e0ec0066c3f246f6a098af6b9d579416 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_e8a368a14a4f4f9a83960eac95f3cebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65f33f1e79ef446689da61bc1bdbb7e2 = $(`<div id="html_65f33f1e79ef446689da61bc1bdbb7e2" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_e8a368a14a4f4f9a83960eac95f3cebd.setContent(html_65f33f1e79ef446689da61bc1bdbb7e2);
+        
+
+        circle_marker_e0ec0066c3f246f6a098af6b9d579416.bindPopup(popup_e8a368a14a4f4f9a83960eac95f3cebd)
+        ;
+
+        
+    
+    
+            var circle_marker_6327a15f68bc4b04baeb1759138e19ac = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0b66643e191d43b48a194f2547b2b754 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5bbb70d16624e3f960baa82f9e5825a = $(`<div id="html_f5bbb70d16624e3f960baa82f9e5825a" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_0b66643e191d43b48a194f2547b2b754.setContent(html_f5bbb70d16624e3f960baa82f9e5825a);
+        
+
+        circle_marker_6327a15f68bc4b04baeb1759138e19ac.bindPopup(popup_0b66643e191d43b48a194f2547b2b754)
+        ;
+
+        
+    
+    
+            var circle_marker_58eeed6e75aa4eb8ada888f401a1611b = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_23b790093cb94223baac7c3b36128a56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_848daa3c66c8408f84d39096d4969146 = $(`<div id="html_848daa3c66c8408f84d39096d4969146" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_23b790093cb94223baac7c3b36128a56.setContent(html_848daa3c66c8408f84d39096d4969146);
+        
+
+        circle_marker_58eeed6e75aa4eb8ada888f401a1611b.bindPopup(popup_23b790093cb94223baac7c3b36128a56)
+        ;
+
+        
+    
+    
+            var circle_marker_025c3375dffe486293d2d9263be4e3c7 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_bc277c8079d94d38b3549b6b8da63ebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a3e8e58d2bc49fdb69a50b0efea638c = $(`<div id="html_1a3e8e58d2bc49fdb69a50b0efea638c" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_bc277c8079d94d38b3549b6b8da63ebd.setContent(html_1a3e8e58d2bc49fdb69a50b0efea638c);
+        
+
+        circle_marker_025c3375dffe486293d2d9263be4e3c7.bindPopup(popup_bc277c8079d94d38b3549b6b8da63ebd)
+        ;
+
+        
+    
+    
+            var circle_marker_81c13e5d580d4962a566d2410b3a9f6f = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0d11f5eb0b1c4010a835399495c95f29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acf33671d0d149768ecac2272180243b = $(`<div id="html_acf33671d0d149768ecac2272180243b" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_0d11f5eb0b1c4010a835399495c95f29.setContent(html_acf33671d0d149768ecac2272180243b);
+        
+
+        circle_marker_81c13e5d580d4962a566d2410b3a9f6f.bindPopup(popup_0d11f5eb0b1c4010a835399495c95f29)
+        ;
+
+        
+    
+    
+            var circle_marker_96621256b8724e6694e6f62066e6bc19 = L.circleMarker(
+                [35.9357774, 127.1617721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_7320b6fad6494937a3d10ba9f5e65368 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53f1faa95ed54962839930f95d4c72f9 = $(`<div id="html_53f1faa95ed54962839930f95d4c72f9" style="width: 100.0%; height: 100.0%;">도복의 바람소리가 울려 퍼지는 TOP태권도</div>`)[0];
+            popup_7320b6fad6494937a3d10ba9f5e65368.setContent(html_53f1faa95ed54962839930f95d4c72f9);
+        
+
+        circle_marker_96621256b8724e6694e6f62066e6bc19.bindPopup(popup_7320b6fad6494937a3d10ba9f5e65368)
+        ;
+
+        
+    
+    
+            var circle_marker_8c85da09aaf44eff9e3ddb36e44e8400 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_786e19ea74f54132aba8a6a43b1e2e87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa70706af5cb45fda02cac81d4ac65b8 = $(`<div id="html_fa70706af5cb45fda02cac81d4ac65b8" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_786e19ea74f54132aba8a6a43b1e2e87.setContent(html_fa70706af5cb45fda02cac81d4ac65b8);
+        
+
+        circle_marker_8c85da09aaf44eff9e3ddb36e44e8400.bindPopup(popup_786e19ea74f54132aba8a6a43b1e2e87)
+        ;
+
+        
+    
+    
+            var circle_marker_245824b628b54cda884330572b810b0e = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_133e6d8c1e5e44bfaea8c4b410d7252e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_738de286d1394c419943d4d673179d34 = $(`<div id="html_738de286d1394c419943d4d673179d34" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_133e6d8c1e5e44bfaea8c4b410d7252e.setContent(html_738de286d1394c419943d4d673179d34);
+        
+
+        circle_marker_245824b628b54cda884330572b810b0e.bindPopup(popup_133e6d8c1e5e44bfaea8c4b410d7252e)
+        ;
+
+        
+    
+    
+            var circle_marker_0b81d276e7a646b7a1781dcdd1b480e4 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_6ed943d15a9541af9be71c852bc3897e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4579e65ea194a599c73d2c28b444609 = $(`<div id="html_e4579e65ea194a599c73d2c28b444609" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_6ed943d15a9541af9be71c852bc3897e.setContent(html_e4579e65ea194a599c73d2c28b444609);
+        
+
+        circle_marker_0b81d276e7a646b7a1781dcdd1b480e4.bindPopup(popup_6ed943d15a9541af9be71c852bc3897e)
+        ;
+
+        
+    
+    
+            var circle_marker_011f7a7295a74e9a91476867effcd904 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_70327f122340496b805212b5cac481f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d69e38d23a2a4a88b6c0c2a0f01a23d5 = $(`<div id="html_d69e38d23a2a4a88b6c0c2a0f01a23d5" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_70327f122340496b805212b5cac481f0.setContent(html_d69e38d23a2a4a88b6c0c2a0f01a23d5);
+        
+
+        circle_marker_011f7a7295a74e9a91476867effcd904.bindPopup(popup_70327f122340496b805212b5cac481f0)
+        ;
+
+        
+    
+    
+            var circle_marker_7ef98139733d439b9becbd727b2bebf7 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_892108fd04da407a874f93a61b8d5f19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b93e07224a754266bae048f88d0acfc9 = $(`<div id="html_b93e07224a754266bae048f88d0acfc9" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_892108fd04da407a874f93a61b8d5f19.setContent(html_b93e07224a754266bae048f88d0acfc9);
+        
+
+        circle_marker_7ef98139733d439b9becbd727b2bebf7.bindPopup(popup_892108fd04da407a874f93a61b8d5f19)
+        ;
+
+        
+    
+    
+            var circle_marker_00427cdce27841aba30e8e55c7591de2 = L.circleMarker(
+                [35.795412799999994, 127.1126531],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_25829200fb1646caa9deda6417812246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e10ae771a3a459da12f208b1ea0e91a = $(`<div id="html_7e10ae771a3a459da12f208b1ea0e91a" style="width: 100.0%; height: 100.0%;">희망찬코리아</div>`)[0];
+            popup_25829200fb1646caa9deda6417812246.setContent(html_7e10ae771a3a459da12f208b1ea0e91a);
+        
+
+        circle_marker_00427cdce27841aba30e8e55c7591de2.bindPopup(popup_25829200fb1646caa9deda6417812246)
+        ;
+
+        
+    
+    
+            var circle_marker_6248c3a54e44482f941c15dca4edf0ba = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_12b123a7700147ee948c33d3dbaba572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_304f48905af94ef29dd9e13959191e07 = $(`<div id="html_304f48905af94ef29dd9e13959191e07" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_12b123a7700147ee948c33d3dbaba572.setContent(html_304f48905af94ef29dd9e13959191e07);
+        
+
+        circle_marker_6248c3a54e44482f941c15dca4edf0ba.bindPopup(popup_12b123a7700147ee948c33d3dbaba572)
+        ;
+
+        
+    
+    
+            var circle_marker_18f4e08dbb504447b580c291e53e7b26 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_1e2aaeba74e9454fa26b2c05333ef0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8365d500253541679eb290a4b3d821ef = $(`<div id="html_8365d500253541679eb290a4b3d821ef" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_1e2aaeba74e9454fa26b2c05333ef0b9.setContent(html_8365d500253541679eb290a4b3d821ef);
+        
+
+        circle_marker_18f4e08dbb504447b580c291e53e7b26.bindPopup(popup_1e2aaeba74e9454fa26b2c05333ef0b9)
+        ;
+
+        
+    
+    
+            var circle_marker_0b29488252d247a19d685f8fcfc81281 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_90b05df713774ad68ab1bcc882ef973d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d00fdcda38548b6a064d0ed604274da = $(`<div id="html_1d00fdcda38548b6a064d0ed604274da" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_90b05df713774ad68ab1bcc882ef973d.setContent(html_1d00fdcda38548b6a064d0ed604274da);
+        
+
+        circle_marker_0b29488252d247a19d685f8fcfc81281.bindPopup(popup_90b05df713774ad68ab1bcc882ef973d)
+        ;
+
+        
+    
+    
+            var circle_marker_f791c5b6d5fb4b618b5be3a068acd7d3 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4c266b1bdab147a18a30f695e87f43c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e2655e95434a9e9cbb41bbac9390a7 = $(`<div id="html_c3e2655e95434a9e9cbb41bbac9390a7" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_4c266b1bdab147a18a30f695e87f43c2.setContent(html_c3e2655e95434a9e9cbb41bbac9390a7);
+        
+
+        circle_marker_f791c5b6d5fb4b618b5be3a068acd7d3.bindPopup(popup_4c266b1bdab147a18a30f695e87f43c2)
+        ;
+
+        
+    
+    
+            var circle_marker_f349dbdd23a548798d04981fb6ef2b63 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_511fce80e8aa44e6abfd17600fa2e087 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4a5d73552f477790729d6f788cf706 = $(`<div id="html_6b4a5d73552f477790729d6f788cf706" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_511fce80e8aa44e6abfd17600fa2e087.setContent(html_6b4a5d73552f477790729d6f788cf706);
+        
+
+        circle_marker_f349dbdd23a548798d04981fb6ef2b63.bindPopup(popup_511fce80e8aa44e6abfd17600fa2e087)
+        ;
+
+        
+    
+    
+            var circle_marker_7b551f0e97ad46e490bf6430483ebd6d = L.circleMarker(
+                [35.9302936, 126.9705074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_3fc44caa855f4f2f9e3b222ccd5a080f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60d67df3f36f424a985d73d77af30a1e = $(`<div id="html_60d67df3f36f424a985d73d77af30a1e" style="width: 100.0%; height: 100.0%;">우석대동산태권도</div>`)[0];
+            popup_3fc44caa855f4f2f9e3b222ccd5a080f.setContent(html_60d67df3f36f424a985d73d77af30a1e);
+        
+
+        circle_marker_7b551f0e97ad46e490bf6430483ebd6d.bindPopup(popup_3fc44caa855f4f2f9e3b222ccd5a080f)
+        ;
+
+        
+    
+    
+            var circle_marker_f48057bf822349708889ced7ca64bf65 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_5fc9f1c31a1f4b7a826a605d40af7922 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b51daabcc7a41e0a817f441b22a9134 = $(`<div id="html_4b51daabcc7a41e0a817f441b22a9134" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_5fc9f1c31a1f4b7a826a605d40af7922.setContent(html_4b51daabcc7a41e0a817f441b22a9134);
+        
+
+        circle_marker_f48057bf822349708889ced7ca64bf65.bindPopup(popup_5fc9f1c31a1f4b7a826a605d40af7922)
+        ;
+
+        
+    
+    
+            var circle_marker_7e34f0a71281410e85e0af7ce4752939 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_1e183d73dc5747e3bec2b8fee48313b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed708c98d0604d479a9dfab7ef088592 = $(`<div id="html_ed708c98d0604d479a9dfab7ef088592" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_1e183d73dc5747e3bec2b8fee48313b5.setContent(html_ed708c98d0604d479a9dfab7ef088592);
+        
+
+        circle_marker_7e34f0a71281410e85e0af7ce4752939.bindPopup(popup_1e183d73dc5747e3bec2b8fee48313b5)
+        ;
+
+        
+    
+    
+            var circle_marker_3967261ae98943caaa87843da25fe3aa = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_971b75a73e124626a59551afbff88ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cb062db50f540088ffee44a50498b7a = $(`<div id="html_9cb062db50f540088ffee44a50498b7a" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_971b75a73e124626a59551afbff88ae5.setContent(html_9cb062db50f540088ffee44a50498b7a);
+        
+
+        circle_marker_3967261ae98943caaa87843da25fe3aa.bindPopup(popup_971b75a73e124626a59551afbff88ae5)
+        ;
+
+        
+    
+    
+            var circle_marker_9254e124f4fd4859a77272156eb5c159 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_f34bf7b1f1d94f14b1bbaf44ef32d926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_967a2fd0fb704a32a433909b4ed87ac6 = $(`<div id="html_967a2fd0fb704a32a433909b4ed87ac6" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_f34bf7b1f1d94f14b1bbaf44ef32d926.setContent(html_967a2fd0fb704a32a433909b4ed87ac6);
+        
+
+        circle_marker_9254e124f4fd4859a77272156eb5c159.bindPopup(popup_f34bf7b1f1d94f14b1bbaf44ef32d926)
+        ;
+
+        
+    
+    
+            var circle_marker_72cc72522c9440d0ad95a2809d926f1d = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4498153171c642c9a5b79b7b8ff012d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389ef5ee27d541de99964685209e1738 = $(`<div id="html_389ef5ee27d541de99964685209e1738" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_4498153171c642c9a5b79b7b8ff012d7.setContent(html_389ef5ee27d541de99964685209e1738);
+        
+
+        circle_marker_72cc72522c9440d0ad95a2809d926f1d.bindPopup(popup_4498153171c642c9a5b79b7b8ff012d7)
+        ;
+
+        
+    
+    
+            var circle_marker_5b101eea71a3439e930f50699a672052 = L.circleMarker(
+                [35.958609499999994, 126.7091311],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_6121b25fd7d64e2ca414a45443f07cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b812082759fa4213b9ad0576127814e5 = $(`<div id="html_b812082759fa4213b9ad0576127814e5" style="width: 100.0%; height: 100.0%;">그린OA시스템</div>`)[0];
+            popup_6121b25fd7d64e2ca414a45443f07cf3.setContent(html_b812082759fa4213b9ad0576127814e5);
+        
+
+        circle_marker_5b101eea71a3439e930f50699a672052.bindPopup(popup_6121b25fd7d64e2ca414a45443f07cf3)
+        ;
+
+        
+    
+    
+            var circle_marker_bd2725f4e76049fd9adea4f146e65da8 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_8f47d939fcef466b8be5ccfdb0d2bc33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af07ad74898547248d818f1ddc6f2328 = $(`<div id="html_af07ad74898547248d818f1ddc6f2328" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_8f47d939fcef466b8be5ccfdb0d2bc33.setContent(html_af07ad74898547248d818f1ddc6f2328);
+        
+
+        circle_marker_bd2725f4e76049fd9adea4f146e65da8.bindPopup(popup_8f47d939fcef466b8be5ccfdb0d2bc33)
+        ;
+
+        
+    
+    
+            var circle_marker_5d13372b4ee147d19a713d42957d9c04 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_f27ff4ba4f0c4d2d9c86e51e25f4fc89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2df0567b0b9d4e58994b830bb4a29edb = $(`<div id="html_2df0567b0b9d4e58994b830bb4a29edb" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_f27ff4ba4f0c4d2d9c86e51e25f4fc89.setContent(html_2df0567b0b9d4e58994b830bb4a29edb);
+        
+
+        circle_marker_5d13372b4ee147d19a713d42957d9c04.bindPopup(popup_f27ff4ba4f0c4d2d9c86e51e25f4fc89)
+        ;
+
+        
+    
+    
+            var circle_marker_e2b14842af1c491aa182201570cf5df0 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_6f91ad248db8412ebc819f62c813b072 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1736a62577345d1b30e888b7e9eb927 = $(`<div id="html_d1736a62577345d1b30e888b7e9eb927" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_6f91ad248db8412ebc819f62c813b072.setContent(html_d1736a62577345d1b30e888b7e9eb927);
+        
+
+        circle_marker_e2b14842af1c491aa182201570cf5df0.bindPopup(popup_6f91ad248db8412ebc819f62c813b072)
+        ;
+
+        
+    
+    
+            var circle_marker_c6ec33fe76f5454c8259383d8e4d154f = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_cff21bb9635b401fbb6df5bbb60331ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a1764d2592b4c88ba78fa3bdb058581 = $(`<div id="html_9a1764d2592b4c88ba78fa3bdb058581" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_cff21bb9635b401fbb6df5bbb60331ea.setContent(html_9a1764d2592b4c88ba78fa3bdb058581);
+        
+
+        circle_marker_c6ec33fe76f5454c8259383d8e4d154f.bindPopup(popup_cff21bb9635b401fbb6df5bbb60331ea)
+        ;
+
+        
+    
+    
+            var circle_marker_17fe1f330f6c4938825b0c6bee7bdffe = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_2add928b396f433cb2173dc359cabcfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60634295f43246e78b58f55d125e4886 = $(`<div id="html_60634295f43246e78b58f55d125e4886" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_2add928b396f433cb2173dc359cabcfe.setContent(html_60634295f43246e78b58f55d125e4886);
+        
+
+        circle_marker_17fe1f330f6c4938825b0c6bee7bdffe.bindPopup(popup_2add928b396f433cb2173dc359cabcfe)
+        ;
+
+        
+    
+    
+            var circle_marker_439179832d9f48a4a81ea0dfa362f2fe = L.circleMarker(
+                [35.8345119, 127.1677958],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_8bcd6acabaf84c02b92477d3e53644de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc1894b9d5bd4daa991f76764df94c73 = $(`<div id="html_dc1894b9d5bd4daa991f76764df94c73" style="width: 100.0%; height: 100.0%;">이화댄스아카데미(with 탑째즈에어로빅)</div>`)[0];
+            popup_8bcd6acabaf84c02b92477d3e53644de.setContent(html_dc1894b9d5bd4daa991f76764df94c73);
+        
+
+        circle_marker_439179832d9f48a4a81ea0dfa362f2fe.bindPopup(popup_8bcd6acabaf84c02b92477d3e53644de)
+        ;
+
+        
+    
+    
+            var circle_marker_e44febb8ae674e1fae4db388bd6d91c6 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_033f6eb071a64c07b48344a76effc9a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12be9731cd3a47659a3f37e46870f89d = $(`<div id="html_12be9731cd3a47659a3f37e46870f89d" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_033f6eb071a64c07b48344a76effc9a6.setContent(html_12be9731cd3a47659a3f37e46870f89d);
+        
+
+        circle_marker_e44febb8ae674e1fae4db388bd6d91c6.bindPopup(popup_033f6eb071a64c07b48344a76effc9a6)
+        ;
+
+        
+    
+    
+            var circle_marker_612698f90fda4af29f66b441f3b95de2 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a9e8f8dd4b5e434ea674314ea6c9e454 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5e2d52f45f94138a3270a0c4dd1b5e9 = $(`<div id="html_b5e2d52f45f94138a3270a0c4dd1b5e9" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_a9e8f8dd4b5e434ea674314ea6c9e454.setContent(html_b5e2d52f45f94138a3270a0c4dd1b5e9);
+        
+
+        circle_marker_612698f90fda4af29f66b441f3b95de2.bindPopup(popup_a9e8f8dd4b5e434ea674314ea6c9e454)
+        ;
+
+        
+    
+    
+            var circle_marker_4e8714f349824e6e95e50a111adee9c8 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_f48e772eee694854b6edbecf7d7f714f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7709405db254be0985096d42e22ee30 = $(`<div id="html_f7709405db254be0985096d42e22ee30" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_f48e772eee694854b6edbecf7d7f714f.setContent(html_f7709405db254be0985096d42e22ee30);
+        
+
+        circle_marker_4e8714f349824e6e95e50a111adee9c8.bindPopup(popup_f48e772eee694854b6edbecf7d7f714f)
+        ;
+
+        
+    
+    
+            var circle_marker_7388482867ce4316b39775889673b5ef = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_46d656fc692b4d539b27fb02e5d9333c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8faa94a67454cdb98d1e38321be7ed1 = $(`<div id="html_d8faa94a67454cdb98d1e38321be7ed1" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_46d656fc692b4d539b27fb02e5d9333c.setContent(html_d8faa94a67454cdb98d1e38321be7ed1);
+        
+
+        circle_marker_7388482867ce4316b39775889673b5ef.bindPopup(popup_46d656fc692b4d539b27fb02e5d9333c)
+        ;
+
+        
+    
+    
+            var circle_marker_7adee15bc0984878a8ad2ed15224d7c4 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_6cd40187e8f44c5185a19e37e9fd16db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b73a0d72736c4a8fb022b3b55f0c3390 = $(`<div id="html_b73a0d72736c4a8fb022b3b55f0c3390" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_6cd40187e8f44c5185a19e37e9fd16db.setContent(html_b73a0d72736c4a8fb022b3b55f0c3390);
+        
+
+        circle_marker_7adee15bc0984878a8ad2ed15224d7c4.bindPopup(popup_6cd40187e8f44c5185a19e37e9fd16db)
+        ;
+
+        
+    
+    
+            var circle_marker_5faddee3873b48fc937abde3c544850d = L.circleMarker(
+                [35.8045936, 127.1484865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_fbfbd57c032b4aeda120844444f2c01f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9716bfb16f0940f5b852c669c8bfb398 = $(`<div id="html_9716bfb16f0940f5b852c669c8bfb398" style="width: 100.0%; height: 100.0%;">헤라휘트니스</div>`)[0];
+            popup_fbfbd57c032b4aeda120844444f2c01f.setContent(html_9716bfb16f0940f5b852c669c8bfb398);
+        
+
+        circle_marker_5faddee3873b48fc937abde3c544850d.bindPopup(popup_fbfbd57c032b4aeda120844444f2c01f)
+        ;
+
+        
+    
+    
+            var circle_marker_bc0662e6c7d84f19acaa8ceaf3e787fb = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_2d864d3154b54f349bad77342fbbb9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0a3d3e5c4ed4dd48b151ab676b05f7d = $(`<div id="html_a0a3d3e5c4ed4dd48b151ab676b05f7d" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_2d864d3154b54f349bad77342fbbb9e9.setContent(html_a0a3d3e5c4ed4dd48b151ab676b05f7d);
+        
+
+        circle_marker_bc0662e6c7d84f19acaa8ceaf3e787fb.bindPopup(popup_2d864d3154b54f349bad77342fbbb9e9)
+        ;
+
+        
+    
+    
+            var circle_marker_153a598a539543ffafe641118b1d8cf5 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_94280175af674b82b6f6009275a980b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd40a647fcc4d95bbdb9a81660caee8 = $(`<div id="html_6dd40a647fcc4d95bbdb9a81660caee8" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_94280175af674b82b6f6009275a980b8.setContent(html_6dd40a647fcc4d95bbdb9a81660caee8);
+        
+
+        circle_marker_153a598a539543ffafe641118b1d8cf5.bindPopup(popup_94280175af674b82b6f6009275a980b8)
+        ;
+
+        
+    
+    
+            var circle_marker_ff37d052f510425d804d1471bf5a90c1 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_b1f323461e014ec48697351aebc36944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2005cd582433409abf14fca62c1d7c34 = $(`<div id="html_2005cd582433409abf14fca62c1d7c34" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_b1f323461e014ec48697351aebc36944.setContent(html_2005cd582433409abf14fca62c1d7c34);
+        
+
+        circle_marker_ff37d052f510425d804d1471bf5a90c1.bindPopup(popup_b1f323461e014ec48697351aebc36944)
+        ;
+
+        
+    
+    
+            var circle_marker_791211b7f5fd459bbc6d9032771f7107 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d485d30c1c294fc4938c362025d2014a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7898b49eee7f4bfe9f64a734a6c51bd3 = $(`<div id="html_7898b49eee7f4bfe9f64a734a6c51bd3" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_d485d30c1c294fc4938c362025d2014a.setContent(html_7898b49eee7f4bfe9f64a734a6c51bd3);
+        
+
+        circle_marker_791211b7f5fd459bbc6d9032771f7107.bindPopup(popup_d485d30c1c294fc4938c362025d2014a)
+        ;
+
+        
+    
+    
+            var circle_marker_3362d3fa71334d2b9498b0042a593825 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_e38c1ec56946456c98d3112e2daf807e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44a3c934f4d74fc9878a04f9860a0366 = $(`<div id="html_44a3c934f4d74fc9878a04f9860a0366" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_e38c1ec56946456c98d3112e2daf807e.setContent(html_44a3c934f4d74fc9878a04f9860a0366);
+        
+
+        circle_marker_3362d3fa71334d2b9498b0042a593825.bindPopup(popup_e38c1ec56946456c98d3112e2daf807e)
+        ;
+
+        
+    
+    
+            var circle_marker_6f269d7e2f7b4923b155cf657b1bb3a5 = L.circleMarker(
+                [35.808324400000004, 127.1031034],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_2b0e9dd597ee43fc8f56482306232d63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46ff202ee88f42f8b3f82f95b91c256f = $(`<div id="html_46ff202ee88f42f8b3f82f95b91c256f" style="width: 100.0%; height: 100.0%;">하엘언어청각센터</div>`)[0];
+            popup_2b0e9dd597ee43fc8f56482306232d63.setContent(html_46ff202ee88f42f8b3f82f95b91c256f);
+        
+
+        circle_marker_6f269d7e2f7b4923b155cf657b1bb3a5.bindPopup(popup_2b0e9dd597ee43fc8f56482306232d63)
+        ;
+
+        
+    
+    
+            var circle_marker_6ed377c51dc14cc4a1ee227d15721d4d = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a4829a962e1e43b68839d9af277de162 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7adae00320fc4b58ac02b64af0b789a4 = $(`<div id="html_7adae00320fc4b58ac02b64af0b789a4" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_a4829a962e1e43b68839d9af277de162.setContent(html_7adae00320fc4b58ac02b64af0b789a4);
+        
+
+        circle_marker_6ed377c51dc14cc4a1ee227d15721d4d.bindPopup(popup_a4829a962e1e43b68839d9af277de162)
+        ;
+
+        
+    
+    
+            var circle_marker_e811b7babf344e599cc8f67e5e00bbcd = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0ab5eda2547d4cb2baad18f41d3fda9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db750306309d4506ba9b2e0856a9be45 = $(`<div id="html_db750306309d4506ba9b2e0856a9be45" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_0ab5eda2547d4cb2baad18f41d3fda9e.setContent(html_db750306309d4506ba9b2e0856a9be45);
+        
+
+        circle_marker_e811b7babf344e599cc8f67e5e00bbcd.bindPopup(popup_0ab5eda2547d4cb2baad18f41d3fda9e)
+        ;
+
+        
+    
+    
+            var circle_marker_8b7f7627f86d4e84832550e8c3854074 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_c2f32919d32f40b9be80e5a020d53a5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_507add6c5b11498fa70fef5d8297ad70 = $(`<div id="html_507add6c5b11498fa70fef5d8297ad70" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_c2f32919d32f40b9be80e5a020d53a5e.setContent(html_507add6c5b11498fa70fef5d8297ad70);
+        
+
+        circle_marker_8b7f7627f86d4e84832550e8c3854074.bindPopup(popup_c2f32919d32f40b9be80e5a020d53a5e)
+        ;
+
+        
+    
+    
+            var circle_marker_0d49c1940fb54886880795fa20a2b3e8 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_8fce87d793a341bb825090e28f4aa07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_045b26c6cd8941c891e9f316f5479377 = $(`<div id="html_045b26c6cd8941c891e9f316f5479377" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_8fce87d793a341bb825090e28f4aa07a.setContent(html_045b26c6cd8941c891e9f316f5479377);
+        
+
+        circle_marker_0d49c1940fb54886880795fa20a2b3e8.bindPopup(popup_8fce87d793a341bb825090e28f4aa07a)
+        ;
+
+        
+    
+    
+            var circle_marker_47ef402635e9400681bcc39d5d6ef4b5 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a75f0b799e3d4227b1486c8e499b2184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70a91c044fe245678bdb9b4d49bcc792 = $(`<div id="html_70a91c044fe245678bdb9b4d49bcc792" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_a75f0b799e3d4227b1486c8e499b2184.setContent(html_70a91c044fe245678bdb9b4d49bcc792);
+        
+
+        circle_marker_47ef402635e9400681bcc39d5d6ef4b5.bindPopup(popup_a75f0b799e3d4227b1486c8e499b2184)
+        ;
+
+        
+    
+    
+            var circle_marker_d9aa0e418a374f38be427d6915399f03 = L.circleMarker(
+                [35.9635241, 126.6930378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_a672e2b9f5c6415f9657b5a97a696938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2caf9c14efcf464ab9e294bdf8c0a934 = $(`<div id="html_2caf9c14efcf464ab9e294bdf8c0a934" style="width: 100.0%; height: 100.0%;">아이드림운동발달연구소</div>`)[0];
+            popup_a672e2b9f5c6415f9657b5a97a696938.setContent(html_2caf9c14efcf464ab9e294bdf8c0a934);
+        
+
+        circle_marker_d9aa0e418a374f38be427d6915399f03.bindPopup(popup_a672e2b9f5c6415f9657b5a97a696938)
+        ;
+
+        
+    
+    
+            var circle_marker_b98ca8e8de4145ebac719512975abd71 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_c47172b37d964490801f34c91a125429 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b8df439faa94281bd47404d2448003c = $(`<div id="html_9b8df439faa94281bd47404d2448003c" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_c47172b37d964490801f34c91a125429.setContent(html_9b8df439faa94281bd47404d2448003c);
+        
+
+        circle_marker_b98ca8e8de4145ebac719512975abd71.bindPopup(popup_c47172b37d964490801f34c91a125429)
+        ;
+
+        
+    
+    
+            var circle_marker_c9bc8a08fede4342b8feae6607551069 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_7dc6d6edc9734a1b819d5ba0e9c45171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20c1168bbc9f45ef82d33e897bdda11b = $(`<div id="html_20c1168bbc9f45ef82d33e897bdda11b" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_7dc6d6edc9734a1b819d5ba0e9c45171.setContent(html_20c1168bbc9f45ef82d33e897bdda11b);
+        
+
+        circle_marker_c9bc8a08fede4342b8feae6607551069.bindPopup(popup_7dc6d6edc9734a1b819d5ba0e9c45171)
+        ;
+
+        
+    
+    
+            var circle_marker_3dfe340a40a244859d3c02bf3508b730 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_966f7b81e7b945039ab87205888b04e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6046a93b861403da34421448d574c0f = $(`<div id="html_f6046a93b861403da34421448d574c0f" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_966f7b81e7b945039ab87205888b04e4.setContent(html_f6046a93b861403da34421448d574c0f);
+        
+
+        circle_marker_3dfe340a40a244859d3c02bf3508b730.bindPopup(popup_966f7b81e7b945039ab87205888b04e4)
+        ;
+
+        
+    
+    
+            var circle_marker_89ff93969ff943a9bb2cb31b5b123353 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_149903d92c4f4dc080319585a0d91156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f23321c7e8c436d81a542d31436a7bf = $(`<div id="html_9f23321c7e8c436d81a542d31436a7bf" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_149903d92c4f4dc080319585a0d91156.setContent(html_9f23321c7e8c436d81a542d31436a7bf);
+        
+
+        circle_marker_89ff93969ff943a9bb2cb31b5b123353.bindPopup(popup_149903d92c4f4dc080319585a0d91156)
+        ;
+
+        
+    
+    
+            var circle_marker_b21adb9ca47f495caf837e2adc41cc3a = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_677e8e8e1de04ad387d5df912c34005a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c57cb8559f784595b1d625faa3499d01 = $(`<div id="html_c57cb8559f784595b1d625faa3499d01" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_677e8e8e1de04ad387d5df912c34005a.setContent(html_c57cb8559f784595b1d625faa3499d01);
+        
+
+        circle_marker_b21adb9ca47f495caf837e2adc41cc3a.bindPopup(popup_677e8e8e1de04ad387d5df912c34005a)
+        ;
+
+        
+    
+    
+            var circle_marker_2754132ac2434f939e4207d77c31a5d8 = L.circleMarker(
+                [35.8268364, 127.170831],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_77ef70f5fb834a6bb7ba387d02c419f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecb4c381f81c4f64accd818f4cb318f2 = $(`<div id="html_ecb4c381f81c4f64accd818f4cb318f2" style="width: 100.0%; height: 100.0%;">힐링휘트니스</div>`)[0];
+            popup_77ef70f5fb834a6bb7ba387d02c419f9.setContent(html_ecb4c381f81c4f64accd818f4cb318f2);
+        
+
+        circle_marker_2754132ac2434f939e4207d77c31a5d8.bindPopup(popup_77ef70f5fb834a6bb7ba387d02c419f9)
+        ;
+
+        
+    
+    
+            var circle_marker_875cc2af6c7c4ed6a1bf8eba59ed59c9 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_3ad3e8c21ad044559590cc3f6ceace95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1165b0b04e88497db972af1ac6ad5829 = $(`<div id="html_1165b0b04e88497db972af1ac6ad5829" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_3ad3e8c21ad044559590cc3f6ceace95.setContent(html_1165b0b04e88497db972af1ac6ad5829);
+        
+
+        circle_marker_875cc2af6c7c4ed6a1bf8eba59ed59c9.bindPopup(popup_3ad3e8c21ad044559590cc3f6ceace95)
+        ;
+
+        
+    
+    
+            var circle_marker_285a20e00cbb4deab30caa4d4de7c863 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_ad595d3951d043f69ae1c6e18bb437ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74a4583102254e8d861e4c341dd4e4ed = $(`<div id="html_74a4583102254e8d861e4c341dd4e4ed" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_ad595d3951d043f69ae1c6e18bb437ac.setContent(html_74a4583102254e8d861e4c341dd4e4ed);
+        
+
+        circle_marker_285a20e00cbb4deab30caa4d4de7c863.bindPopup(popup_ad595d3951d043f69ae1c6e18bb437ac)
+        ;
+
+        
+    
+    
+            var circle_marker_3e59496a9e304f64a9de49dc769d4b27 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_248bf063bfe14b18a9b20ba561a420b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6af90fba98f040099a286e846dcc02c4 = $(`<div id="html_6af90fba98f040099a286e846dcc02c4" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_248bf063bfe14b18a9b20ba561a420b8.setContent(html_6af90fba98f040099a286e846dcc02c4);
+        
+
+        circle_marker_3e59496a9e304f64a9de49dc769d4b27.bindPopup(popup_248bf063bfe14b18a9b20ba561a420b8)
+        ;
+
+        
+    
+    
+            var circle_marker_24d4a3867b694c3d852df4175690bed2 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_ea09b2cbfeac4379bc1d7cd7e624747b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82f0818d9074449fa0cae01b0bf71b40 = $(`<div id="html_82f0818d9074449fa0cae01b0bf71b40" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_ea09b2cbfeac4379bc1d7cd7e624747b.setContent(html_82f0818d9074449fa0cae01b0bf71b40);
+        
+
+        circle_marker_24d4a3867b694c3d852df4175690bed2.bindPopup(popup_ea09b2cbfeac4379bc1d7cd7e624747b)
+        ;
+
+        
+    
+    
+            var circle_marker_b03b3177010e4839975c63ec0ab10298 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_03c7de1efec54e0c8f933e1d5e400638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcab8d0ff5eb4a3f8b33947da2103122 = $(`<div id="html_fcab8d0ff5eb4a3f8b33947da2103122" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_03c7de1efec54e0c8f933e1d5e400638.setContent(html_fcab8d0ff5eb4a3f8b33947da2103122);
+        
+
+        circle_marker_b03b3177010e4839975c63ec0ab10298.bindPopup(popup_03c7de1efec54e0c8f933e1d5e400638)
+        ;
+
+        
+    
+    
+            var circle_marker_34d3ca52e2d242b88f8b31d3333b4cc0 = L.circleMarker(
+                [35.9701354, 126.7053882],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_693fef413b1d4b7e827128de17435a82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f3892c7a2be42389a2ca9472c11eaac = $(`<div id="html_3f3892c7a2be42389a2ca9472c11eaac" style="width: 100.0%; height: 100.0%;">볼러스레인(군산점)</div>`)[0];
+            popup_693fef413b1d4b7e827128de17435a82.setContent(html_3f3892c7a2be42389a2ca9472c11eaac);
+        
+
+        circle_marker_34d3ca52e2d242b88f8b31d3333b4cc0.bindPopup(popup_693fef413b1d4b7e827128de17435a82)
+        ;
+
+        
+    
+    
+            var circle_marker_91bea4d0652b4dafa4d267add5956449 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_84b5cca36fc7404fb28f39a732d8fa42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32f2f550a6f7448fa0c96e2f588ddfcc = $(`<div id="html_32f2f550a6f7448fa0c96e2f588ddfcc" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_84b5cca36fc7404fb28f39a732d8fa42.setContent(html_32f2f550a6f7448fa0c96e2f588ddfcc);
+        
+
+        circle_marker_91bea4d0652b4dafa4d267add5956449.bindPopup(popup_84b5cca36fc7404fb28f39a732d8fa42)
+        ;
+
+        
+    
+    
+            var circle_marker_5134778cdb004f55829d602d8e9f3af0 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_766b5ab24a2a4f7db74f11d35fef4b17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d16d932381db4a93afc4540c53da6327 = $(`<div id="html_d16d932381db4a93afc4540c53da6327" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_766b5ab24a2a4f7db74f11d35fef4b17.setContent(html_d16d932381db4a93afc4540c53da6327);
+        
+
+        circle_marker_5134778cdb004f55829d602d8e9f3af0.bindPopup(popup_766b5ab24a2a4f7db74f11d35fef4b17)
+        ;
+
+        
+    
+    
+            var circle_marker_24889a96090f452cb42500aa16ea4450 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_25c6c69c436a4688a0ed4341174bf40b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39a6d66023084a649d6184b48ccede67 = $(`<div id="html_39a6d66023084a649d6184b48ccede67" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_25c6c69c436a4688a0ed4341174bf40b.setContent(html_39a6d66023084a649d6184b48ccede67);
+        
+
+        circle_marker_24889a96090f452cb42500aa16ea4450.bindPopup(popup_25c6c69c436a4688a0ed4341174bf40b)
+        ;
+
+        
+    
+    
+            var circle_marker_458cc552f7434c02a885c51bc385a7e5 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_49ce67f5f19342ab9fcc57b988f54cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8732815fd724b03bcfede2df910c600 = $(`<div id="html_f8732815fd724b03bcfede2df910c600" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_49ce67f5f19342ab9fcc57b988f54cd5.setContent(html_f8732815fd724b03bcfede2df910c600);
+        
+
+        circle_marker_458cc552f7434c02a885c51bc385a7e5.bindPopup(popup_49ce67f5f19342ab9fcc57b988f54cd5)
+        ;
+
+        
+    
+    
+            var circle_marker_0f01b030e6c74a30a465b66e9523774f = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_c3d071ac6e7847a686f072d0bec064dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d56422757bf345b49f4426e0e237e02d = $(`<div id="html_d56422757bf345b49f4426e0e237e02d" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_c3d071ac6e7847a686f072d0bec064dd.setContent(html_d56422757bf345b49f4426e0e237e02d);
+        
+
+        circle_marker_0f01b030e6c74a30a465b66e9523774f.bindPopup(popup_c3d071ac6e7847a686f072d0bec064dd)
+        ;
+
+        
+    
+    
+            var circle_marker_e957e5df471a4183ba9918280f9ad49f = L.circleMarker(
+                [35.8123567, 126.90340559999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_295d0597b7304bcd958541e00d01e69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae1c0281ae494438a5684d3b3ed6da60 = $(`<div id="html_ae1c0281ae494438a5684d3b3ed6da60" style="width: 100.0%; height: 100.0%;">김제시국민체육센터볼링장</div>`)[0];
+            popup_295d0597b7304bcd958541e00d01e69b.setContent(html_ae1c0281ae494438a5684d3b3ed6da60);
+        
+
+        circle_marker_e957e5df471a4183ba9918280f9ad49f.bindPopup(popup_295d0597b7304bcd958541e00d01e69b)
+        ;
+
+        
+    
+    
+            var circle_marker_e6b72aa7fcdc45ab98a1509d44860c68 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d5b851e5a63340c2aef62ad945a33edc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fcfb480b5154e3aad4997b2151f559e = $(`<div id="html_0fcfb480b5154e3aad4997b2151f559e" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_d5b851e5a63340c2aef62ad945a33edc.setContent(html_0fcfb480b5154e3aad4997b2151f559e);
+        
+
+        circle_marker_e6b72aa7fcdc45ab98a1509d44860c68.bindPopup(popup_d5b851e5a63340c2aef62ad945a33edc)
+        ;
+
+        
+    
+    
+            var circle_marker_2930f6016ec6452f8d17b5f7a49fdc23 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_ade52c369c604b458dc4b9c864b966ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d873031b1f7047a3a5bbfdb699135e6d = $(`<div id="html_d873031b1f7047a3a5bbfdb699135e6d" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_ade52c369c604b458dc4b9c864b966ac.setContent(html_d873031b1f7047a3a5bbfdb699135e6d);
+        
+
+        circle_marker_2930f6016ec6452f8d17b5f7a49fdc23.bindPopup(popup_ade52c369c604b458dc4b9c864b966ac)
+        ;
+
+        
+    
+    
+            var circle_marker_07b310a052b64eadbd83752aec457074 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_3d88981f017a4c07a773eb8714b667d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c73348b404d4d229f026f0ea82c5f02 = $(`<div id="html_9c73348b404d4d229f026f0ea82c5f02" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_3d88981f017a4c07a773eb8714b667d3.setContent(html_9c73348b404d4d229f026f0ea82c5f02);
+        
+
+        circle_marker_07b310a052b64eadbd83752aec457074.bindPopup(popup_3d88981f017a4c07a773eb8714b667d3)
+        ;
+
+        
+    
+    
+            var circle_marker_fff61051523e41108f743d3aaf963352 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_e8321b986f7a4723908796dd926342ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c7fd67e21d448f59f30feeb74c727a9 = $(`<div id="html_4c7fd67e21d448f59f30feeb74c727a9" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_e8321b986f7a4723908796dd926342ed.setContent(html_4c7fd67e21d448f59f30feeb74c727a9);
+        
+
+        circle_marker_fff61051523e41108f743d3aaf963352.bindPopup(popup_e8321b986f7a4723908796dd926342ed)
+        ;
+
+        
+    
+    
+            var circle_marker_1f678538b16f4d5d870038d8b5b1b40e = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_843c53b936b04324b2db94634709e44f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf8a2218c9ba4ff89c3fdfc6eb64c8d2 = $(`<div id="html_bf8a2218c9ba4ff89c3fdfc6eb64c8d2" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_843c53b936b04324b2db94634709e44f.setContent(html_bf8a2218c9ba4ff89c3fdfc6eb64c8d2);
+        
+
+        circle_marker_1f678538b16f4d5d870038d8b5b1b40e.bindPopup(popup_843c53b936b04324b2db94634709e44f)
+        ;
+
+        
+    
+    
+            var circle_marker_00f72f77cf5a4630a1562ba8a04f2f52 = L.circleMarker(
+                [35.9517545, 126.94815449999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_edbdb366ef5a4b7bbe386a672e300b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24798001873a4fac96bbd5cf66bbfa9c = $(`<div id="html_24798001873a4fac96bbd5cf66bbfa9c" style="width: 100.0%; height: 100.0%;">웅비태권도장</div>`)[0];
+            popup_edbdb366ef5a4b7bbe386a672e300b96.setContent(html_24798001873a4fac96bbd5cf66bbfa9c);
+        
+
+        circle_marker_00f72f77cf5a4630a1562ba8a04f2f52.bindPopup(popup_edbdb366ef5a4b7bbe386a672e300b96)
+        ;
+
+        
+    
+    
+            var circle_marker_1977f8701a7c4e8fb59814cb8f494f81 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_1242e884f8ce4302b6073156ba95ce14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a44a98cbded404aba9daf1b37296d11 = $(`<div id="html_3a44a98cbded404aba9daf1b37296d11" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_1242e884f8ce4302b6073156ba95ce14.setContent(html_3a44a98cbded404aba9daf1b37296d11);
+        
+
+        circle_marker_1977f8701a7c4e8fb59814cb8f494f81.bindPopup(popup_1242e884f8ce4302b6073156ba95ce14)
+        ;
+
+        
+    
+    
+            var circle_marker_6925af00c42b43bbb003b80cdd8a6043 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_def0ab13597e498088128443e1baeaff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_269cd6ae42e241959f4a6d80dcc7973b = $(`<div id="html_269cd6ae42e241959f4a6d80dcc7973b" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_def0ab13597e498088128443e1baeaff.setContent(html_269cd6ae42e241959f4a6d80dcc7973b);
+        
+
+        circle_marker_6925af00c42b43bbb003b80cdd8a6043.bindPopup(popup_def0ab13597e498088128443e1baeaff)
+        ;
+
+        
+    
+    
+            var circle_marker_a12e900b3f7c4dac81747250849aa528 = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4a5fc8bc00f146fd95da1ba22d4f55df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e28d10c339254fc2ba86aaabb54e6aaa = $(`<div id="html_e28d10c339254fc2ba86aaabb54e6aaa" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_4a5fc8bc00f146fd95da1ba22d4f55df.setContent(html_e28d10c339254fc2ba86aaabb54e6aaa);
+        
+
+        circle_marker_a12e900b3f7c4dac81747250849aa528.bindPopup(popup_4a5fc8bc00f146fd95da1ba22d4f55df)
+        ;
+
+        
+    
+    
+            var circle_marker_5bb0f29a5ccc48f99d5560bf1b7adbd7 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d93d5f6425cf449699c753cc43a762bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8753f6143a7f41e4a3c1a4d8a18c31f0 = $(`<div id="html_8753f6143a7f41e4a3c1a4d8a18c31f0" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_d93d5f6425cf449699c753cc43a762bc.setContent(html_8753f6143a7f41e4a3c1a4d8a18c31f0);
+        
+
+        circle_marker_5bb0f29a5ccc48f99d5560bf1b7adbd7.bindPopup(popup_d93d5f6425cf449699c753cc43a762bc)
+        ;
+
+        
+    
+    
+            var circle_marker_1623e5388f0e48deb57eb7b284cba4d0 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_3e2083f125644d6ca862eb704b66c1de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_469c21fb5d51437094f51062b51a2a81 = $(`<div id="html_469c21fb5d51437094f51062b51a2a81" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_3e2083f125644d6ca862eb704b66c1de.setContent(html_469c21fb5d51437094f51062b51a2a81);
+        
+
+        circle_marker_1623e5388f0e48deb57eb7b284cba4d0.bindPopup(popup_3e2083f125644d6ca862eb704b66c1de)
+        ;
+
+        
+    
+    
+            var circle_marker_2f2213de63e24f2094710f25f7b5f539 = L.circleMarker(
+                [35.960093799999996, 126.9765494],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_84eb2d28035e486a8dd5005f8570ef32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f0dc1ec98534671bb13882e10718dca = $(`<div id="html_5f0dc1ec98534671bb13882e10718dca" style="width: 100.0%; height: 100.0%;">사단법인한국운동재활협회 익산지회 </div>`)[0];
+            popup_84eb2d28035e486a8dd5005f8570ef32.setContent(html_5f0dc1ec98534671bb13882e10718dca);
+        
+
+        circle_marker_2f2213de63e24f2094710f25f7b5f539.bindPopup(popup_84eb2d28035e486a8dd5005f8570ef32)
+        ;
+
+        
+    
+    
+            var circle_marker_3515ddc69e6d46c4ba87b59531195208 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_e4bfe0dea15449a9ae0280ba89a4d6cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0f56c40ecaa4a83846055ed4a322bd9 = $(`<div id="html_c0f56c40ecaa4a83846055ed4a322bd9" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_e4bfe0dea15449a9ae0280ba89a4d6cb.setContent(html_c0f56c40ecaa4a83846055ed4a322bd9);
+        
+
+        circle_marker_3515ddc69e6d46c4ba87b59531195208.bindPopup(popup_e4bfe0dea15449a9ae0280ba89a4d6cb)
+        ;
+
+        
+    
+    
+            var circle_marker_1e0fb0b597b74c4aa97fad5adc78de3c = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_73ab5573a0e0471c9927dd7fed10a264 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd664223eec945d2bfb6641255b2c7b3 = $(`<div id="html_fd664223eec945d2bfb6641255b2c7b3" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_73ab5573a0e0471c9927dd7fed10a264.setContent(html_fd664223eec945d2bfb6641255b2c7b3);
+        
+
+        circle_marker_1e0fb0b597b74c4aa97fad5adc78de3c.bindPopup(popup_73ab5573a0e0471c9927dd7fed10a264)
+        ;
+
+        
+    
+    
+            var circle_marker_9852259d7e694b6d955635fbeb2ac87e = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_694f2e7a3611412e8d73973b5d3bdc96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac28d75d741f4b5bbafa743645b3d272 = $(`<div id="html_ac28d75d741f4b5bbafa743645b3d272" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_694f2e7a3611412e8d73973b5d3bdc96.setContent(html_ac28d75d741f4b5bbafa743645b3d272);
+        
+
+        circle_marker_9852259d7e694b6d955635fbeb2ac87e.bindPopup(popup_694f2e7a3611412e8d73973b5d3bdc96)
+        ;
+
+        
+    
+    
+            var circle_marker_1c430cf0af924aed873f437c9a09fcfc = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d55c051636164df1a699c43cea34b8be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d25afb22aab54e72bc8ef5b808b3d5db = $(`<div id="html_d25afb22aab54e72bc8ef5b808b3d5db" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_d55c051636164df1a699c43cea34b8be.setContent(html_d25afb22aab54e72bc8ef5b808b3d5db);
+        
+
+        circle_marker_1c430cf0af924aed873f437c9a09fcfc.bindPopup(popup_d55c051636164df1a699c43cea34b8be)
+        ;
+
+        
+    
+    
+            var circle_marker_48170369480c429094b1cec5ffceceed = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_c584942d813d44b598dad119a7fd49bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9557e529525246089e96240eba843c0b = $(`<div id="html_9557e529525246089e96240eba843c0b" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_c584942d813d44b598dad119a7fd49bd.setContent(html_9557e529525246089e96240eba843c0b);
+        
+
+        circle_marker_48170369480c429094b1cec5ffceceed.bindPopup(popup_c584942d813d44b598dad119a7fd49bd)
+        ;
+
+        
+    
+    
+            var circle_marker_807444aade4244d7ba7d445413189ff1 = L.circleMarker(
+                [35.793054, 127.13225700000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_f76ecab6a9a9466aaa524f1a478d581c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbc925cb2227405b9ac15d81d5d8f33a = $(`<div id="html_dbc925cb2227405b9ac15d81d5d8f33a" style="width: 100.0%; height: 100.0%;">전주복싱 멋짐 킥복싱무에타이 국제</div>`)[0];
+            popup_f76ecab6a9a9466aaa524f1a478d581c.setContent(html_dbc925cb2227405b9ac15d81d5d8f33a);
+        
+
+        circle_marker_807444aade4244d7ba7d445413189ff1.bindPopup(popup_f76ecab6a9a9466aaa524f1a478d581c)
+        ;
+
+        
+    
+    
+            var circle_marker_0fe129c2db054cdaa1ed01f7487aa7af = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_8adece4d0bf447d8b24ff5624afa5909 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2395422771844b5b4659f49ed4f7ba2 = $(`<div id="html_c2395422771844b5b4659f49ed4f7ba2" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_8adece4d0bf447d8b24ff5624afa5909.setContent(html_c2395422771844b5b4659f49ed4f7ba2);
+        
+
+        circle_marker_0fe129c2db054cdaa1ed01f7487aa7af.bindPopup(popup_8adece4d0bf447d8b24ff5624afa5909)
+        ;
+
+        
+    
+    
+            var circle_marker_e75e1dd0c47744068ef901b8ce3aa280 = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_0f797c8077d64c7999e38abe5989c38b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e7a4ce112c2489b97be686cd138fb41 = $(`<div id="html_9e7a4ce112c2489b97be686cd138fb41" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_0f797c8077d64c7999e38abe5989c38b.setContent(html_9e7a4ce112c2489b97be686cd138fb41);
+        
+
+        circle_marker_e75e1dd0c47744068ef901b8ce3aa280.bindPopup(popup_0f797c8077d64c7999e38abe5989c38b)
+        ;
+
+        
+    
+    
+            var circle_marker_8ee7c13478144f56b7d6f0d7d013ec1a = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_4af2eeaba62841b49ee9f0ff570d901a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fffabc38a744cd7a4a422546417615f = $(`<div id="html_5fffabc38a744cd7a4a422546417615f" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_4af2eeaba62841b49ee9f0ff570d901a.setContent(html_5fffabc38a744cd7a4a422546417615f);
+        
+
+        circle_marker_8ee7c13478144f56b7d6f0d7d013ec1a.bindPopup(popup_4af2eeaba62841b49ee9f0ff570d901a)
+        ;
+
+        
+    
+    
+            var circle_marker_48476930334747e4b82efd08fc53a9c2 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_c7b772ad48464933ac3f4af08b398bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c7073b3c4774755813377921ab464b0 = $(`<div id="html_4c7073b3c4774755813377921ab464b0" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_c7b772ad48464933ac3f4af08b398bd3.setContent(html_4c7073b3c4774755813377921ab464b0);
+        
+
+        circle_marker_48476930334747e4b82efd08fc53a9c2.bindPopup(popup_c7b772ad48464933ac3f4af08b398bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_b629c7d2e3a64c918c1eea1b451b7d9a = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_1907460de0884fba81b993a59c02e3a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66a1e838482d421a95f30eb008259665 = $(`<div id="html_66a1e838482d421a95f30eb008259665" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_1907460de0884fba81b993a59c02e3a9.setContent(html_66a1e838482d421a95f30eb008259665);
+        
+
+        circle_marker_b629c7d2e3a64c918c1eea1b451b7d9a.bindPopup(popup_1907460de0884fba81b993a59c02e3a9)
+        ;
+
+        
+    
+    
+            var circle_marker_a3dcdd7686ba49b2a760cd58adeadd27 = L.circleMarker(
+                [35.570665999999996, 126.8460331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_91ed9841bab64c818e2b9fdd34efc803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25420a511d9d4a15b50acfbb95160e86 = $(`<div id="html_25420a511d9d4a15b50acfbb95160e86" style="width: 100.0%; height: 100.0%;">초원태권도 체육관</div>`)[0];
+            popup_91ed9841bab64c818e2b9fdd34efc803.setContent(html_25420a511d9d4a15b50acfbb95160e86);
+        
+
+        circle_marker_a3dcdd7686ba49b2a760cd58adeadd27.bindPopup(popup_91ed9841bab64c818e2b9fdd34efc803)
+        ;
+
+        
+    
+    
+            var circle_marker_f1eaec756e1743caa5550c63512d85a0 = L.circleMarker(
+                [35.8114438, 127.08975659999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_2f9721322fa7424192ce193715412b5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49c68337956a47ffa6203e1476df8f00 = $(`<div id="html_49c68337956a47ffa6203e1476df8f00" style="width: 100.0%; height: 100.0%;">전라북도장애인복지관(체육관)</div>`)[0];
+            popup_2f9721322fa7424192ce193715412b5d.setContent(html_49c68337956a47ffa6203e1476df8f00);
+        
+
+        circle_marker_f1eaec756e1743caa5550c63512d85a0.bindPopup(popup_2f9721322fa7424192ce193715412b5d)
+        ;
+
+        
+    
+    
+            var circle_marker_47bc4103bbc940ff8d387960a87f122c = L.circleMarker(
+                [35.5700179, 126.8541828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_994449aa54954f069e12b04e13cd4dcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54e53dd4bacb4f71a5970e0c1dd875fe = $(`<div id="html_54e53dd4bacb4f71a5970e0c1dd875fe" style="width: 100.0%; height: 100.0%;">정읍곰두리스포츠센터</div>`)[0];
+            popup_994449aa54954f069e12b04e13cd4dcd.setContent(html_54e53dd4bacb4f71a5970e0c1dd875fe);
+        
+
+        circle_marker_47bc4103bbc940ff8d387960a87f122c.bindPopup(popup_994449aa54954f069e12b04e13cd4dcd)
+        ;
+
+        
+    
+    
+            var circle_marker_4ae1f47891ea4481a4b2da1b7524e61d = L.circleMarker(
+                [35.8050622, 126.8696584],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_e613e69004924376ac5faa04de97087c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e11875d33ca0431d9236a3e1edcdd24b = $(`<div id="html_e11875d33ca0431d9236a3e1edcdd24b" style="width: 100.0%; height: 100.0%;">김제시장애인체육관</div>`)[0];
+            popup_e613e69004924376ac5faa04de97087c.setContent(html_e11875d33ca0431d9236a3e1edcdd24b);
+        
+
+        circle_marker_4ae1f47891ea4481a4b2da1b7524e61d.bindPopup(popup_e613e69004924376ac5faa04de97087c)
+        ;
+
+        
+    
+    
+            var circle_marker_9c4de7f97e254f1f81e8f882f29fe9d8 = L.circleMarker(
+                [36.0098364, 126.7559977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_d87d1a80462041dfa9f57ae6e3945951 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61f629727faf40d2a631dc058b265622 = $(`<div id="html_61f629727faf40d2a631dc058b265622" style="width: 100.0%; height: 100.0%;">군산시애인체육관</div>`)[0];
+            popup_d87d1a80462041dfa9f57ae6e3945951.setContent(html_61f629727faf40d2a631dc058b265622);
+        
+
+        circle_marker_9c4de7f97e254f1f81e8f882f29fe9d8.bindPopup(popup_d87d1a80462041dfa9f57ae6e3945951)
+        ;
+
+        
+    
+    
+            var circle_marker_471691c2af854e848ae89e542acfc558 = L.circleMarker(
+                [35.854894099999996, 127.12362959999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f8470bb5e10c4d80a50ae00028cafa87);
+        
+    
+        var popup_9e9ee0e0ca224e11b7e66d643a038dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3af025185c08474eb7b23e42f5011837 = $(`<div id="html_3af025185c08474eb7b23e42f5011837" style="width: 100.0%; height: 100.0%;">전주어울림국민체육센터</div>`)[0];
+            popup_9e9ee0e0ca224e11b7e66d643a038dd3.setContent(html_3af025185c08474eb7b23e42f5011837);
+        
+
+        circle_marker_471691c2af854e848ae89e542acfc558.bindPopup(popup_9e9ee0e0ca224e11b7e66d643a038dd3)
+        ;
+
+        
+    
+</script>

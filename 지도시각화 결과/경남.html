@@ -1,0 +1,2723 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c1cabfb7bcc547dd8e7d8660527716df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c1cabfb7bcc547dd8e7d8660527716df" ></div>
+        
+</body>
+<script>    
+    
+            var map_c1cabfb7bcc547dd8e7d8660527716df = L.map(
+                "map_c1cabfb7bcc547dd8e7d8660527716df",
+                {
+                    center: [35.95, 128.25],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d116e65730a541379d7663fcd2678cd9 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+            var circle_marker_3cb0fb689a5c45eeb1ce0a6fedef29a3 = L.circleMarker(
+                [34.8693966, 128.646126],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_e2657a06391d457890625f9d069de419 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30cf740edc3643dd842543d9ca778633 = $(`<div id="html_30cf740edc3643dd842543d9ca778633" style="width: 100.0%; height: 100.0%;">거제시장애인복지관</div>`)[0];
+            popup_e2657a06391d457890625f9d069de419.setContent(html_30cf740edc3643dd842543d9ca778633);
+        
+
+        circle_marker_3cb0fb689a5c45eeb1ce0a6fedef29a3.bindPopup(popup_e2657a06391d457890625f9d069de419)
+        ;
+
+        
+    
+    
+            var circle_marker_06a97102c10a4200b04bbb398a13949a = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_b5563f37a3f948938f55a6eb41d33ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acc0c37481e241e991af6ce4b3f8e5cc = $(`<div id="html_acc0c37481e241e991af6ce4b3f8e5cc" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_b5563f37a3f948938f55a6eb41d33ea1.setContent(html_acc0c37481e241e991af6ce4b3f8e5cc);
+        
+
+        circle_marker_06a97102c10a4200b04bbb398a13949a.bindPopup(popup_b5563f37a3f948938f55a6eb41d33ea1)
+        ;
+
+        
+    
+    
+            var circle_marker_6f5b234d2d3e4c29a36b368c5482e754 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_02dc39bf89814f5982f80df59011eefc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04fda60f3ac142148c04ac5ff8190523 = $(`<div id="html_04fda60f3ac142148c04ac5ff8190523" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_02dc39bf89814f5982f80df59011eefc.setContent(html_04fda60f3ac142148c04ac5ff8190523);
+        
+
+        circle_marker_6f5b234d2d3e4c29a36b368c5482e754.bindPopup(popup_02dc39bf89814f5982f80df59011eefc)
+        ;
+
+        
+    
+    
+            var circle_marker_205aaa9eed93484fb45926308dd07327 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0626820ce434434d9bb9e3ad316797d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4becd9480e048dc97e3daca9ed14951 = $(`<div id="html_b4becd9480e048dc97e3daca9ed14951" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_0626820ce434434d9bb9e3ad316797d3.setContent(html_b4becd9480e048dc97e3daca9ed14951);
+        
+
+        circle_marker_205aaa9eed93484fb45926308dd07327.bindPopup(popup_0626820ce434434d9bb9e3ad316797d3)
+        ;
+
+        
+    
+    
+            var circle_marker_96ad4d37f1e5430b88bf99ad9e9818f5 = L.circleMarker(
+                [35.4846125, 128.7493163],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_70099cd294c2404c81009899e15d28f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97047cf2fe3b41ae8deda40b430f55fc = $(`<div id="html_97047cf2fe3b41ae8deda40b430f55fc" style="width: 100.0%; height: 100.0%;">밀양검도관</div>`)[0];
+            popup_70099cd294c2404c81009899e15d28f9.setContent(html_97047cf2fe3b41ae8deda40b430f55fc);
+        
+
+        circle_marker_96ad4d37f1e5430b88bf99ad9e9818f5.bindPopup(popup_70099cd294c2404c81009899e15d28f9)
+        ;
+
+        
+    
+    
+            var circle_marker_670e7c09475545b883a8e9e939f9863b = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_fed1e3569d4d4daab05e20b24174ef6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c5756bd3fe84f06afe79876e06c45b9 = $(`<div id="html_4c5756bd3fe84f06afe79876e06c45b9" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_fed1e3569d4d4daab05e20b24174ef6b.setContent(html_4c5756bd3fe84f06afe79876e06c45b9);
+        
+
+        circle_marker_670e7c09475545b883a8e9e939f9863b.bindPopup(popup_fed1e3569d4d4daab05e20b24174ef6b)
+        ;
+
+        
+    
+    
+            var circle_marker_a67798fbf76c465b8454683ce1baae2e = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_1733b6fde33341feab57da7c21eb2fda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_838881d857a24e5abb14820f47d7bf62 = $(`<div id="html_838881d857a24e5abb14820f47d7bf62" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_1733b6fde33341feab57da7c21eb2fda.setContent(html_838881d857a24e5abb14820f47d7bf62);
+        
+
+        circle_marker_a67798fbf76c465b8454683ce1baae2e.bindPopup(popup_1733b6fde33341feab57da7c21eb2fda)
+        ;
+
+        
+    
+    
+            var circle_marker_2f51190489c64b7bbfadff64e056d9fd = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_644dcf59f6d649f4b124d496be59f312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95f56fff1dc444a3a7cb36ea0d1f017d = $(`<div id="html_95f56fff1dc444a3a7cb36ea0d1f017d" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_644dcf59f6d649f4b124d496be59f312.setContent(html_95f56fff1dc444a3a7cb36ea0d1f017d);
+        
+
+        circle_marker_2f51190489c64b7bbfadff64e056d9fd.bindPopup(popup_644dcf59f6d649f4b124d496be59f312)
+        ;
+
+        
+    
+    
+            var circle_marker_fefda5636ab3406195e426f4532a8d34 = L.circleMarker(
+                [35.2467947, 128.6793481],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_1c0a764876564c978d368140ee3d2133 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e592b62a1d14acd8e1a29842222f585 = $(`<div id="html_4e592b62a1d14acd8e1a29842222f585" style="width: 100.0%; height: 100.0%;">함께걷는발달연구소</div>`)[0];
+            popup_1c0a764876564c978d368140ee3d2133.setContent(html_4e592b62a1d14acd8e1a29842222f585);
+        
+
+        circle_marker_fefda5636ab3406195e426f4532a8d34.bindPopup(popup_1c0a764876564c978d368140ee3d2133)
+        ;
+
+        
+    
+    
+            var circle_marker_de252620693845b889d11cb01228a99d = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_26309e85a41948f892390f00f40a0473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a335506f6564abe9a2a47a220f61a37 = $(`<div id="html_0a335506f6564abe9a2a47a220f61a37" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_26309e85a41948f892390f00f40a0473.setContent(html_0a335506f6564abe9a2a47a220f61a37);
+        
+
+        circle_marker_de252620693845b889d11cb01228a99d.bindPopup(popup_26309e85a41948f892390f00f40a0473)
+        ;
+
+        
+    
+    
+            var circle_marker_d5682a10cdac47f38def33f2f1acf005 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_748bb62f7fc4462ca89ca97825042dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ebe71998f641d6b75a472aaba537d2 = $(`<div id="html_e3ebe71998f641d6b75a472aaba537d2" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_748bb62f7fc4462ca89ca97825042dc7.setContent(html_e3ebe71998f641d6b75a472aaba537d2);
+        
+
+        circle_marker_d5682a10cdac47f38def33f2f1acf005.bindPopup(popup_748bb62f7fc4462ca89ca97825042dc7)
+        ;
+
+        
+    
+    
+            var circle_marker_ac03c9d7153047078b43aaedd74d5d5d = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_76f20321c52f4a8d9c52de056d34fcc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef4685e1146742b29c6178f314751948 = $(`<div id="html_ef4685e1146742b29c6178f314751948" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_76f20321c52f4a8d9c52de056d34fcc2.setContent(html_ef4685e1146742b29c6178f314751948);
+        
+
+        circle_marker_ac03c9d7153047078b43aaedd74d5d5d.bindPopup(popup_76f20321c52f4a8d9c52de056d34fcc2)
+        ;
+
+        
+    
+    
+            var circle_marker_b329b992f48841a1815384e6983e7428 = L.circleMarker(
+                [35.2545844, 128.61278000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_79358c39f69d44e2a0df4fca7877f144 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73bf2813fbf24007afc2ae5063426119 = $(`<div id="html_73bf2813fbf24007afc2ae5063426119" style="width: 100.0%; height: 100.0%;">샨티요가원</div>`)[0];
+            popup_79358c39f69d44e2a0df4fca7877f144.setContent(html_73bf2813fbf24007afc2ae5063426119);
+        
+
+        circle_marker_b329b992f48841a1815384e6983e7428.bindPopup(popup_79358c39f69d44e2a0df4fca7877f144)
+        ;
+
+        
+    
+    
+            var circle_marker_da6ae00d12264235a91cc79f87aafb30 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_1cdf0c7e1a5c4a0ab76214ddc66dee64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b539785138884979ba47b7a26a33bb33 = $(`<div id="html_b539785138884979ba47b7a26a33bb33" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_1cdf0c7e1a5c4a0ab76214ddc66dee64.setContent(html_b539785138884979ba47b7a26a33bb33);
+        
+
+        circle_marker_da6ae00d12264235a91cc79f87aafb30.bindPopup(popup_1cdf0c7e1a5c4a0ab76214ddc66dee64)
+        ;
+
+        
+    
+    
+            var circle_marker_2a6c08499c4847a28a52652ba36d2dad = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_14f4e01beb2e488c85e7c2dfb9e6d1e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e8deb64c142421198375383ce350fb5 = $(`<div id="html_7e8deb64c142421198375383ce350fb5" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_14f4e01beb2e488c85e7c2dfb9e6d1e7.setContent(html_7e8deb64c142421198375383ce350fb5);
+        
+
+        circle_marker_2a6c08499c4847a28a52652ba36d2dad.bindPopup(popup_14f4e01beb2e488c85e7c2dfb9e6d1e7)
+        ;
+
+        
+    
+    
+            var circle_marker_9e3173810cfc453eb31a3cf6d3dbcf63 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_ad3bc1b415e644e184e0acba81a16540 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_066e99c9962a49909fe72dfb9a0b2606 = $(`<div id="html_066e99c9962a49909fe72dfb9a0b2606" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_ad3bc1b415e644e184e0acba81a16540.setContent(html_066e99c9962a49909fe72dfb9a0b2606);
+        
+
+        circle_marker_9e3173810cfc453eb31a3cf6d3dbcf63.bindPopup(popup_ad3bc1b415e644e184e0acba81a16540)
+        ;
+
+        
+    
+    
+            var circle_marker_3916f4cb9d034484b55460b35a3b4f38 = L.circleMarker(
+                [35.1807905, 128.5597378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c666ac8121f94c9eb3fa664fcb0b327a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecb85b851758487da02b8716adbeff72 = $(`<div id="html_ecb85b851758487da02b8716adbeff72" style="width: 100.0%; height: 100.0%;">김탁구교실</div>`)[0];
+            popup_c666ac8121f94c9eb3fa664fcb0b327a.setContent(html_ecb85b851758487da02b8716adbeff72);
+        
+
+        circle_marker_3916f4cb9d034484b55460b35a3b4f38.bindPopup(popup_c666ac8121f94c9eb3fa664fcb0b327a)
+        ;
+
+        
+    
+    
+            var circle_marker_607aa70e5b6d4b7e8cfb43385a226a85 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_418797cb7ac44689a466e81a42e45adc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bad8c77cb5645a98412c61ee0d1ad2b = $(`<div id="html_8bad8c77cb5645a98412c61ee0d1ad2b" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_418797cb7ac44689a466e81a42e45adc.setContent(html_8bad8c77cb5645a98412c61ee0d1ad2b);
+        
+
+        circle_marker_607aa70e5b6d4b7e8cfb43385a226a85.bindPopup(popup_418797cb7ac44689a466e81a42e45adc)
+        ;
+
+        
+    
+    
+            var circle_marker_2b2f954133f549d0868c0b759019fc41 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c5a3e68093b242ee91609bacbce0014d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_420a10e260a1461186315ac63eb84e4d = $(`<div id="html_420a10e260a1461186315ac63eb84e4d" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_c5a3e68093b242ee91609bacbce0014d.setContent(html_420a10e260a1461186315ac63eb84e4d);
+        
+
+        circle_marker_2b2f954133f549d0868c0b759019fc41.bindPopup(popup_c5a3e68093b242ee91609bacbce0014d)
+        ;
+
+        
+    
+    
+            var circle_marker_282bf8aed5494879816a47a398acf072 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_2824007bea2d40ff92c547693ef08a1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b06d5a923aad4ba0bd18baaf00f0b3d5 = $(`<div id="html_b06d5a923aad4ba0bd18baaf00f0b3d5" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_2824007bea2d40ff92c547693ef08a1c.setContent(html_b06d5a923aad4ba0bd18baaf00f0b3d5);
+        
+
+        circle_marker_282bf8aed5494879816a47a398acf072.bindPopup(popup_2824007bea2d40ff92c547693ef08a1c)
+        ;
+
+        
+    
+    
+            var circle_marker_d54ac37eb16d49d082fb5dbc8bb138ca = L.circleMarker(
+                [34.8987349, 128.69384250000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_ed0dbced42dd429cb879686755f07e94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f39d2d21221444b8969b26b09ac4986c = $(`<div id="html_f39d2d21221444b8969b26b09ac4986c" style="width: 100.0%; height: 100.0%;">해동검도(거제)</div>`)[0];
+            popup_ed0dbced42dd429cb879686755f07e94.setContent(html_f39d2d21221444b8969b26b09ac4986c);
+        
+
+        circle_marker_d54ac37eb16d49d082fb5dbc8bb138ca.bindPopup(popup_ed0dbced42dd429cb879686755f07e94)
+        ;
+
+        
+    
+    
+            var circle_marker_d71279b42d5f4995bd664f02c26b4f6d = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c101e697546844ba8847733099e93593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a7f9e4f2f1e4ad182bb356c49aed84c = $(`<div id="html_9a7f9e4f2f1e4ad182bb356c49aed84c" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_c101e697546844ba8847733099e93593.setContent(html_9a7f9e4f2f1e4ad182bb356c49aed84c);
+        
+
+        circle_marker_d71279b42d5f4995bd664f02c26b4f6d.bindPopup(popup_c101e697546844ba8847733099e93593)
+        ;
+
+        
+    
+    
+            var circle_marker_a38c158555e2438cb2a17ae97f122afb = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_bfea313c20f34c438bfa239289d59a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83a3129ab1a34c4f8061951023d419ca = $(`<div id="html_83a3129ab1a34c4f8061951023d419ca" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_bfea313c20f34c438bfa239289d59a44.setContent(html_83a3129ab1a34c4f8061951023d419ca);
+        
+
+        circle_marker_a38c158555e2438cb2a17ae97f122afb.bindPopup(popup_bfea313c20f34c438bfa239289d59a44)
+        ;
+
+        
+    
+    
+            var circle_marker_8a54dc6573a245aebd6a6809670ab25c = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_60f1757f6b78401385d6a85b6ec08811 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d905296cec54266b8e14a84a7f4616a = $(`<div id="html_0d905296cec54266b8e14a84a7f4616a" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_60f1757f6b78401385d6a85b6ec08811.setContent(html_0d905296cec54266b8e14a84a7f4616a);
+        
+
+        circle_marker_8a54dc6573a245aebd6a6809670ab25c.bindPopup(popup_60f1757f6b78401385d6a85b6ec08811)
+        ;
+
+        
+    
+    
+            var circle_marker_83524dba20794dc392f993fa0561961b = L.circleMarker(
+                [35.2456395, 128.65947649999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_11c3b9c05c6e47a3b267f8b060713339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76779085336c45b8a32f98f61f548425 = $(`<div id="html_76779085336c45b8a32f98f61f548425" style="width: 100.0%; height: 100.0%;">해동검도(창원)</div>`)[0];
+            popup_11c3b9c05c6e47a3b267f8b060713339.setContent(html_76779085336c45b8a32f98f61f548425);
+        
+
+        circle_marker_83524dba20794dc392f993fa0561961b.bindPopup(popup_11c3b9c05c6e47a3b267f8b060713339)
+        ;
+
+        
+    
+    
+            var circle_marker_756d519274b74e66b81a13defeeaa683 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_ba2e5d0e83424115bea0b6f94d6c5a1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a54dbd40f46d47e09896cc073a0c36ee = $(`<div id="html_a54dbd40f46d47e09896cc073a0c36ee" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_ba2e5d0e83424115bea0b6f94d6c5a1c.setContent(html_a54dbd40f46d47e09896cc073a0c36ee);
+        
+
+        circle_marker_756d519274b74e66b81a13defeeaa683.bindPopup(popup_ba2e5d0e83424115bea0b6f94d6c5a1c)
+        ;
+
+        
+    
+    
+            var circle_marker_52a42f0f6f714ee3a101eeaaadce6c1b = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6060e4e3af6b44c990e4716074e46451 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4c26edf95404da1b98a82175e41bcde = $(`<div id="html_c4c26edf95404da1b98a82175e41bcde" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_6060e4e3af6b44c990e4716074e46451.setContent(html_c4c26edf95404da1b98a82175e41bcde);
+        
+
+        circle_marker_52a42f0f6f714ee3a101eeaaadce6c1b.bindPopup(popup_6060e4e3af6b44c990e4716074e46451)
+        ;
+
+        
+    
+    
+            var circle_marker_4274b21a62714efe967c8d04ec7a18d8 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_d1ad5e3a5a934edd9a57793a2d5ada59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1949320b911b4a1680188ef404ad2fc4 = $(`<div id="html_1949320b911b4a1680188ef404ad2fc4" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_d1ad5e3a5a934edd9a57793a2d5ada59.setContent(html_1949320b911b4a1680188ef404ad2fc4);
+        
+
+        circle_marker_4274b21a62714efe967c8d04ec7a18d8.bindPopup(popup_d1ad5e3a5a934edd9a57793a2d5ada59)
+        ;
+
+        
+    
+    
+            var circle_marker_b6b4bb014a524c7084ab33ca3f367977 = L.circleMarker(
+                [35.2628055, 128.8774767],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_d19f052a5b8946479878af0421d9778f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c1aae1d96024abcaf5f1d9ee8bf2d29 = $(`<div id="html_5c1aae1d96024abcaf5f1d9ee8bf2d29" style="width: 100.0%; height: 100.0%;">해동이국민체육센터</div>`)[0];
+            popup_d19f052a5b8946479878af0421d9778f.setContent(html_5c1aae1d96024abcaf5f1d9ee8bf2d29);
+        
+
+        circle_marker_b6b4bb014a524c7084ab33ca3f367977.bindPopup(popup_d19f052a5b8946479878af0421d9778f)
+        ;
+
+        
+    
+    
+            var circle_marker_1d54148b8703456baeb4d9a107b487eb = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_eba99c53225a48f2b6914e5aec0cc67c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_484a87fac94147f4bfd56bb790b57389 = $(`<div id="html_484a87fac94147f4bfd56bb790b57389" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_eba99c53225a48f2b6914e5aec0cc67c.setContent(html_484a87fac94147f4bfd56bb790b57389);
+        
+
+        circle_marker_1d54148b8703456baeb4d9a107b487eb.bindPopup(popup_eba99c53225a48f2b6914e5aec0cc67c)
+        ;
+
+        
+    
+    
+            var circle_marker_573aed918b1b48d5aea0c45a512e4bee = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c09e67c34d444119b157ec342d837131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12bd57e358164ff2b37f336dd63b63be = $(`<div id="html_12bd57e358164ff2b37f336dd63b63be" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_c09e67c34d444119b157ec342d837131.setContent(html_12bd57e358164ff2b37f336dd63b63be);
+        
+
+        circle_marker_573aed918b1b48d5aea0c45a512e4bee.bindPopup(popup_c09e67c34d444119b157ec342d837131)
+        ;
+
+        
+    
+    
+            var circle_marker_47df254410424cb59e033ce1e665b2c6 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_d3e2e9f4d6c94f6495e1c54bb6e0fba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1030da96ad240bd87344da87f09f5e9 = $(`<div id="html_c1030da96ad240bd87344da87f09f5e9" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_d3e2e9f4d6c94f6495e1c54bb6e0fba8.setContent(html_c1030da96ad240bd87344da87f09f5e9);
+        
+
+        circle_marker_47df254410424cb59e033ce1e665b2c6.bindPopup(popup_d3e2e9f4d6c94f6495e1c54bb6e0fba8)
+        ;
+
+        
+    
+    
+            var circle_marker_0405e967e25e48f9a88fb3ae4fcdde24 = L.circleMarker(
+                [35.4744107, 128.7670723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_deabdc3475cf4ce8aeb7ff82769aa143 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92f0d2b287454a8e8bb236f06045e8b8 = $(`<div id="html_92f0d2b287454a8e8bb236f06045e8b8" style="width: 100.0%; height: 100.0%;">경남태권도체육관</div>`)[0];
+            popup_deabdc3475cf4ce8aeb7ff82769aa143.setContent(html_92f0d2b287454a8e8bb236f06045e8b8);
+        
+
+        circle_marker_0405e967e25e48f9a88fb3ae4fcdde24.bindPopup(popup_deabdc3475cf4ce8aeb7ff82769aa143)
+        ;
+
+        
+    
+    
+            var circle_marker_1022a300a5c944029b385b03d53bcc24 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_516bff19c6f443a89d0667ee0fb8a51d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49066b7b6c59403ea681c1b8d430c98e = $(`<div id="html_49066b7b6c59403ea681c1b8d430c98e" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_516bff19c6f443a89d0667ee0fb8a51d.setContent(html_49066b7b6c59403ea681c1b8d430c98e);
+        
+
+        circle_marker_1022a300a5c944029b385b03d53bcc24.bindPopup(popup_516bff19c6f443a89d0667ee0fb8a51d)
+        ;
+
+        
+    
+    
+            var circle_marker_6e7aed64da7b4254b94b411e84752a2c = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_47eba31f8019421ebb63b0e9de710fa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f90acd21cea46a1b3372e8d25ff0da4 = $(`<div id="html_0f90acd21cea46a1b3372e8d25ff0da4" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_47eba31f8019421ebb63b0e9de710fa4.setContent(html_0f90acd21cea46a1b3372e8d25ff0da4);
+        
+
+        circle_marker_6e7aed64da7b4254b94b411e84752a2c.bindPopup(popup_47eba31f8019421ebb63b0e9de710fa4)
+        ;
+
+        
+    
+    
+            var circle_marker_39a1234bf99446ffa75e21d18a14f74c = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0d43e3926665404cb25557caf5e16fb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2dc2e42b07540ac89b2433de5e8ca81 = $(`<div id="html_b2dc2e42b07540ac89b2433de5e8ca81" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_0d43e3926665404cb25557caf5e16fb2.setContent(html_b2dc2e42b07540ac89b2433de5e8ca81);
+        
+
+        circle_marker_39a1234bf99446ffa75e21d18a14f74c.bindPopup(popup_0d43e3926665404cb25557caf5e16fb2)
+        ;
+
+        
+    
+    
+            var circle_marker_ca470c314d1c4835936471e531faf376 = L.circleMarker(
+                [35.4966196, 128.7461142],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_fd07c10605c84def9e70a190090a41cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df3ba3d3ab7c4526ba27ccf28f98b613 = $(`<div id="html_df3ba3d3ab7c4526ba27ccf28f98b613" style="width: 100.0%; height: 100.0%;">김봉준체육관</div>`)[0];
+            popup_fd07c10605c84def9e70a190090a41cd.setContent(html_df3ba3d3ab7c4526ba27ccf28f98b613);
+        
+
+        circle_marker_ca470c314d1c4835936471e531faf376.bindPopup(popup_fd07c10605c84def9e70a190090a41cd)
+        ;
+
+        
+    
+    
+            var circle_marker_d0666f7cbb594c96a2f150db9f937ca1 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_bc14d90ddc7b44a6b186c5eb20d21ccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd88c0a24b724823a76a495e4948139b = $(`<div id="html_dd88c0a24b724823a76a495e4948139b" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_bc14d90ddc7b44a6b186c5eb20d21ccd.setContent(html_dd88c0a24b724823a76a495e4948139b);
+        
+
+        circle_marker_d0666f7cbb594c96a2f150db9f937ca1.bindPopup(popup_bc14d90ddc7b44a6b186c5eb20d21ccd)
+        ;
+
+        
+    
+    
+            var circle_marker_bb7639f2305c4a27be20847d281e74f1 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_01d64498dac740c19a467ef9875926d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15fabc3a94744cee95fbc4b21c3c1ef9 = $(`<div id="html_15fabc3a94744cee95fbc4b21c3c1ef9" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_01d64498dac740c19a467ef9875926d5.setContent(html_15fabc3a94744cee95fbc4b21c3c1ef9);
+        
+
+        circle_marker_bb7639f2305c4a27be20847d281e74f1.bindPopup(popup_01d64498dac740c19a467ef9875926d5)
+        ;
+
+        
+    
+    
+            var circle_marker_6c042b1fdf234e6fa3231e234a6d5dec = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_1c9bd9afdc5b48f9866d50b2c64d28ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_612848e67b0742029f15b4797ccfa6cd = $(`<div id="html_612848e67b0742029f15b4797ccfa6cd" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_1c9bd9afdc5b48f9866d50b2c64d28ee.setContent(html_612848e67b0742029f15b4797ccfa6cd);
+        
+
+        circle_marker_6c042b1fdf234e6fa3231e234a6d5dec.bindPopup(popup_1c9bd9afdc5b48f9866d50b2c64d28ee)
+        ;
+
+        
+    
+    
+            var circle_marker_18c02627d80e4375ba1cfbd4917265bc = L.circleMarker(
+                [35.2354527, 128.88485740000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6b8e2d565b714e38aaa63689b775a206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fca79bfb7a74df1ae83bde5b929ea50 = $(`<div id="html_6fca79bfb7a74df1ae83bde5b929ea50" style="width: 100.0%; height: 100.0%;">동광태권도장</div>`)[0];
+            popup_6b8e2d565b714e38aaa63689b775a206.setContent(html_6fca79bfb7a74df1ae83bde5b929ea50);
+        
+
+        circle_marker_18c02627d80e4375ba1cfbd4917265bc.bindPopup(popup_6b8e2d565b714e38aaa63689b775a206)
+        ;
+
+        
+    
+    
+            var circle_marker_196d94cd1f054bb68103fcae1520b357 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_2f10eb3527244f9d9ef5977fa50e971b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d79b0e38eefe43cfba9c167a8a3e1658 = $(`<div id="html_d79b0e38eefe43cfba9c167a8a3e1658" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_2f10eb3527244f9d9ef5977fa50e971b.setContent(html_d79b0e38eefe43cfba9c167a8a3e1658);
+        
+
+        circle_marker_196d94cd1f054bb68103fcae1520b357.bindPopup(popup_2f10eb3527244f9d9ef5977fa50e971b)
+        ;
+
+        
+    
+    
+            var circle_marker_79a97628083c426faa4024a6e12de0c5 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_75b31d8ef8974e248ae370f8177e60d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29d0086baea94379b834a4396e47ca13 = $(`<div id="html_29d0086baea94379b834a4396e47ca13" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_75b31d8ef8974e248ae370f8177e60d1.setContent(html_29d0086baea94379b834a4396e47ca13);
+        
+
+        circle_marker_79a97628083c426faa4024a6e12de0c5.bindPopup(popup_75b31d8ef8974e248ae370f8177e60d1)
+        ;
+
+        
+    
+    
+            var circle_marker_eb75050c77e846138b1326fc39604957 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_9ca8b389c09740f2abaacff304590ef9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e62975efa6824646b65f586921a3e803 = $(`<div id="html_e62975efa6824646b65f586921a3e803" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_9ca8b389c09740f2abaacff304590ef9.setContent(html_e62975efa6824646b65f586921a3e803);
+        
+
+        circle_marker_eb75050c77e846138b1326fc39604957.bindPopup(popup_9ca8b389c09740f2abaacff304590ef9)
+        ;
+
+        
+    
+    
+            var circle_marker_ac6df4e8aa044fa2903e070dad0e3c3d = L.circleMarker(
+                [34.854062299999995, 128.4291325],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_69e84469a65c471ca7c001db7567ade3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d679a602d61245b4bda25c41386f32b7 = $(`<div id="html_d679a602d61245b4bda25c41386f32b7" style="width: 100.0%; height: 100.0%;">KAFA휘트니스</div>`)[0];
+            popup_69e84469a65c471ca7c001db7567ade3.setContent(html_d679a602d61245b4bda25c41386f32b7);
+        
+
+        circle_marker_ac6df4e8aa044fa2903e070dad0e3c3d.bindPopup(popup_69e84469a65c471ca7c001db7567ade3)
+        ;
+
+        
+    
+    
+            var circle_marker_b03a738756874e62afe069f9bf6cb93f = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_7eb568c72cdd4999b2946eb58a7dde47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_313c1117d69444b6a45593f28de811f4 = $(`<div id="html_313c1117d69444b6a45593f28de811f4" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_7eb568c72cdd4999b2946eb58a7dde47.setContent(html_313c1117d69444b6a45593f28de811f4);
+        
+
+        circle_marker_b03a738756874e62afe069f9bf6cb93f.bindPopup(popup_7eb568c72cdd4999b2946eb58a7dde47)
+        ;
+
+        
+    
+    
+            var circle_marker_94334d025a424b509793b111faacfa8e = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_01db0468d3f8415eb87ce8598b4e79e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_410a7056d0924f5093d33f3c1ed71f8b = $(`<div id="html_410a7056d0924f5093d33f3c1ed71f8b" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_01db0468d3f8415eb87ce8598b4e79e3.setContent(html_410a7056d0924f5093d33f3c1ed71f8b);
+        
+
+        circle_marker_94334d025a424b509793b111faacfa8e.bindPopup(popup_01db0468d3f8415eb87ce8598b4e79e3)
+        ;
+
+        
+    
+    
+            var circle_marker_0711603860ef45fa828b62898cb5fca1 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_086c7f42b4484e33be6bc15e4a56b738 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d803a62c2c074674a636618098e38edc = $(`<div id="html_d803a62c2c074674a636618098e38edc" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_086c7f42b4484e33be6bc15e4a56b738.setContent(html_d803a62c2c074674a636618098e38edc);
+        
+
+        circle_marker_0711603860ef45fa828b62898cb5fca1.bindPopup(popup_086c7f42b4484e33be6bc15e4a56b738)
+        ;
+
+        
+    
+    
+            var circle_marker_b56f9ad91e6b4c10a544dba998d972b6 = L.circleMarker(
+                [35.3082271, 128.7298955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_e9944f7358d54c8bbca32bf9564ce05c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7897e72b841b47c58fcf789b7898413b = $(`<div id="html_7897e72b841b47c58fcf789b7898413b" style="width: 100.0%; height: 100.0%;">커브스 진영클럽</div>`)[0];
+            popup_e9944f7358d54c8bbca32bf9564ce05c.setContent(html_7897e72b841b47c58fcf789b7898413b);
+        
+
+        circle_marker_b56f9ad91e6b4c10a544dba998d972b6.bindPopup(popup_e9944f7358d54c8bbca32bf9564ce05c)
+        ;
+
+        
+    
+    
+            var circle_marker_0c52e6d5935648dab7a85b6b63e8898f = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_b7d92940d2da4cd0b109d631fbb0ccd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c2eba944f474948a211a426af1e5e78 = $(`<div id="html_7c2eba944f474948a211a426af1e5e78" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_b7d92940d2da4cd0b109d631fbb0ccd3.setContent(html_7c2eba944f474948a211a426af1e5e78);
+        
+
+        circle_marker_0c52e6d5935648dab7a85b6b63e8898f.bindPopup(popup_b7d92940d2da4cd0b109d631fbb0ccd3)
+        ;
+
+        
+    
+    
+            var circle_marker_0254aa074edd47c1a63c333df19245d5 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_5bad421da69d46c7b5905a370ec190e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a73ec073638642d4999b74589dbf21a0 = $(`<div id="html_a73ec073638642d4999b74589dbf21a0" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_5bad421da69d46c7b5905a370ec190e5.setContent(html_a73ec073638642d4999b74589dbf21a0);
+        
+
+        circle_marker_0254aa074edd47c1a63c333df19245d5.bindPopup(popup_5bad421da69d46c7b5905a370ec190e5)
+        ;
+
+        
+    
+    
+            var circle_marker_d79a7a4acae147348e3182f226a39c81 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_07945290786b4cffb5089ae0dc91aee7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f70426d15ca4cbf884269e1221220a1 = $(`<div id="html_8f70426d15ca4cbf884269e1221220a1" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_07945290786b4cffb5089ae0dc91aee7.setContent(html_8f70426d15ca4cbf884269e1221220a1);
+        
+
+        circle_marker_d79a7a4acae147348e3182f226a39c81.bindPopup(popup_07945290786b4cffb5089ae0dc91aee7)
+        ;
+
+        
+    
+    
+            var circle_marker_241bf195968a4eb28b976b6e52d0c62e = L.circleMarker(
+                [35.2139783, 128.5723561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_53d81a9379134b6b91a993b71e3cfd74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f6336c1012d4b928a3abeb2ccbeb701 = $(`<div id="html_4f6336c1012d4b928a3abeb2ccbeb701" style="width: 100.0%; height: 100.0%;">마산고려도장</div>`)[0];
+            popup_53d81a9379134b6b91a993b71e3cfd74.setContent(html_4f6336c1012d4b928a3abeb2ccbeb701);
+        
+
+        circle_marker_241bf195968a4eb28b976b6e52d0c62e.bindPopup(popup_53d81a9379134b6b91a993b71e3cfd74)
+        ;
+
+        
+    
+    
+            var circle_marker_fa759c3702064d5cb0c8b8c66aefd427 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_9289e2203bef42f398f5829c7445f668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41cd408f39f648e5bf5636fd4b257014 = $(`<div id="html_41cd408f39f648e5bf5636fd4b257014" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_9289e2203bef42f398f5829c7445f668.setContent(html_41cd408f39f648e5bf5636fd4b257014);
+        
+
+        circle_marker_fa759c3702064d5cb0c8b8c66aefd427.bindPopup(popup_9289e2203bef42f398f5829c7445f668)
+        ;
+
+        
+    
+    
+            var circle_marker_45d13641ffe7443395556d984ed091bd = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_738d1142ed474a2bb8c615ece61a03d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0673dd3fc5ea4b5c8cee0f196cac15af = $(`<div id="html_0673dd3fc5ea4b5c8cee0f196cac15af" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_738d1142ed474a2bb8c615ece61a03d5.setContent(html_0673dd3fc5ea4b5c8cee0f196cac15af);
+        
+
+        circle_marker_45d13641ffe7443395556d984ed091bd.bindPopup(popup_738d1142ed474a2bb8c615ece61a03d5)
+        ;
+
+        
+    
+    
+            var circle_marker_576c0449c2b54f02b8d4869a28882487 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_f6e9233ab3ac4e1f9b7562a9835e9cf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06c0bbcfc82e4df0a64f43ed23180832 = $(`<div id="html_06c0bbcfc82e4df0a64f43ed23180832" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_f6e9233ab3ac4e1f9b7562a9835e9cf6.setContent(html_06c0bbcfc82e4df0a64f43ed23180832);
+        
+
+        circle_marker_576c0449c2b54f02b8d4869a28882487.bindPopup(popup_f6e9233ab3ac4e1f9b7562a9835e9cf6)
+        ;
+
+        
+    
+    
+            var circle_marker_9d7217a491b64dba91659f43900a20d4 = L.circleMarker(
+                [35.196061900000004, 128.567933],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_05390917dae24705a0db8fb86d27296b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5da12545db40467495449e062d60db26 = $(`<div id="html_5da12545db40467495449e062d60db26" style="width: 100.0%; height: 100.0%;">파샤발레댄스아카데미</div>`)[0];
+            popup_05390917dae24705a0db8fb86d27296b.setContent(html_5da12545db40467495449e062d60db26);
+        
+
+        circle_marker_9d7217a491b64dba91659f43900a20d4.bindPopup(popup_05390917dae24705a0db8fb86d27296b)
+        ;
+
+        
+    
+    
+            var circle_marker_52675b429bcc43bbaa5c8bd4d7fffefb = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_4c972c7fc8e94084b16842bbcc6280ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1c53d33757849e489f09770ce551102 = $(`<div id="html_c1c53d33757849e489f09770ce551102" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_4c972c7fc8e94084b16842bbcc6280ed.setContent(html_c1c53d33757849e489f09770ce551102);
+        
+
+        circle_marker_52675b429bcc43bbaa5c8bd4d7fffefb.bindPopup(popup_4c972c7fc8e94084b16842bbcc6280ed)
+        ;
+
+        
+    
+    
+            var circle_marker_87da1b6d3518455da9784405380516d7 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_ed18c98b1ce743c1be6504492065dfb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f93ae9660847454ba4244dcc6c29cccb = $(`<div id="html_f93ae9660847454ba4244dcc6c29cccb" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_ed18c98b1ce743c1be6504492065dfb9.setContent(html_f93ae9660847454ba4244dcc6c29cccb);
+        
+
+        circle_marker_87da1b6d3518455da9784405380516d7.bindPopup(popup_ed18c98b1ce743c1be6504492065dfb9)
+        ;
+
+        
+    
+    
+            var circle_marker_1fb50112087e407cba8589cc57b3ebea = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0d35d220413d487f92c86ff87d92b38c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b9003960ad64a049cd5fa855053e454 = $(`<div id="html_0b9003960ad64a049cd5fa855053e454" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_0d35d220413d487f92c86ff87d92b38c.setContent(html_0b9003960ad64a049cd5fa855053e454);
+        
+
+        circle_marker_1fb50112087e407cba8589cc57b3ebea.bindPopup(popup_0d35d220413d487f92c86ff87d92b38c)
+        ;
+
+        
+    
+    
+            var circle_marker_f7ca02bd2c2144f6b5bc4397d17e8507 = L.circleMarker(
+                [35.1773886, 128.8209133],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_7375228e277c4c23a8822a94bf040cae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ce7664938c9446fa276b74614537dde = $(`<div id="html_3ce7664938c9446fa276b74614537dde" style="width: 100.0%; height: 100.0%;">오름특수체육연구소</div>`)[0];
+            popup_7375228e277c4c23a8822a94bf040cae.setContent(html_3ce7664938c9446fa276b74614537dde);
+        
+
+        circle_marker_f7ca02bd2c2144f6b5bc4397d17e8507.bindPopup(popup_7375228e277c4c23a8822a94bf040cae)
+        ;
+
+        
+    
+    
+            var circle_marker_96d1b00d569b428b997f9f10a302f1d9 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_421409dae4784ceca896cae5e33ceed1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b468bc721d584db9987ead94918557b1 = $(`<div id="html_b468bc721d584db9987ead94918557b1" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_421409dae4784ceca896cae5e33ceed1.setContent(html_b468bc721d584db9987ead94918557b1);
+        
+
+        circle_marker_96d1b00d569b428b997f9f10a302f1d9.bindPopup(popup_421409dae4784ceca896cae5e33ceed1)
+        ;
+
+        
+    
+    
+            var circle_marker_39f1300cc022449b8a1735cdf95f0c6b = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6eb7b33fe6104c69af5421887606fa25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0473c8d41324d24a6997e081174f143 = $(`<div id="html_e0473c8d41324d24a6997e081174f143" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_6eb7b33fe6104c69af5421887606fa25.setContent(html_e0473c8d41324d24a6997e081174f143);
+        
+
+        circle_marker_39f1300cc022449b8a1735cdf95f0c6b.bindPopup(popup_6eb7b33fe6104c69af5421887606fa25)
+        ;
+
+        
+    
+    
+            var circle_marker_f62e15af33794e67ae7c989aa0c186da = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_003c28831b1440ac96029d581b3e227a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c295e2b6ab4f13b3d405d8ba2e05fe = $(`<div id="html_a2c295e2b6ab4f13b3d405d8ba2e05fe" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_003c28831b1440ac96029d581b3e227a.setContent(html_a2c295e2b6ab4f13b3d405d8ba2e05fe);
+        
+
+        circle_marker_f62e15af33794e67ae7c989aa0c186da.bindPopup(popup_003c28831b1440ac96029d581b3e227a)
+        ;
+
+        
+    
+    
+            var circle_marker_e80ee8024b5c41d8b4a8d8ae52fed890 = L.circleMarker(
+                [35.1341935, 128.71062849999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_d1329d28e3294035bab8c74c4beb86b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f71fe14e4554de087c3ec1aa30a092c = $(`<div id="html_5f71fe14e4554de087c3ec1aa30a092c" style="width: 100.0%; height: 100.0%;">진해장애인복지관부설장애아동발달지원센터</div>`)[0];
+            popup_d1329d28e3294035bab8c74c4beb86b5.setContent(html_5f71fe14e4554de087c3ec1aa30a092c);
+        
+
+        circle_marker_e80ee8024b5c41d8b4a8d8ae52fed890.bindPopup(popup_d1329d28e3294035bab8c74c4beb86b5)
+        ;
+
+        
+    
+    
+            var circle_marker_428e27a770f54340b80b25a60413cd71 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_5407e8773e8741ecbdee22d3aafe0ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b575127a4ee243739cc1c1680fff649d = $(`<div id="html_b575127a4ee243739cc1c1680fff649d" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_5407e8773e8741ecbdee22d3aafe0ae4.setContent(html_b575127a4ee243739cc1c1680fff649d);
+        
+
+        circle_marker_428e27a770f54340b80b25a60413cd71.bindPopup(popup_5407e8773e8741ecbdee22d3aafe0ae4)
+        ;
+
+        
+    
+    
+            var circle_marker_22e616e881cf4c99bfbca1ddd12b7d3e = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6e767e8d85484c2980848a98c3758fc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f2db8fb84aa4e21a3762b7a630256a4 = $(`<div id="html_5f2db8fb84aa4e21a3762b7a630256a4" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_6e767e8d85484c2980848a98c3758fc8.setContent(html_5f2db8fb84aa4e21a3762b7a630256a4);
+        
+
+        circle_marker_22e616e881cf4c99bfbca1ddd12b7d3e.bindPopup(popup_6e767e8d85484c2980848a98c3758fc8)
+        ;
+
+        
+    
+    
+            var circle_marker_05f8d0adfc0d4001acd634b1121aa445 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_1858f69385bd4cc4b826a613ba73e366 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9297e948eac14e418fda88cf5827e2cd = $(`<div id="html_9297e948eac14e418fda88cf5827e2cd" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_1858f69385bd4cc4b826a613ba73e366.setContent(html_9297e948eac14e418fda88cf5827e2cd);
+        
+
+        circle_marker_05f8d0adfc0d4001acd634b1121aa445.bindPopup(popup_1858f69385bd4cc4b826a613ba73e366)
+        ;
+
+        
+    
+    
+            var circle_marker_3666eccc467e477fb361fbf05c062c96 = L.circleMarker(
+                [35.155207700000005, 128.70657279999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_3630320609a54e7b96aa7e6432aa6aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93ec108853054f1b9c0f0d9cf6ca264d = $(`<div id="html_93ec108853054f1b9c0f0d9cf6ca264d" style="width: 100.0%; height: 100.0%;">진해국민체육센터</div>`)[0];
+            popup_3630320609a54e7b96aa7e6432aa6aa9.setContent(html_93ec108853054f1b9c0f0d9cf6ca264d);
+        
+
+        circle_marker_3666eccc467e477fb361fbf05c062c96.bindPopup(popup_3630320609a54e7b96aa7e6432aa6aa9)
+        ;
+
+        
+    
+    
+            var circle_marker_e77db4d56ae9471799dfa1107729c39d = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_4e8526339d7e470582da179fb8918cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ffc4f08a42a4164b0c79330ddbbac6e = $(`<div id="html_2ffc4f08a42a4164b0c79330ddbbac6e" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_4e8526339d7e470582da179fb8918cad.setContent(html_2ffc4f08a42a4164b0c79330ddbbac6e);
+        
+
+        circle_marker_e77db4d56ae9471799dfa1107729c39d.bindPopup(popup_4e8526339d7e470582da179fb8918cad)
+        ;
+
+        
+    
+    
+            var circle_marker_a0defc93169a469aad0049b0ef6493e9 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_a650c59e734046c68488c041f9e00f9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a599d52369244b3aaa41767b717af0f4 = $(`<div id="html_a599d52369244b3aaa41767b717af0f4" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_a650c59e734046c68488c041f9e00f9c.setContent(html_a599d52369244b3aaa41767b717af0f4);
+        
+
+        circle_marker_a0defc93169a469aad0049b0ef6493e9.bindPopup(popup_a650c59e734046c68488c041f9e00f9c)
+        ;
+
+        
+    
+    
+            var circle_marker_02f5832915084916b65b33d80a1b9b32 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_cfd1d5f8cc954d27ac449ea25e0262a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a2b582b3ca144aa84d147b1bb24250b = $(`<div id="html_6a2b582b3ca144aa84d147b1bb24250b" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_cfd1d5f8cc954d27ac449ea25e0262a7.setContent(html_6a2b582b3ca144aa84d147b1bb24250b);
+        
+
+        circle_marker_02f5832915084916b65b33d80a1b9b32.bindPopup(popup_cfd1d5f8cc954d27ac449ea25e0262a7)
+        ;
+
+        
+    
+    
+            var circle_marker_37c3de2502d34fa2ab77a52bbc2f4e1b = L.circleMarker(
+                [35.23949520000001, 128.9022838],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_158d811123bd41aba3ac4eba7fe335fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef954d4a50d64a3997494a7ccbe9c51d = $(`<div id="html_ef954d4a50d64a3997494a7ccbe9c51d" style="width: 100.0%; height: 100.0%;">진스드림스포츠</div>`)[0];
+            popup_158d811123bd41aba3ac4eba7fe335fb.setContent(html_ef954d4a50d64a3997494a7ccbe9c51d);
+        
+
+        circle_marker_37c3de2502d34fa2ab77a52bbc2f4e1b.bindPopup(popup_158d811123bd41aba3ac4eba7fe335fb)
+        ;
+
+        
+    
+    
+            var circle_marker_f167ef39a78d4281985290faf90f3acb = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_ed139444bdd24b1fa0e15d4a347e3d14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d009fc9c385644f0871b1b1ea236efb3 = $(`<div id="html_d009fc9c385644f0871b1b1ea236efb3" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_ed139444bdd24b1fa0e15d4a347e3d14.setContent(html_d009fc9c385644f0871b1b1ea236efb3);
+        
+
+        circle_marker_f167ef39a78d4281985290faf90f3acb.bindPopup(popup_ed139444bdd24b1fa0e15d4a347e3d14)
+        ;
+
+        
+    
+    
+            var circle_marker_a4b922f023024d09bb60b2324dc6372a = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_06250f00985a430082454cbf4a93ab86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41b11ac78eaa443d93383f56c834c5e9 = $(`<div id="html_41b11ac78eaa443d93383f56c834c5e9" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_06250f00985a430082454cbf4a93ab86.setContent(html_41b11ac78eaa443d93383f56c834c5e9);
+        
+
+        circle_marker_a4b922f023024d09bb60b2324dc6372a.bindPopup(popup_06250f00985a430082454cbf4a93ab86)
+        ;
+
+        
+    
+    
+            var circle_marker_5b2c422ce8ea440892668ebe54ed4196 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_fe9f4e20214b4c1b8ac177bfc10f4783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee8f04c9094b462d8345e2b82f464107 = $(`<div id="html_ee8f04c9094b462d8345e2b82f464107" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_fe9f4e20214b4c1b8ac177bfc10f4783.setContent(html_ee8f04c9094b462d8345e2b82f464107);
+        
+
+        circle_marker_5b2c422ce8ea440892668ebe54ed4196.bindPopup(popup_fe9f4e20214b4c1b8ac177bfc10f4783)
+        ;
+
+        
+    
+    
+            var circle_marker_990b181a1cbd4a11843d584d26a1ae84 = L.circleMarker(
+                [34.8934184, 128.6292985],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_270c9f2f3c164e44a1ab78e1293e058c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1908b1a6196b46ea9729458937e8c134 = $(`<div id="html_1908b1a6196b46ea9729458937e8c134" style="width: 100.0%; height: 100.0%;">으라차차거제합기도관</div>`)[0];
+            popup_270c9f2f3c164e44a1ab78e1293e058c.setContent(html_1908b1a6196b46ea9729458937e8c134);
+        
+
+        circle_marker_990b181a1cbd4a11843d584d26a1ae84.bindPopup(popup_270c9f2f3c164e44a1ab78e1293e058c)
+        ;
+
+        
+    
+    
+            var circle_marker_dd3d4d5c9cd04a00939d2b66ad65e55a = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_f0a7630827c24700a9e4cebb0a03296c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf30f8e237d34498a7b03bea4c36b9c6 = $(`<div id="html_cf30f8e237d34498a7b03bea4c36b9c6" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_f0a7630827c24700a9e4cebb0a03296c.setContent(html_cf30f8e237d34498a7b03bea4c36b9c6);
+        
+
+        circle_marker_dd3d4d5c9cd04a00939d2b66ad65e55a.bindPopup(popup_f0a7630827c24700a9e4cebb0a03296c)
+        ;
+
+        
+    
+    
+            var circle_marker_9091075b6f38413da52f91d159e5f2aa = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_4fb37f01eef44a3e8faca58fe7065dd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2416b11b9600461ea1ea47cb6b533ebc = $(`<div id="html_2416b11b9600461ea1ea47cb6b533ebc" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_4fb37f01eef44a3e8faca58fe7065dd0.setContent(html_2416b11b9600461ea1ea47cb6b533ebc);
+        
+
+        circle_marker_9091075b6f38413da52f91d159e5f2aa.bindPopup(popup_4fb37f01eef44a3e8faca58fe7065dd0)
+        ;
+
+        
+    
+    
+            var circle_marker_76994016ddb54f14bc5c1403cbb7adae = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0e26b17682b04b259d8ca5260e68508f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46ce25f21ab443d7be859eccf52cd8cc = $(`<div id="html_46ce25f21ab443d7be859eccf52cd8cc" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_0e26b17682b04b259d8ca5260e68508f.setContent(html_46ce25f21ab443d7be859eccf52cd8cc);
+        
+
+        circle_marker_76994016ddb54f14bc5c1403cbb7adae.bindPopup(popup_0e26b17682b04b259d8ca5260e68508f)
+        ;
+
+        
+    
+    
+            var circle_marker_ca97b69fcbc643129d936b5e843135f1 = L.circleMarker(
+                [35.1429604, 128.704051],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_14d87d2c57a24cc7ab6c62f60cc5240f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8bb33f628da43e3aad82b9527e464dc = $(`<div id="html_e8bb33f628da43e3aad82b9527e464dc" style="width: 100.0%; height: 100.0%;">리틀짐스쿨 태권&댄스</div>`)[0];
+            popup_14d87d2c57a24cc7ab6c62f60cc5240f.setContent(html_e8bb33f628da43e3aad82b9527e464dc);
+        
+
+        circle_marker_ca97b69fcbc643129d936b5e843135f1.bindPopup(popup_14d87d2c57a24cc7ab6c62f60cc5240f)
+        ;
+
+        
+    
+    
+            var circle_marker_49870f45cfb749c5936ae02fb963d3cd = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_f8651b81ea844da196e57b06d368b480 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe979c7eaec4dcfb77061ee157b8511 = $(`<div id="html_bfe979c7eaec4dcfb77061ee157b8511" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_f8651b81ea844da196e57b06d368b480.setContent(html_bfe979c7eaec4dcfb77061ee157b8511);
+        
+
+        circle_marker_49870f45cfb749c5936ae02fb963d3cd.bindPopup(popup_f8651b81ea844da196e57b06d368b480)
+        ;
+
+        
+    
+    
+            var circle_marker_ad804cd5be954e5d8cdb1f69828f0e2b = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_a3eb4921a95746ba95e94f452fd67d77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e44fa72c02e942a9a221c629456009cc = $(`<div id="html_e44fa72c02e942a9a221c629456009cc" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_a3eb4921a95746ba95e94f452fd67d77.setContent(html_e44fa72c02e942a9a221c629456009cc);
+        
+
+        circle_marker_ad804cd5be954e5d8cdb1f69828f0e2b.bindPopup(popup_a3eb4921a95746ba95e94f452fd67d77)
+        ;
+
+        
+    
+    
+            var circle_marker_9824d15588294014840af603ae519b0a = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_43f6499be28948b3af45c1320e2321ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_836b18bd3daa454182042fc7bf7b7995 = $(`<div id="html_836b18bd3daa454182042fc7bf7b7995" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_43f6499be28948b3af45c1320e2321ca.setContent(html_836b18bd3daa454182042fc7bf7b7995);
+        
+
+        circle_marker_9824d15588294014840af603ae519b0a.bindPopup(popup_43f6499be28948b3af45c1320e2321ca)
+        ;
+
+        
+    
+    
+            var circle_marker_897f101591cc4df88151c4afc97946fc = L.circleMarker(
+                [34.880969, 128.41412069999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_259dd65d3ce442a695c5fa7c4ae2b24b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b41a7bfbb9cd45c5a8ae1265baeb6a6d = $(`<div id="html_b41a7bfbb9cd45c5a8ae1265baeb6a6d" style="width: 100.0%; height: 100.0%;">JB스포츠클럽 죽림점</div>`)[0];
+            popup_259dd65d3ce442a695c5fa7c4ae2b24b.setContent(html_b41a7bfbb9cd45c5a8ae1265baeb6a6d);
+        
+
+        circle_marker_897f101591cc4df88151c4afc97946fc.bindPopup(popup_259dd65d3ce442a695c5fa7c4ae2b24b)
+        ;
+
+        
+    
+    
+            var circle_marker_5d09cd045d2b4812a9a8d2ee05ec5a45 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_fe82a9be66074627a939328e3ac03a07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ea22df497294c118f6d2009d4a8e307 = $(`<div id="html_3ea22df497294c118f6d2009d4a8e307" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_fe82a9be66074627a939328e3ac03a07.setContent(html_3ea22df497294c118f6d2009d4a8e307);
+        
+
+        circle_marker_5d09cd045d2b4812a9a8d2ee05ec5a45.bindPopup(popup_fe82a9be66074627a939328e3ac03a07)
+        ;
+
+        
+    
+    
+            var circle_marker_be2c4600797645759d467c24d0a6316b = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_99f564ba860541c482f2a9c49a8e3671 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d3ef473fca84dba952c4b6e0fea8fa9 = $(`<div id="html_3d3ef473fca84dba952c4b6e0fea8fa9" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_99f564ba860541c482f2a9c49a8e3671.setContent(html_3d3ef473fca84dba952c4b6e0fea8fa9);
+        
+
+        circle_marker_be2c4600797645759d467c24d0a6316b.bindPopup(popup_99f564ba860541c482f2a9c49a8e3671)
+        ;
+
+        
+    
+    
+            var circle_marker_4bda67a1357d4de0880f19e887118eff = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_dec3bb072a094afbaeddec3a48116f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_907ad29aa48846489c5e12f78a3e8b8e = $(`<div id="html_907ad29aa48846489c5e12f78a3e8b8e" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_dec3bb072a094afbaeddec3a48116f08.setContent(html_907ad29aa48846489c5e12f78a3e8b8e);
+        
+
+        circle_marker_4bda67a1357d4de0880f19e887118eff.bindPopup(popup_dec3bb072a094afbaeddec3a48116f08)
+        ;
+
+        
+    
+    
+            var circle_marker_1bd422504a0c4fe2878616d05976f425 = L.circleMarker(
+                [35.176390600000005, 128.1116293],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_42a0bbd4b1504de28b99a7abd84522b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b31bde9885bd4f31b6c2a5d972577cf7 = $(`<div id="html_b31bde9885bd4f31b6c2a5d972577cf7" style="width: 100.0%; height: 100.0%;">좋은바디운동교정원gbec</div>`)[0];
+            popup_42a0bbd4b1504de28b99a7abd84522b0.setContent(html_b31bde9885bd4f31b6c2a5d972577cf7);
+        
+
+        circle_marker_1bd422504a0c4fe2878616d05976f425.bindPopup(popup_42a0bbd4b1504de28b99a7abd84522b0)
+        ;
+
+        
+    
+    
+            var circle_marker_7508a1a33f484d199a372f4bcf8aeced = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6f09ad67abea4e3088fce870ba511665 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc7950e05cf246579b976ffea844d6ff = $(`<div id="html_dc7950e05cf246579b976ffea844d6ff" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_6f09ad67abea4e3088fce870ba511665.setContent(html_dc7950e05cf246579b976ffea844d6ff);
+        
+
+        circle_marker_7508a1a33f484d199a372f4bcf8aeced.bindPopup(popup_6f09ad67abea4e3088fce870ba511665)
+        ;
+
+        
+    
+    
+            var circle_marker_d9475e162195432eb42a4ce4e2cdff29 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_da6f302198664262b979427006af3172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87a7ba7a5a5d487c93e8fd901bf3ae10 = $(`<div id="html_87a7ba7a5a5d487c93e8fd901bf3ae10" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_da6f302198664262b979427006af3172.setContent(html_87a7ba7a5a5d487c93e8fd901bf3ae10);
+        
+
+        circle_marker_d9475e162195432eb42a4ce4e2cdff29.bindPopup(popup_da6f302198664262b979427006af3172)
+        ;
+
+        
+    
+    
+            var circle_marker_51a6b3ce0f744cdea9e764fd25810044 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_38aa3de2e17b4cc78bcb30d24b015156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63b9f22dbd543f898db18aef143e795 = $(`<div id="html_d63b9f22dbd543f898db18aef143e795" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_38aa3de2e17b4cc78bcb30d24b015156.setContent(html_d63b9f22dbd543f898db18aef143e795);
+        
+
+        circle_marker_51a6b3ce0f744cdea9e764fd25810044.bindPopup(popup_38aa3de2e17b4cc78bcb30d24b015156)
+        ;
+
+        
+    
+    
+            var circle_marker_4c8510d092654fffa0ce629e3bc70750 = L.circleMarker(
+                [35.23210529999999, 128.8645328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6b5669e4c9994d01805637ec6555a7e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ce56668a5304f239b46d49be3fb14b6 = $(`<div id="html_1ce56668a5304f239b46d49be3fb14b6" style="width: 100.0%; height: 100.0%;">일동태권도장</div>`)[0];
+            popup_6b5669e4c9994d01805637ec6555a7e9.setContent(html_1ce56668a5304f239b46d49be3fb14b6);
+        
+
+        circle_marker_4c8510d092654fffa0ce629e3bc70750.bindPopup(popup_6b5669e4c9994d01805637ec6555a7e9)
+        ;
+
+        
+    
+    
+            var circle_marker_6e1e480347de4313938281859f664c75 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_3d382df189014924ae97228fbb990159 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86912d030df54745bb92fad49708736a = $(`<div id="html_86912d030df54745bb92fad49708736a" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_3d382df189014924ae97228fbb990159.setContent(html_86912d030df54745bb92fad49708736a);
+        
+
+        circle_marker_6e1e480347de4313938281859f664c75.bindPopup(popup_3d382df189014924ae97228fbb990159)
+        ;
+
+        
+    
+    
+            var circle_marker_7dfeb2bcc1204b299cb736351004644e = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_508372afa9444756bb437f336c7c6ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2ceb97f1f464b289fd32446152b7880 = $(`<div id="html_a2ceb97f1f464b289fd32446152b7880" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_508372afa9444756bb437f336c7c6ed2.setContent(html_a2ceb97f1f464b289fd32446152b7880);
+        
+
+        circle_marker_7dfeb2bcc1204b299cb736351004644e.bindPopup(popup_508372afa9444756bb437f336c7c6ed2)
+        ;
+
+        
+    
+    
+            var circle_marker_8dde0dbf63f54f7695dfe33ce30f5490 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_f63e4630cbd448a4bd0de7b8271190db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22aff3a4217242a6ad0260d8af2162c2 = $(`<div id="html_22aff3a4217242a6ad0260d8af2162c2" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_f63e4630cbd448a4bd0de7b8271190db.setContent(html_22aff3a4217242a6ad0260d8af2162c2);
+        
+
+        circle_marker_8dde0dbf63f54f7695dfe33ce30f5490.bindPopup(popup_f63e4630cbd448a4bd0de7b8271190db)
+        ;
+
+        
+    
+    
+            var circle_marker_fcdbe887070a4b08b48e916dee3f927f = L.circleMarker(
+                [35.2317047, 128.5047037],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_2959afc982584e3790d60eff181d95b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc3d2ed0a154411ba64a9bd61fa68259 = $(`<div id="html_bc3d2ed0a154411ba64a9bd61fa68259" style="width: 100.0%; height: 100.0%;">리오실내골프연습장</div>`)[0];
+            popup_2959afc982584e3790d60eff181d95b6.setContent(html_bc3d2ed0a154411ba64a9bd61fa68259);
+        
+
+        circle_marker_fcdbe887070a4b08b48e916dee3f927f.bindPopup(popup_2959afc982584e3790d60eff181d95b6)
+        ;
+
+        
+    
+    
+            var circle_marker_47f30b2b52dd412cae5ddf2fb45e4545 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_58d17ffe99d1467e9d25a018c35fab20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4405ca8dc9d6416087dc767c4a45da88 = $(`<div id="html_4405ca8dc9d6416087dc767c4a45da88" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_58d17ffe99d1467e9d25a018c35fab20.setContent(html_4405ca8dc9d6416087dc767c4a45da88);
+        
+
+        circle_marker_47f30b2b52dd412cae5ddf2fb45e4545.bindPopup(popup_58d17ffe99d1467e9d25a018c35fab20)
+        ;
+
+        
+    
+    
+            var circle_marker_09a14a9ab7cb4cf1b2e9e5f65b391e91 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_263163f4cb0d4812be3153adfa82aed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36337e596cad43f59ea3ae9fb8c8c81d = $(`<div id="html_36337e596cad43f59ea3ae9fb8c8c81d" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_263163f4cb0d4812be3153adfa82aed7.setContent(html_36337e596cad43f59ea3ae9fb8c8c81d);
+        
+
+        circle_marker_09a14a9ab7cb4cf1b2e9e5f65b391e91.bindPopup(popup_263163f4cb0d4812be3153adfa82aed7)
+        ;
+
+        
+    
+    
+            var circle_marker_6fe4b4ac51114bbbbbeedc16f58d0787 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_866c6875f3de4df2b2295eb6e589ca63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8b9dcd749cb4c708c2e8b0259d5a4ae = $(`<div id="html_f8b9dcd749cb4c708c2e8b0259d5a4ae" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_866c6875f3de4df2b2295eb6e589ca63.setContent(html_f8b9dcd749cb4c708c2e8b0259d5a4ae);
+        
+
+        circle_marker_6fe4b4ac51114bbbbbeedc16f58d0787.bindPopup(popup_866c6875f3de4df2b2295eb6e589ca63)
+        ;
+
+        
+    
+    
+            var circle_marker_e3e27f3b29714418869a7a50e2de739b = L.circleMarker(
+                [35.149966799999994, 128.71091299999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0372e3e9cc834ca0bb65b967c1965390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abcb0cec83874bb9b54ad7e7be4d694d = $(`<div id="html_abcb0cec83874bb9b54ad7e7be4d694d" style="width: 100.0%; height: 100.0%;">베스트헬스</div>`)[0];
+            popup_0372e3e9cc834ca0bb65b967c1965390.setContent(html_abcb0cec83874bb9b54ad7e7be4d694d);
+        
+
+        circle_marker_e3e27f3b29714418869a7a50e2de739b.bindPopup(popup_0372e3e9cc834ca0bb65b967c1965390)
+        ;
+
+        
+    
+    
+            var circle_marker_46e2f316a3cf4346a81ab74ee721aa4c = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_86fec9d6e30448f69c2b61fde135b9fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_620a6944ac1d4ded91de8bb236e6c560 = $(`<div id="html_620a6944ac1d4ded91de8bb236e6c560" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_86fec9d6e30448f69c2b61fde135b9fe.setContent(html_620a6944ac1d4ded91de8bb236e6c560);
+        
+
+        circle_marker_46e2f316a3cf4346a81ab74ee721aa4c.bindPopup(popup_86fec9d6e30448f69c2b61fde135b9fe)
+        ;
+
+        
+    
+    
+            var circle_marker_8d14d2802a8a4584a38c150ae552a98a = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_b6c046e2a27d4a98a844d824fc299f3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ffd92c4cb07449e895420671b07d9b9 = $(`<div id="html_6ffd92c4cb07449e895420671b07d9b9" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_b6c046e2a27d4a98a844d824fc299f3f.setContent(html_6ffd92c4cb07449e895420671b07d9b9);
+        
+
+        circle_marker_8d14d2802a8a4584a38c150ae552a98a.bindPopup(popup_b6c046e2a27d4a98a844d824fc299f3f)
+        ;
+
+        
+    
+    
+            var circle_marker_b30a1ee4e5a14bff824f83078520d919 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_e27eee863c884db2aecb190d9188bb59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b852c6b092644449cb68fa4c18360be = $(`<div id="html_8b852c6b092644449cb68fa4c18360be" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_e27eee863c884db2aecb190d9188bb59.setContent(html_8b852c6b092644449cb68fa4c18360be);
+        
+
+        circle_marker_b30a1ee4e5a14bff824f83078520d919.bindPopup(popup_e27eee863c884db2aecb190d9188bb59)
+        ;
+
+        
+    
+    
+            var circle_marker_43ade9a0c2c14295b4021ed291199caa = L.circleMarker(
+                [35.201777299999996, 128.5591629],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_5bd93551dd3546fb8a103e317c87d469 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3fff3e85dc14ae1bd50a797a971c824 = $(`<div id="html_f3fff3e85dc14ae1bd50a797a971c824" style="width: 100.0%; height: 100.0%;">무궁화체육관(태권도)</div>`)[0];
+            popup_5bd93551dd3546fb8a103e317c87d469.setContent(html_f3fff3e85dc14ae1bd50a797a971c824);
+        
+
+        circle_marker_43ade9a0c2c14295b4021ed291199caa.bindPopup(popup_5bd93551dd3546fb8a103e317c87d469)
+        ;
+
+        
+    
+    
+            var circle_marker_5e91a19a669544aaa331ceda1b2292e4 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_01162bf7ffe4418ead6c77091ef89300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf152762e4cf4218bf6993d1d4068730 = $(`<div id="html_bf152762e4cf4218bf6993d1d4068730" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_01162bf7ffe4418ead6c77091ef89300.setContent(html_bf152762e4cf4218bf6993d1d4068730);
+        
+
+        circle_marker_5e91a19a669544aaa331ceda1b2292e4.bindPopup(popup_01162bf7ffe4418ead6c77091ef89300)
+        ;
+
+        
+    
+    
+            var circle_marker_3242ff25ab5b4c4587e5cd308dda9c49 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_fa050446e54949b4aaa7aabbaf65fda2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df4b31c364e14777a30b0015ae2f9e7a = $(`<div id="html_df4b31c364e14777a30b0015ae2f9e7a" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_fa050446e54949b4aaa7aabbaf65fda2.setContent(html_df4b31c364e14777a30b0015ae2f9e7a);
+        
+
+        circle_marker_3242ff25ab5b4c4587e5cd308dda9c49.bindPopup(popup_fa050446e54949b4aaa7aabbaf65fda2)
+        ;
+
+        
+    
+    
+            var circle_marker_c6b44d328d89450a9e478f7cafd611fd = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c84de755fa3e4216ac17eaaf1fd1cd86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97d15c5b6bb141df80591106590a82c8 = $(`<div id="html_97d15c5b6bb141df80591106590a82c8" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_c84de755fa3e4216ac17eaaf1fd1cd86.setContent(html_97d15c5b6bb141df80591106590a82c8);
+        
+
+        circle_marker_c6b44d328d89450a9e478f7cafd611fd.bindPopup(popup_c84de755fa3e4216ac17eaaf1fd1cd86)
+        ;
+
+        
+    
+    
+            var circle_marker_a8e325289dab4c56af0f4ba42fcc4000 = L.circleMarker(
+                [34.8671156, 128.72313909999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_d06efb516f2242dabf73ea25bfd1fd72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b67b77c8e21f4ba08d8e745068ca698f = $(`<div id="html_b67b77c8e21f4ba08d8e745068ca698f" style="width: 100.0%; height: 100.0%;">거제시체육회 수영장</div>`)[0];
+            popup_d06efb516f2242dabf73ea25bfd1fd72.setContent(html_b67b77c8e21f4ba08d8e745068ca698f);
+        
+
+        circle_marker_a8e325289dab4c56af0f4ba42fcc4000.bindPopup(popup_d06efb516f2242dabf73ea25bfd1fd72)
+        ;
+
+        
+    
+    
+            var circle_marker_05e56982fb534701bc0007c11274b2c3 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_3f54dfdb75444c09952b46a71389be3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b78a41a88004fc08ddc071215d230c5 = $(`<div id="html_8b78a41a88004fc08ddc071215d230c5" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_3f54dfdb75444c09952b46a71389be3e.setContent(html_8b78a41a88004fc08ddc071215d230c5);
+        
+
+        circle_marker_05e56982fb534701bc0007c11274b2c3.bindPopup(popup_3f54dfdb75444c09952b46a71389be3e)
+        ;
+
+        
+    
+    
+            var circle_marker_059d70ea27e94245910dc7b225189072 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6ff0264f921f418c8c8cbaf70ec8b59b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d90f3cf0caa446ea1ee89e9a9841053 = $(`<div id="html_7d90f3cf0caa446ea1ee89e9a9841053" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_6ff0264f921f418c8c8cbaf70ec8b59b.setContent(html_7d90f3cf0caa446ea1ee89e9a9841053);
+        
+
+        circle_marker_059d70ea27e94245910dc7b225189072.bindPopup(popup_6ff0264f921f418c8c8cbaf70ec8b59b)
+        ;
+
+        
+    
+    
+            var circle_marker_4e5e7da8c9c142eeb075fbbf77393f9a = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_7b7c370b29694f128966574a87c4949d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a295f171820441abf29b3e0fe874b58 = $(`<div id="html_3a295f171820441abf29b3e0fe874b58" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_7b7c370b29694f128966574a87c4949d.setContent(html_3a295f171820441abf29b3e0fe874b58);
+        
+
+        circle_marker_4e5e7da8c9c142eeb075fbbf77393f9a.bindPopup(popup_7b7c370b29694f128966574a87c4949d)
+        ;
+
+        
+    
+    
+            var circle_marker_3ea560f71e9249eea5e05a7c51efef99 = L.circleMarker(
+                [34.849895200000006, 128.4104467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_d4666ad7c73f4f289a6a79dc51186762 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_578301e7753e4e949544b0c91868e445 = $(`<div id="html_578301e7753e4e949544b0c91868e445" style="width: 100.0%; height: 100.0%;">박미자심리운동발달센터</div>`)[0];
+            popup_d4666ad7c73f4f289a6a79dc51186762.setContent(html_578301e7753e4e949544b0c91868e445);
+        
+
+        circle_marker_3ea560f71e9249eea5e05a7c51efef99.bindPopup(popup_d4666ad7c73f4f289a6a79dc51186762)
+        ;
+
+        
+    
+    
+            var circle_marker_18f8dbc65e534014981686304986cff6 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_bf3c8c66e2114965b9fa8ed3320c9bea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1edaa92a48aa41c58e3ffc75d8af8091 = $(`<div id="html_1edaa92a48aa41c58e3ffc75d8af8091" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_bf3c8c66e2114965b9fa8ed3320c9bea.setContent(html_1edaa92a48aa41c58e3ffc75d8af8091);
+        
+
+        circle_marker_18f8dbc65e534014981686304986cff6.bindPopup(popup_bf3c8c66e2114965b9fa8ed3320c9bea)
+        ;
+
+        
+    
+    
+            var circle_marker_c5ca6bd7d6bc478387d843f5ad486520 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6e2fcaae50b3476ca626cca4addedb5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f052c94ff926462d893f073378ac6f6a = $(`<div id="html_f052c94ff926462d893f073378ac6f6a" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_6e2fcaae50b3476ca626cca4addedb5f.setContent(html_f052c94ff926462d893f073378ac6f6a);
+        
+
+        circle_marker_c5ca6bd7d6bc478387d843f5ad486520.bindPopup(popup_6e2fcaae50b3476ca626cca4addedb5f)
+        ;
+
+        
+    
+    
+            var circle_marker_a9b53951192e442e970e9e1a5a84cf1c = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_f7c41a4980d5476eae8ab0b9c3c69c2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_807af28c39a04563b79c550ea07ac67d = $(`<div id="html_807af28c39a04563b79c550ea07ac67d" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_f7c41a4980d5476eae8ab0b9c3c69c2e.setContent(html_807af28c39a04563b79c550ea07ac67d);
+        
+
+        circle_marker_a9b53951192e442e970e9e1a5a84cf1c.bindPopup(popup_f7c41a4980d5476eae8ab0b9c3c69c2e)
+        ;
+
+        
+    
+    
+            var circle_marker_94d23cf047c743ca98315a0d3fbbb27d = L.circleMarker(
+                [35.1797591, 128.56247549999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_7b9d934d183144e6bb2cd4a2fa38e80b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf25f446f8b44052a6096ede73c071b5 = $(`<div id="html_bf25f446f8b44052a6096ede73c071b5" style="width: 100.0%; height: 100.0%;">한진태권도장</div>`)[0];
+            popup_7b9d934d183144e6bb2cd4a2fa38e80b.setContent(html_bf25f446f8b44052a6096ede73c071b5);
+        
+
+        circle_marker_94d23cf047c743ca98315a0d3fbbb27d.bindPopup(popup_7b9d934d183144e6bb2cd4a2fa38e80b)
+        ;
+
+        
+    
+    
+            var circle_marker_9466529659f2476d9300148e8c4668d8 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_60f1dd5ec6d3410bb986eae2c53ccf2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd517c094a3c4c1e840f96671df47649 = $(`<div id="html_cd517c094a3c4c1e840f96671df47649" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_60f1dd5ec6d3410bb986eae2c53ccf2f.setContent(html_cd517c094a3c4c1e840f96671df47649);
+        
+
+        circle_marker_9466529659f2476d9300148e8c4668d8.bindPopup(popup_60f1dd5ec6d3410bb986eae2c53ccf2f)
+        ;
+
+        
+    
+    
+            var circle_marker_baeaa8509ca64e5faa5ab1053976de8c = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_17c880ee1ffe4578961d938379314c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22613987bbda43079f5b374ede5d19b4 = $(`<div id="html_22613987bbda43079f5b374ede5d19b4" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_17c880ee1ffe4578961d938379314c55.setContent(html_22613987bbda43079f5b374ede5d19b4);
+        
+
+        circle_marker_baeaa8509ca64e5faa5ab1053976de8c.bindPopup(popup_17c880ee1ffe4578961d938379314c55)
+        ;
+
+        
+    
+    
+            var circle_marker_e818d99d859642da8bc0f230ac023c04 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_5a9502ad53e8414390a852d812b874d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3b4f0b10a5f4a2f9ef8c342ce9cf4bd = $(`<div id="html_e3b4f0b10a5f4a2f9ef8c342ce9cf4bd" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_5a9502ad53e8414390a852d812b874d6.setContent(html_e3b4f0b10a5f4a2f9ef8c342ce9cf4bd);
+        
+
+        circle_marker_e818d99d859642da8bc0f230ac023c04.bindPopup(popup_5a9502ad53e8414390a852d812b874d6)
+        ;
+
+        
+    
+    
+            var circle_marker_5dae9238da044e00b9ba655e69b9db1a = L.circleMarker(
+                [35.494577299999996, 128.7510491],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c9c1ebf2832843c28d7b5768b67930b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b7e43fa14e144bca0920d15da023da0 = $(`<div id="html_7b7e43fa14e144bca0920d15da023da0" style="width: 100.0%; height: 100.0%;">포텐터짐&팀gj</div>`)[0];
+            popup_c9c1ebf2832843c28d7b5768b67930b7.setContent(html_7b7e43fa14e144bca0920d15da023da0);
+        
+
+        circle_marker_5dae9238da044e00b9ba655e69b9db1a.bindPopup(popup_c9c1ebf2832843c28d7b5768b67930b7)
+        ;
+
+        
+    
+    
+            var circle_marker_62a60fab95ee4615967bf45f2a4cebb6 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_64e8fca1f3c1493fbea7ed6ccbb651c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_541990ccf69d42748893581bab45fb4e = $(`<div id="html_541990ccf69d42748893581bab45fb4e" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_64e8fca1f3c1493fbea7ed6ccbb651c1.setContent(html_541990ccf69d42748893581bab45fb4e);
+        
+
+        circle_marker_62a60fab95ee4615967bf45f2a4cebb6.bindPopup(popup_64e8fca1f3c1493fbea7ed6ccbb651c1)
+        ;
+
+        
+    
+    
+            var circle_marker_499c91afe8044b099532c0ebd4c15dba = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_ce4b5eed979840fdb771d88b379bd72a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c23bfc65a3dc4f5a85e6b52d0cb809e4 = $(`<div id="html_c23bfc65a3dc4f5a85e6b52d0cb809e4" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_ce4b5eed979840fdb771d88b379bd72a.setContent(html_c23bfc65a3dc4f5a85e6b52d0cb809e4);
+        
+
+        circle_marker_499c91afe8044b099532c0ebd4c15dba.bindPopup(popup_ce4b5eed979840fdb771d88b379bd72a)
+        ;
+
+        
+    
+    
+            var circle_marker_f44d84d2a7f14b73b7d73b5385d9daea = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_3b36f53649694d8181cdc18f7aa156ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884910279eae47dcb352c4b6746d1f03 = $(`<div id="html_884910279eae47dcb352c4b6746d1f03" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_3b36f53649694d8181cdc18f7aa156ce.setContent(html_884910279eae47dcb352c4b6746d1f03);
+        
+
+        circle_marker_f44d84d2a7f14b73b7d73b5385d9daea.bindPopup(popup_3b36f53649694d8181cdc18f7aa156ce)
+        ;
+
+        
+    
+    
+            var circle_marker_51ffa52ea2d049329f787684a526d2fe = L.circleMarker(
+                [35.2026898, 128.56784950000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_5e09f09d64574062951383b399efa85b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f1b939c81b94b398662f7e70481d0da = $(`<div id="html_7f1b939c81b94b398662f7e70481d0da" style="width: 100.0%; height: 100.0%;">마산합포택견전수관</div>`)[0];
+            popup_5e09f09d64574062951383b399efa85b.setContent(html_7f1b939c81b94b398662f7e70481d0da);
+        
+
+        circle_marker_51ffa52ea2d049329f787684a526d2fe.bindPopup(popup_5e09f09d64574062951383b399efa85b)
+        ;
+
+        
+    
+    
+            var circle_marker_edd058cf80c944608a8256b24ffd2548 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0f518a44f159489786b4610afc503f4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01217ca6b11648e3b7b0adda55801cd5 = $(`<div id="html_01217ca6b11648e3b7b0adda55801cd5" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_0f518a44f159489786b4610afc503f4b.setContent(html_01217ca6b11648e3b7b0adda55801cd5);
+        
+
+        circle_marker_edd058cf80c944608a8256b24ffd2548.bindPopup(popup_0f518a44f159489786b4610afc503f4b)
+        ;
+
+        
+    
+    
+            var circle_marker_24c016cdb8234cbeb5bceee93cdcfa4b = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_e401b543389a4ad0af2c9420007d0253 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6766bc4ab5f6434dba1ce934e7b95be9 = $(`<div id="html_6766bc4ab5f6434dba1ce934e7b95be9" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_e401b543389a4ad0af2c9420007d0253.setContent(html_6766bc4ab5f6434dba1ce934e7b95be9);
+        
+
+        circle_marker_24c016cdb8234cbeb5bceee93cdcfa4b.bindPopup(popup_e401b543389a4ad0af2c9420007d0253)
+        ;
+
+        
+    
+    
+            var circle_marker_ebef4d8f6ea4455e8c2ef9d9cd737104 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_fffcda78c7d14060bc6ef1181760bc7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c65c949c8aaf45998c77e1dfca0abdc0 = $(`<div id="html_c65c949c8aaf45998c77e1dfca0abdc0" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_fffcda78c7d14060bc6ef1181760bc7a.setContent(html_c65c949c8aaf45998c77e1dfca0abdc0);
+        
+
+        circle_marker_ebef4d8f6ea4455e8c2ef9d9cd737104.bindPopup(popup_fffcda78c7d14060bc6ef1181760bc7a)
+        ;
+
+        
+    
+    
+            var circle_marker_25a9dc9b2eef4af1ab14d7126816c147 = L.circleMarker(
+                [35.258605200000005, 128.8720485],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_c18b1db5937041b8b66f29014a313a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be730b21cbd14ffe9c73e920ded80f2a = $(`<div id="html_be730b21cbd14ffe9c73e920ded80f2a" style="width: 100.0%; height: 100.0%;">퍼스트클라이밍짐(주)</div>`)[0];
+            popup_c18b1db5937041b8b66f29014a313a91.setContent(html_be730b21cbd14ffe9c73e920ded80f2a);
+        
+
+        circle_marker_25a9dc9b2eef4af1ab14d7126816c147.bindPopup(popup_c18b1db5937041b8b66f29014a313a91)
+        ;
+
+        
+    
+    
+            var circle_marker_9f264a970b8a45aeb56ee5a67ed4784b = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_355b7a8fb91d4b8196d6fa00e9df828d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d8b86d4abd44e30b6340e21a6a97c51 = $(`<div id="html_8d8b86d4abd44e30b6340e21a6a97c51" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_355b7a8fb91d4b8196d6fa00e9df828d.setContent(html_8d8b86d4abd44e30b6340e21a6a97c51);
+        
+
+        circle_marker_9f264a970b8a45aeb56ee5a67ed4784b.bindPopup(popup_355b7a8fb91d4b8196d6fa00e9df828d)
+        ;
+
+        
+    
+    
+            var circle_marker_62c59c86add7419883c9ce9945d03b83 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_f59402910c6d4e9480a3125cdf5c93c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b429bad154342d786b851f372639590 = $(`<div id="html_6b429bad154342d786b851f372639590" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_f59402910c6d4e9480a3125cdf5c93c4.setContent(html_6b429bad154342d786b851f372639590);
+        
+
+        circle_marker_62c59c86add7419883c9ce9945d03b83.bindPopup(popup_f59402910c6d4e9480a3125cdf5c93c4)
+        ;
+
+        
+    
+    
+            var circle_marker_1ad5fc417c3f41e2837d699d58b2b8ab = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6438126d2964482fbb14ed90f8e60bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a44fef6a3d4fc3aa9077e20f0d61fb = $(`<div id="html_55a44fef6a3d4fc3aa9077e20f0d61fb" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_6438126d2964482fbb14ed90f8e60bb7.setContent(html_55a44fef6a3d4fc3aa9077e20f0d61fb);
+        
+
+        circle_marker_1ad5fc417c3f41e2837d699d58b2b8ab.bindPopup(popup_6438126d2964482fbb14ed90f8e60bb7)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd94a84ebbc432587466e89298f870b = L.circleMarker(
+                [35.5042274, 128.75254850000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_bcb8d0d2c7d44a3a96fdae7608586285 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97f286e2ae1741e19ed55603ba8a0e2f = $(`<div id="html_97f286e2ae1741e19ed55603ba8a0e2f" style="width: 100.0%; height: 100.0%;">한사랑태권도장</div>`)[0];
+            popup_bcb8d0d2c7d44a3a96fdae7608586285.setContent(html_97f286e2ae1741e19ed55603ba8a0e2f);
+        
+
+        circle_marker_4dd94a84ebbc432587466e89298f870b.bindPopup(popup_bcb8d0d2c7d44a3a96fdae7608586285)
+        ;
+
+        
+    
+    
+            var circle_marker_d5c9863602744816b13972df9d006568 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_34186a794c0f4bc786bff7a6956ecb37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad01755526bf48768945b9a3b69e0bec = $(`<div id="html_ad01755526bf48768945b9a3b69e0bec" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_34186a794c0f4bc786bff7a6956ecb37.setContent(html_ad01755526bf48768945b9a3b69e0bec);
+        
+
+        circle_marker_d5c9863602744816b13972df9d006568.bindPopup(popup_34186a794c0f4bc786bff7a6956ecb37)
+        ;
+
+        
+    
+    
+            var circle_marker_2683d44f332842d3aa17b08758595bfa = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_4bf40de7120349778e8e874109a32404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af1db623e9734084b32c941a6e5946da = $(`<div id="html_af1db623e9734084b32c941a6e5946da" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_4bf40de7120349778e8e874109a32404.setContent(html_af1db623e9734084b32c941a6e5946da);
+        
+
+        circle_marker_2683d44f332842d3aa17b08758595bfa.bindPopup(popup_4bf40de7120349778e8e874109a32404)
+        ;
+
+        
+    
+    
+            var circle_marker_99bd3b44e53d46648a7f8048a52377e7 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_7b78c3fc888e4e9485c6f41ba387e3b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60bbca8d2da144e0952ff899a339d586 = $(`<div id="html_60bbca8d2da144e0952ff899a339d586" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_7b78c3fc888e4e9485c6f41ba387e3b3.setContent(html_60bbca8d2da144e0952ff899a339d586);
+        
+
+        circle_marker_99bd3b44e53d46648a7f8048a52377e7.bindPopup(popup_7b78c3fc888e4e9485c6f41ba387e3b3)
+        ;
+
+        
+    
+    
+            var circle_marker_bd98a5912ffb4eb69227bed0f7e52a3c = L.circleMarker(
+                [35.190808000000004, 128.0808039],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_e01e9a7cb75944e0b17ec84e5c6f9390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a30402f412de4a20a361d41e6cad34e0 = $(`<div id="html_a30402f412de4a20a361d41e6cad34e0" style="width: 100.0%; height: 100.0%;">최기수복싱체육관</div>`)[0];
+            popup_e01e9a7cb75944e0b17ec84e5c6f9390.setContent(html_a30402f412de4a20a361d41e6cad34e0);
+        
+
+        circle_marker_bd98a5912ffb4eb69227bed0f7e52a3c.bindPopup(popup_e01e9a7cb75944e0b17ec84e5c6f9390)
+        ;
+
+        
+    
+    
+            var circle_marker_161a70baeddb4ce89d5a412364a3c760 = L.circleMarker(
+                [35.250421, 128.67953970000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_abf6f483283d40a998256e1cc0b3abf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e17c3f2b1ca46b79eb95ff718265552 = $(`<div id="html_4e17c3f2b1ca46b79eb95ff718265552" style="width: 100.0%; height: 100.0%;">창원시장애인종합복지관(체육관)</div>`)[0];
+            popup_abf6f483283d40a998256e1cc0b3abf1.setContent(html_4e17c3f2b1ca46b79eb95ff718265552);
+        
+
+        circle_marker_161a70baeddb4ce89d5a412364a3c760.bindPopup(popup_abf6f483283d40a998256e1cc0b3abf1)
+        ;
+
+        
+    
+    
+            var circle_marker_c1f3359abdd94fe8adbad9e90c09a1d4 = L.circleMarker(
+                [35.252804299999994, 128.6346537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_6020846fc7b84a8fbc469c51fd8193e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_424b9e87780e4fe291ea83c4d4fd9b6c = $(`<div id="html_424b9e87780e4fe291ea83c4d4fd9b6c" style="width: 100.0%; height: 100.0%;">창원시립곰두리국민체육센터</div>`)[0];
+            popup_6020846fc7b84a8fbc469c51fd8193e8.setContent(html_424b9e87780e4fe291ea83c4d4fd9b6c);
+        
+
+        circle_marker_c1f3359abdd94fe8adbad9e90c09a1d4.bindPopup(popup_6020846fc7b84a8fbc469c51fd8193e8)
+        ;
+
+        
+    
+    
+            var circle_marker_6f6518aea3a1458cba89dec4eeecacf2 = L.circleMarker(
+                [34.99683710000001, 128.0604861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c1cabfb7bcc547dd8e7d8660527716df);
+        
+    
+        var popup_0be6fb30769a4da9a929a860537c91d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e61ea6e2ddd4c6d9b7e118e379dbc18 = $(`<div id="html_1e61ea6e2ddd4c6d9b7e118e379dbc18" style="width: 100.0%; height: 100.0%;">사천시장애인국민체육센터</div>`)[0];
+            popup_0be6fb30769a4da9a929a860537c91d7.setContent(html_1e61ea6e2ddd4c6d9b7e118e379dbc18);
+        
+
+        circle_marker_6f6518aea3a1458cba89dec4eeecacf2.bindPopup(popup_0be6fb30769a4da9a929a860537c91d7)
+        ;
+
+        
+    
+</script>

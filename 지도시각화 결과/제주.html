@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70" ></div>
+        
+</body>
+<script>    
+    
+            var map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70 = L.map(
+                "map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70",
+                {
+                    center: [35.95, 128.25],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88e5c23ca0cd4161a0c42a2f4f0eb0f8 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+            var circle_marker_d337173b4c954fdab3ba5b1b0a0e13b0 = L.circleMarker(
+                [33.5200914, 126.58450729999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_a577c217353c42f9a80c82293245b2f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2311596202748dcac38fa6e3f7ff9a9 = $(`<div id="html_d2311596202748dcac38fa6e3f7ff9a9" style="width: 100.0%; height: 100.0%;">동양태권도장</div>`)[0];
+            popup_a577c217353c42f9a80c82293245b2f6.setContent(html_d2311596202748dcac38fa6e3f7ff9a9);
+        
+
+        circle_marker_d337173b4c954fdab3ba5b1b0a0e13b0.bindPopup(popup_a577c217353c42f9a80c82293245b2f6)
+        ;
+
+        
+    
+    
+            var circle_marker_57b80017ef414b74b339382a81620677 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_0b4f22e8634e47a487acd8470a93024a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d3938055b9a456a935ac703892a86a4 = $(`<div id="html_9d3938055b9a456a935ac703892a86a4" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_0b4f22e8634e47a487acd8470a93024a.setContent(html_9d3938055b9a456a935ac703892a86a4);
+        
+
+        circle_marker_57b80017ef414b74b339382a81620677.bindPopup(popup_0b4f22e8634e47a487acd8470a93024a)
+        ;
+
+        
+    
+    
+            var circle_marker_8f9aa49a07364276821f8f938b89110e = L.circleMarker(
+                [33.4802566, 126.48576680000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_e12022db5fbf45bfa042634dd6c25e81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f142894c797e4dcba5252004f4889dee = $(`<div id="html_f142894c797e4dcba5252004f4889dee" style="width: 100.0%; height: 100.0%;">스마트댄스컴퍼니</div>`)[0];
+            popup_e12022db5fbf45bfa042634dd6c25e81.setContent(html_f142894c797e4dcba5252004f4889dee);
+        
+
+        circle_marker_8f9aa49a07364276821f8f938b89110e.bindPopup(popup_e12022db5fbf45bfa042634dd6c25e81)
+        ;
+
+        
+    
+    
+            var circle_marker_fa9f9f40a05a4662b4a43f2a8d6ca54b = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_3cfc6f0eccbc4988b8cb69f7b93e8e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61a630d6fea7463ebc367d1f8abc2c53 = $(`<div id="html_61a630d6fea7463ebc367d1f8abc2c53" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_3cfc6f0eccbc4988b8cb69f7b93e8e1a.setContent(html_61a630d6fea7463ebc367d1f8abc2c53);
+        
+
+        circle_marker_fa9f9f40a05a4662b4a43f2a8d6ca54b.bindPopup(popup_3cfc6f0eccbc4988b8cb69f7b93e8e1a)
+        ;
+
+        
+    
+    
+            var circle_marker_cf8445df233345c0878b3ae6fd08f7a8 = L.circleMarker(
+                [33.4953248, 126.5315138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_cd7eb1e52d074d239dec1bee6f144e5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7d989a959084a88b1a35565fca913d2 = $(`<div id="html_a7d989a959084a88b1a35565fca913d2" style="width: 100.0%; height: 100.0%;">볼리션 장애인 밸런스 센터</div>`)[0];
+            popup_cd7eb1e52d074d239dec1bee6f144e5b.setContent(html_a7d989a959084a88b1a35565fca913d2);
+        
+
+        circle_marker_cf8445df233345c0878b3ae6fd08f7a8.bindPopup(popup_cd7eb1e52d074d239dec1bee6f144e5b)
+        ;
+
+        
+    
+    
+            var circle_marker_374e75c7b4894e288b4aa14ab7d68747 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_aca3f74553ba4447966fad31578b75a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_117422c2d32b41d99c270584a91a4e2c = $(`<div id="html_117422c2d32b41d99c270584a91a4e2c" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_aca3f74553ba4447966fad31578b75a8.setContent(html_117422c2d32b41d99c270584a91a4e2c);
+        
+
+        circle_marker_374e75c7b4894e288b4aa14ab7d68747.bindPopup(popup_aca3f74553ba4447966fad31578b75a8)
+        ;
+
+        
+    
+    
+            var circle_marker_669a299bf5dc4eaeb2166205be68b31a = L.circleMarker(
+                [33.2581635, 126.57467140000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_d23e72292a7040e3b9295ea193160f98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f82b715e3844b598334c1d48e39acd0 = $(`<div id="html_1f82b715e3844b598334c1d48e39acd0" style="width: 100.0%; height: 100.0%;">탑홀스 서귀점</div>`)[0];
+            popup_d23e72292a7040e3b9295ea193160f98.setContent(html_1f82b715e3844b598334c1d48e39acd0);
+        
+
+        circle_marker_669a299bf5dc4eaeb2166205be68b31a.bindPopup(popup_d23e72292a7040e3b9295ea193160f98)
+        ;
+
+        
+    
+    
+            var circle_marker_51e5d76e6cdd4405a69de2505239b21b = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_eb35290126254b50944936400c6f7b9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0e6488b00774affac7c510c188d1539 = $(`<div id="html_f0e6488b00774affac7c510c188d1539" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_eb35290126254b50944936400c6f7b9f.setContent(html_f0e6488b00774affac7c510c188d1539);
+        
+
+        circle_marker_51e5d76e6cdd4405a69de2505239b21b.bindPopup(popup_eb35290126254b50944936400c6f7b9f)
+        ;
+
+        
+    
+    
+            var circle_marker_fb50937228a2476386e001e54f155df0 = L.circleMarker(
+                [33.2869153, 126.58458449999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_002c912e3dd14a099fe4442b996653a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb442348ff5645c78e45a15b5526eb16 = $(`<div id="html_bb442348ff5645c78e45a15b5526eb16" style="width: 100.0%; height: 100.0%;">서귀포시장애인종합복지관</div>`)[0];
+            popup_002c912e3dd14a099fe4442b996653a5.setContent(html_bb442348ff5645c78e45a15b5526eb16);
+        
+
+        circle_marker_fb50937228a2476386e001e54f155df0.bindPopup(popup_002c912e3dd14a099fe4442b996653a5)
+        ;
+
+        
+    
+    
+            var circle_marker_588233a03cb34ad0a256b4d24db747ba = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_0a3f5bb2e8ab40dbb306149f64030f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff0bf226c0344a24bf3218522dfbdc43 = $(`<div id="html_ff0bf226c0344a24bf3218522dfbdc43" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_0a3f5bb2e8ab40dbb306149f64030f2e.setContent(html_ff0bf226c0344a24bf3218522dfbdc43);
+        
+
+        circle_marker_588233a03cb34ad0a256b4d24db747ba.bindPopup(popup_0a3f5bb2e8ab40dbb306149f64030f2e)
+        ;
+
+        
+    
+    
+            var circle_marker_1a38451e404248aca9b6a9a3bc33ab3f = L.circleMarker(
+                [33.4841792, 126.48681040000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_91a237a90fd943ec9ccde5314724ae9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b29c4b06950410b82bd4921be32c21b = $(`<div id="html_8b29c4b06950410b82bd4921be32c21b" style="width: 100.0%; height: 100.0%;">탑홀스스크린승마신제주점</div>`)[0];
+            popup_91a237a90fd943ec9ccde5314724ae9b.setContent(html_8b29c4b06950410b82bd4921be32c21b);
+        
+
+        circle_marker_1a38451e404248aca9b6a9a3bc33ab3f.bindPopup(popup_91a237a90fd943ec9ccde5314724ae9b)
+        ;
+
+        
+    
+    
+            var circle_marker_6672198b1ec5465889cc2531492b15d1 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_5e13bef5502b46b2b25ca56d67a1fd80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e980678b90bb47438b916fcc7d946bbd = $(`<div id="html_e980678b90bb47438b916fcc7d946bbd" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_5e13bef5502b46b2b25ca56d67a1fd80.setContent(html_e980678b90bb47438b916fcc7d946bbd);
+        
+
+        circle_marker_6672198b1ec5465889cc2531492b15d1.bindPopup(popup_5e13bef5502b46b2b25ca56d67a1fd80)
+        ;
+
+        
+    
+    
+            var circle_marker_6afb01fab9de4ed48aa0ba6fa5e182e8 = L.circleMarker(
+                [33.4512048, 126.4872295],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_cd82d66750f14b15bd7e58a6ed199e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47340b43f8b8432ca2e982e963b0ccd5 = $(`<div id="html_47340b43f8b8432ca2e982e963b0ccd5" style="width: 100.0%; height: 100.0%;">도깨비장군활터 (국궁 / 양궁)</div>`)[0];
+            popup_cd82d66750f14b15bd7e58a6ed199e7f.setContent(html_47340b43f8b8432ca2e982e963b0ccd5);
+        
+
+        circle_marker_6afb01fab9de4ed48aa0ba6fa5e182e8.bindPopup(popup_cd82d66750f14b15bd7e58a6ed199e7f)
+        ;
+
+        
+    
+    
+            var circle_marker_01af0b5eea9b4cdebc1ffe2682805050 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_a1e3bcdbb4c14f4f8819419c4b2918b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da76e5acede047719826a013415ada27 = $(`<div id="html_da76e5acede047719826a013415ada27" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_a1e3bcdbb4c14f4f8819419c4b2918b7.setContent(html_da76e5acede047719826a013415ada27);
+        
+
+        circle_marker_01af0b5eea9b4cdebc1ffe2682805050.bindPopup(popup_a1e3bcdbb4c14f4f8819419c4b2918b7)
+        ;
+
+        
+    
+    
+            var circle_marker_8b783da18c3c46ae9bbb07caa499b852 = L.circleMarker(
+                [33.492214399999995, 126.4868527],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_d66bedeaf1a14dda9275e824003309af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36eda5a0883345db8d4f97cf5847b9f4 = $(`<div id="html_36eda5a0883345db8d4f97cf5847b9f4" style="width: 100.0%; height: 100.0%;">신광태권도</div>`)[0];
+            popup_d66bedeaf1a14dda9275e824003309af.setContent(html_36eda5a0883345db8d4f97cf5847b9f4);
+        
+
+        circle_marker_8b783da18c3c46ae9bbb07caa499b852.bindPopup(popup_d66bedeaf1a14dda9275e824003309af)
+        ;
+
+        
+    
+    
+            var circle_marker_35695b25682f43eabe5da7994b18b201 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_664e14000f764832a993e14dd0e68010 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e48febc0958943b29a7eba28184673af = $(`<div id="html_e48febc0958943b29a7eba28184673af" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_664e14000f764832a993e14dd0e68010.setContent(html_e48febc0958943b29a7eba28184673af);
+        
+
+        circle_marker_35695b25682f43eabe5da7994b18b201.bindPopup(popup_664e14000f764832a993e14dd0e68010)
+        ;
+
+        
+    
+    
+            var circle_marker_ccedc314037340e5b865909ecc8326d5 = L.circleMarker(
+                [33.4953248, 126.5315138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_11fa52ef91ca4d358fc9af5093346743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ecfc490f21b42ea809e651d17d992a7 = $(`<div id="html_4ecfc490f21b42ea809e651d17d992a7" style="width: 100.0%; height: 100.0%;">볼리션장애인밸런스센터</div>`)[0];
+            popup_11fa52ef91ca4d358fc9af5093346743.setContent(html_4ecfc490f21b42ea809e651d17d992a7);
+        
+
+        circle_marker_ccedc314037340e5b865909ecc8326d5.bindPopup(popup_11fa52ef91ca4d358fc9af5093346743)
+        ;
+
+        
+    
+    
+            var circle_marker_1432e6f2f9c0466085a5655071ff73f8 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_5404ea0b88d44ec9beccf474003e1556 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_466fbbeb22e64206bb3422ecf69ee1e9 = $(`<div id="html_466fbbeb22e64206bb3422ecf69ee1e9" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_5404ea0b88d44ec9beccf474003e1556.setContent(html_466fbbeb22e64206bb3422ecf69ee1e9);
+        
+
+        circle_marker_1432e6f2f9c0466085a5655071ff73f8.bindPopup(popup_5404ea0b88d44ec9beccf474003e1556)
+        ;
+
+        
+    
+    
+            var circle_marker_40ffc2ddd4ad40d38bd65edaef3809ee = L.circleMarker(
+                [33.5014911, 126.5292307],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_0f2c158f6ba34489b0eaaf2fa089cd06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45c5efaf6c2644208ee978ae7ec47ff9 = $(`<div id="html_45c5efaf6c2644208ee978ae7ec47ff9" style="width: 100.0%; height: 100.0%;">시청무에타이킥복싱체육관 시청지점</div>`)[0];
+            popup_0f2c158f6ba34489b0eaaf2fa089cd06.setContent(html_45c5efaf6c2644208ee978ae7ec47ff9);
+        
+
+        circle_marker_40ffc2ddd4ad40d38bd65edaef3809ee.bindPopup(popup_0f2c158f6ba34489b0eaaf2fa089cd06)
+        ;
+
+        
+    
+    
+            var circle_marker_99c2491edc7249f18641ba77fd815f68 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_2a62fd99892c42ab8008b4a8c45e03aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a2da9fad54648989ea00b7e65f0845d = $(`<div id="html_9a2da9fad54648989ea00b7e65f0845d" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_2a62fd99892c42ab8008b4a8c45e03aa.setContent(html_9a2da9fad54648989ea00b7e65f0845d);
+        
+
+        circle_marker_99c2491edc7249f18641ba77fd815f68.bindPopup(popup_2a62fd99892c42ab8008b4a8c45e03aa)
+        ;
+
+        
+    
+    
+            var circle_marker_a093ff196e0e49a5abcacf750d396d5a = L.circleMarker(
+                [33.223699100000005, 126.26065320000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_d462124a0ff04c2c87a97d73ddd98157 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9550b52d89ab4cc79ba79ef8fb90c4a4 = $(`<div id="html_9550b52d89ab4cc79ba79ef8fb90c4a4" style="width: 100.0%; height: 100.0%;">승무태권도장</div>`)[0];
+            popup_d462124a0ff04c2c87a97d73ddd98157.setContent(html_9550b52d89ab4cc79ba79ef8fb90c4a4);
+        
+
+        circle_marker_a093ff196e0e49a5abcacf750d396d5a.bindPopup(popup_d462124a0ff04c2c87a97d73ddd98157)
+        ;
+
+        
+    
+    
+            var circle_marker_39e7b98e65a6429ba56992bc7faa437e = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_6826d886b5764c6d99d90d8b5b9feb79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0799e7d8bfd44dbb8f7bc800739e35c = $(`<div id="html_b0799e7d8bfd44dbb8f7bc800739e35c" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_6826d886b5764c6d99d90d8b5b9feb79.setContent(html_b0799e7d8bfd44dbb8f7bc800739e35c);
+        
+
+        circle_marker_39e7b98e65a6429ba56992bc7faa437e.bindPopup(popup_6826d886b5764c6d99d90d8b5b9feb79)
+        ;
+
+        
+    
+    
+            var circle_marker_e4972fa599a944c7af21ca0e5d957af7 = L.circleMarker(
+                [33.2553086, 126.5066186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_550ea180a9764179b65ad57ba42ed2fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19b8c0fb626f45b8aa4fcef35ca02c89 = $(`<div id="html_19b8c0fb626f45b8aa4fcef35ca02c89" style="width: 100.0%; height: 100.0%;">위드운동발달센터</div>`)[0];
+            popup_550ea180a9764179b65ad57ba42ed2fc.setContent(html_19b8c0fb626f45b8aa4fcef35ca02c89);
+        
+
+        circle_marker_e4972fa599a944c7af21ca0e5d957af7.bindPopup(popup_550ea180a9764179b65ad57ba42ed2fc)
+        ;
+
+        
+    
+    
+            var circle_marker_b0869536294d4fbebca43dfd992c1c48 = L.circleMarker(
+                [33.4883054, 126.48065020000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ec2cb48bf6f94ec3ad1f9b3fd1e2fe70);
+        
+    
+        var popup_a8fc49eff9ae435abae0afb58590d518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbaf653b53834bcc85e64f170cf2ce9a = $(`<div id="html_bbaf653b53834bcc85e64f170cf2ce9a" style="width: 100.0%; height: 100.0%;">제주특별자치도장애인스포츠센터(추후 개관예정)</div>`)[0];
+            popup_a8fc49eff9ae435abae0afb58590d518.setContent(html_bbaf653b53834bcc85e64f170cf2ce9a);
+        
+
+        circle_marker_b0869536294d4fbebca43dfd992c1c48.bindPopup(popup_a8fc49eff9ae435abae0afb58590d518)
+        ;
+
+        
+    
+</script>
